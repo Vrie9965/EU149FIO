@@ -1,6 +1,4 @@
-![image](frame_1974.jpg)
-
-<h1 align="center">Every <sup><sub><sub>(name)</sub></sub></sup> Frame in Order BOT</h1>
+<h1 align="center">Every <sup><sub><sub>U149</sub></sub></sup> Frame in Order BOT</h1>
 
 <div align="center">
 
