@@ -16,596 +16,1068 @@ Style: Dialogue Top,Amaranth,77,&H00FFFFFF,&H000000FF,&H00855626,&HDC461304,0,0,
 Style: Episode Title,Amienne,81,&H00FFFFFF,&H000000FF,&H004B180D,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,10,10,10,0
 Style: Song OP Romaji,Hermeneus One,60,&H00BC7C41,&H00FBCCB3,&H00FFFFFF,&H00956538,0,0,0,0,100,100,0,0,1,4.5,0,8,45,45,30,0
 Style: Song OP TL,Hermeneus One,60,&H00BC7C41,&H00FBCCB3,&H00FFFFFF,&H00956538,0,0,0,0,100,100,0,0,1,3,0,2,45,45,30,0
-Style: Song ED Romaji,Almost Serious,75,&H00CBD791,&H00FFFFFF,&H00985E2F,&H00956538,0,0,0,0,100,100,0,0,1,4.5,0,8,45,45,30,0
-Style: Song ED TL,Almost Serious,75,&H00FFFFFF,&H00BC7C41,&H00985E2F,&H00956538,0,0,0,0,100,100,0,0,1,3,0,2,45,45,30,0
-Style: Insert Song Title,StratumNo1,81,&H00FFFFFF,&H000000FF,&H00DB7BF8,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,5,23,23,23,0
-Style: Sign Generic,Arial,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,2,23,23,23,0
-Style: Tulip Romaji Group,al kisah,75,&H006842D5,&H00F4F4FD,&H00240451,&H00453D40,0,0,0,0,100,100,3,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Group,al kisah,75,&H00FFFFFF,&H004E17AA,&H00240451,&H00000000,0,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Tulip Romaji Shiki,al kisah,75,&H007640CD,&H00F4F4FD,&H005828A8,&H00453D40,0,0,0,0,100,100,0,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Shiki,al kisah,75,&H00F4F4FD,&H004E17AA,&H005828A8,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,45,45,30,0
-Style: Tulip Romaji Kanade,al kisah,75,&H00AE7061,&H00F4F4FD,&H009A384C,&H00453D40,0,0,0,0,100,100,0,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Kanade,al kisah,75,&H00F4F4FD,&H004E17AA,&H009A384C,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,45,45,30,0
-Style: Tulip Romaji Mika,al kisah,75,&H009D63CC,&H00F4F4FD,&H00632E8E,&H00453D40,0,0,0,0,100,100,0,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Mika,al kisah,75,&H00F4F4FD,&H004E17AA,&H00632E8E,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,45,45,30,0
-Style: Tulip Romaji Syuko,al kisah,75,&H00B1A857,&H00F4F4FD,&H00987944,&H00453D40,0,0,0,0,100,100,0,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Syuko,al kisah,75,&H00F4F4FD,&H004E17AA,&H00987944,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,45,45,30,0
-Style: Tulip Romaji Fred,al kisah,75,&H00B861CD,&H00F4F4FD,&H00994097,&H00453D40,0,0,0,0,100,100,0,0,1,4.25,0,9,45,45,30,0
-Style: Tulip TL Fred,al kisah,75,&H00F4F4FD,&H004E17AA,&H00994097,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,45,45,30,0
-Style: Nightwear Romaji Group,Catchye Demo,56,&H006842D5,&H00F4F4FD,&H00240451,&H00370B28,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Group,Catchye Demo,60,&H00F4F4FD,&H00CCBEF2,&H00240451,&H00370B28,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Nightwear Romaji Shiki,Catchye Demo,56,&H007640CD,&H00F4F4FD,&H005828A8,&H00453D40,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Shiki,Catchye Demo,56,&H00F4F4FD,&H004E17AA,&H005828A8,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Nightwear Romaji Kanade,Catchye Demo,60,&H00AE7061,&H00F4F4FD,&H009A384C,&H00453D40,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Kanade,Catchye Demo,60,&H00F4F4FD,&H004E17AA,&H009A384C,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Nightwear Romaji Mika,Catchye Demo,60,&H009D63CC,&H00F4F4FD,&H00632E8E,&H00453D40,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Mika,Catchye Demo,60,&H00F4F4FD,&H004E17AA,&H00632E8E,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Nightwear Romaji Syuko,Catchye Demo,60,&H00B1A857,&H00F4F4FD,&H00987944,&H00453D40,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Syuko,Catchye Demo,60,&H00F4F4FD,&H004E17AA,&H00987944,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
-Style: Nightwear Romaji Fred,Catchye Demo,60,&H00B861CD,&H00F4F4FD,&H00994097,&H00453D40,-1,0,0,0,100,100,0,0,1,4.25,2,9,45,45,30,0
-Style: Nightwear TL Fred,Catchye Demo,60,&H00F4F4FD,&H004E17AA,&H00994097,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,9,45,45,30,0
+Style: Song Insert Romaji,Garton Regular Bold,58,&H00A7EFD6,&H00C8AFF9,&H00AE4BE2,&H00000000,-1,0,0,0,90,100,0,0,1,3.75,0,9,45,45,30,0
+Style: Song Insert TL,Garton Regular Bold,58,&H00A7EFD6,&H00C8AFF9,&H00AE4BE2,&H00000000,-1,0,0,0,90,100,0,0,1,2.5,0,9,45,45,30,0
+Style: Song ED Romaji,BlackChancery,70,&H007E53FF,&H007FDCA6,&H00FFFFFF,&H00956538,-1,0,0,0,100,100,0,0,1,4.25,0,8,45,45,30,0
+Style: Song ED TL,BlackChancery,70,&H007E53FF,&H00956538,&H00FFFFFF,&H00956538,-1,0,0,0,100,100,0,0,1,3,0,2,45,45,30,0
+Style: Insert Song Title,All Round Gothic Medium,82,&H00FFFFFF,&H00BC7C41,&H00D678F6,&H00D678F6,0,0,0,0,100,100,0,0,1,2.25,2.5,2,240,240,63,0
+Style: Sign Pet Store,Marker-Extended,78,&H00FFFFFF,&H000000FF,&H0033D2E8,&H00000000,0,0,0,0,100,100,0,0,1,3.1,0,7,15,15,15,0
+Style: Sign Backdrop,SquareFont,90,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,4.5,0,8,23,23,23,0
+Style: Sign Direction,Complete in Him,45,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,8,23,23,23,0
+Style: Sign Banner,MinnanoUta Regular,90,&H006B1FDD,&H000000FF,&H00FFFFFF,&H003787F0,0,0,0,0,100,100,1,0,1,3,5.5,5,23,23,23,0
+Style: Sign SNS Text,Arial,47,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,0
+Style: Sign SNS Sticker,Marker-Extended,92,&H00A1213D,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,0
+Style: Sign Letter,Complete in Him,49,&H00CFCFCF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,1,0,1,0,0,8,23,23,23,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:12.65,0:00:13.87,Dialogue Top,,0,0,0,,Go for it!
-Dialogue: 0,0:00:14.84,0:00:15.82,Dialogue Top,,0,0,0,,Hang in there!
-Dialogue: 0,0:00:13.87,0:00:14.84,Dialogue Top,,0,0,0,,You got this!
-Dialogue: 0,0:00:15.82,0:00:16.55,Dialogue Top,,0,0,0,,Pass!
-Dialogue: 0,0:00:16.54,0:00:18.66,Dialogue Top,,0,0,0,,Keep going!
-Dialogue: 0,0:00:16.34,0:00:16.91,Dialogue Top,,0,0,0,,Pass!
-Dialogue: 0,0:00:18.66,0:00:19.99,Dialogue Top,,0,0,0,,Stop her!
-Dialogue: 0,0:00:27.02,0:00:29.77,Song OP Romaji,,0,0,0,,{\=4\k17\q2\fad(500,200)\k27}Te {\k28}to {\k21}te {\k67}o {\k35}tsu{\k29}na{\k18}i{\k33}de
-Dialogue: 0,0:00:27.02,0:00:29.77,Song OP TL,,0,0,0,,{\q2\fad(500,200)}Hand in hand together
-Dialogue: 0,0:00:29.77,0:00:33.74,Song OP Romaji,,0,0,0,,{\k18\q2\fad(200,200)\k15}Ki{\k10}mi {\k23}to {\k34}is{\k18}sho {\k54}ni {\k9}ni{\k13}ji {\k20}no {\k32}sa{\k21}ki {\k130}e
-Dialogue: 0,0:00:29.77,0:00:33.74,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Together with you, beyond the rainbow
-Dialogue: 0,0:00:40.65,0:00:43.61,Song OP Romaji,,0,0,0,,{\k34\q2\fad(200,200)\k18}Ta{\k18}ka{\k17}ra{\k37}mo{\k15}no {\k19}o {\k17}mi{\k35}tsu{\k38}ke {\k48}ni
-Dialogue: 0,0:00:40.65,0:00:43.61,Song OP TL,,0,0,0,,{\q2\fad(200,200)}In order to find the treasure
-Dialogue: 0,0:00:43.61,0:00:46.46,Song OP Romaji,,0,0,0,,{\k21\q2\fad(200,200)\k17}Do{\k19}a {\k20}no {\k32}mu{\k34}kou {\k19}e {\k17}de{\k19}ka{\k32}ke{\k55}you
-Dialogue: 0,0:00:43.61,0:00:46.46,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Let's go outside, past the door
-Dialogue: 0,0:00:46.46,0:00:50.22,Song OP Romaji,,0,0,0,,{\k18\q2\fad(200,200)\k18}Ga{\k16}ra{\k21}su {\k32}no {\k18}ku{\k37}tsu {\k53}mo {\k15}ba{\k23}sha {\k49}mo {\k36}nai {\k19}ke{\k21}do
-Dialogue: 0,0:00:46.46,0:00:50.22,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Though we don't have glass shoes or a carriage
-Dialogue: 0,0:00:50.22,0:00:52.17,Song OP Romaji,,0,0,0,,{\k9\q2\fad(200,200)\k38}Jit{\k17}to {\k20}shi{\k15}te{\k20}ra{\k18}re{\k22}na{\k36}i
-Dialogue: 0,0:00:50.22,0:00:52.17,Song OP TL,,0,0,0,,{\q2\fad(200,200)}I just can't stay put
-Dialogue: 0,0:00:52.17,0:00:55.01,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k8\k19}To{\k20}ki{\k18}me{\k33}ki {\k19}no {\k20}o{\k32}to {\k17}ta{\k20}ka{\k20}na{\k58}ru
-Dialogue: 0,0:00:52.17,0:00:55.01,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The beating sound of my heart
-Dialogue: 0,0:00:55.01,0:00:57.55,Song OP Romaji,,0,0,0,,{\k9\q2\fad(200,200)\k20}ko{\k34}dou {\k33}no {\k22}ha{\k14}ri {\k37}chik{\k18}ku {\k35}tak{\k32}ku
-Dialogue: 0,0:00:55.01,0:00:57.55,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The pointer on my pulse goes tick-tock
-Dialogue: 0,0:00:57.55,0:01:02.10,Song OP Romaji,,0,0,0,,{\k39\q2\fad(200,200)\k15}Ma{\k21}ho{\k19}u {\k83}no {\k21}ju{\k18}mo{\k21}n {\k64}wa {\k19}ko{\k19}ko{\k17}ro {\k14}ga {\k39}shit{\k20}te{\k26}ru
-Dialogue: 0,0:00:57.55,0:01:02.10,Song OP TL,,0,0,0,,{\q2\fad(200,200)}My heart knows the magic spell
-Dialogue: 0,0:01:02.10,0:01:03.12,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k24\k18}Wa{\k18}ku{\k15}wa{\k27}ku
-Dialogue: 0,0:01:02.10,0:01:03.12,Song OP TL,,0,0,0,,{\q2\fad(200,200)}So exciting
-Dialogue: 0,0:01:03.12,0:01:05.07,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k20}Hi{\k16}bi{\k20}ku {\k33}me{\k36}ro{\k18}di{\k42}i
-Dialogue: 0,0:01:03.12,0:01:05.07,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The resounding melody
-Dialogue: 0,0:01:05.07,0:01:06.00,Song OP Romaji,,0,0,0,,{\k8\q2\fad(200,200)\k19}Ki{\k19}ko{\k19}e{\k28}ru?
-Dialogue: 0,0:01:05.07,0:01:06.00,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Can you hear it?
-Dialogue: 0,0:01:06.00,0:01:07.86,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k6\k18}Mi{\k17}mi {\k11}o {\k41}su{\k25}ma{\k28}shi{\k40}te
-Dialogue: 0,0:01:06.00,0:01:07.86,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Listen carefully
-Dialogue: 0,0:01:07.86,0:01:08.65,Song OP Romaji,,0,0,0,,{\k8\q2\fad(200,200)\k21}Ha{\k20}ji{\k18}ma{\k12}ru!
-Dialogue: 0,0:01:07.86,0:01:08.65,Song OP TL,,0,0,0,,{\q2\fad(200,200)}It's starting!
-Dialogue: 0,0:01:08.65,0:01:10.52,Song OP Romaji,,0,0,0,,{\k23\q2\fad(200,200)\k19}Mi{\k16}n{\k18}na {\k17}de {\k20}"su{\k35}taa{\k39}to!"
-Dialogue: 0,0:01:08.65,0:01:10.52,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Everyone's starting together
-Dialogue: 0,0:01:10.52,0:01:13.20,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k26}Ha{\k31}shi{\k16}ri {\k31}da{\k40}so{\k19}u {\k33}Let's {\k62}go!!
-Dialogue: 0,0:01:10.52,0:01:13.20,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Start running, let's go!!
-Dialogue: 0,0:01:13.20,0:01:16.28,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k31}A{\k22}sa {\k18}da {\k17}yo {\k33}o{\k37}ha{\k66}you! {\k18}A{\k41}so{\k15}bou!
-Dialogue: 0,0:01:13.20,0:01:16.28,Song OP TL,,0,0,0,,{\q2\fad(200,200)}It's the morning, good morning! Let's play!
-Dialogue: 0,0:01:16.28,0:01:19.14,Song OP Romaji,,0,0,0,,{\k12\q2\fad(200,200)\k25}So{\k19}ra {\k16}ni {\k35}e{\k35}ga{\k68}ku {\k23}yu{\k32}me {\k21}wa
-Dialogue: 0,0:01:16.28,0:01:19.14,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The dream we'll draw in the sky
-Dialogue: 0,0:01:19.14,0:01:24.20,Song OP Romaji,,0,0,0,,{\k14\q2\fad(200,200)\k18}Ta{\k21}i{\k15}yo{\k30}u {\k24}yo{\k18}ri {\k68}mo {\k31}ma{\k21}bu{\k19}shi{\k52}ku {\k20}ka{\k35}ga{\k36}ya{\k33}i{\k23}te{\k28}ru
-Dialogue: 0,0:01:19.14,0:01:24.20,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Shines brighter than the sun
-Dialogue: 0,0:01:24.20,0:01:27.54,Song OP Romaji,,0,0,0,,{\k38\q2\fad(200,200)\k31}Ge{\k21}n{\k20}ki {\k19}ni {\k35}u{\k35}ta{\k58}ou! {\k17}O{\k36}do{\k10}rou!
-Dialogue: 0,0:01:24.20,0:01:27.54,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Cheerfully, let's sing! And dance!
-Dialogue: 0,0:01:27.54,0:01:30.44,Song OP Romaji,,0,0,0,,{\k17\q2\fad(200,200)\k20}Se{\k21}ka{\k15}i{\k37}ju{\k36}u {\k67}ni {\k20}to{\k35}do{\k22}ke
-Dialogue: 0,0:01:27.54,0:01:30.44,Song OP TL,,0,0,0,,{\q2\fad(200,200)}So that it reaches the whole world
-Dialogue: 0,0:01:30.44,0:01:36.61,Song OP Romaji,,0,0,0,,{\k11\q2\fad(200,200)\k22}Mi{\k19}ra{\k17}i {\k26}o {\k25}te{\k20}ra{\k49}su {\k19}hi{\k37}ka{\k34}ri {\k55}ni {\k19}na{\k14}ru {\k18}yo {\k19}wa{\k34}ta{\k17}shi{\k35}-ta{\k127}chi
-Dialogue: 0,0:01:30.44,0:01:36.61,Song OP TL,,0,0,0,,{\q2\fad(200,200)}We'll be the lights that illuminate the future
-Dialogue: 0,0:01:36.61,0:01:39.25,Song OP Romaji,,0,0,0,,{\k13\q2\fad(200,200)\k27}Te {\k28}to {\k18}te {\k69}o {\k26}tsu{\k29}na{\k18}i{\k36}de
-Dialogue: 0,0:01:36.61,0:01:39.25,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Hand in hand together
-Dialogue: 0,0:01:39.25,0:01:42.14,Song OP Romaji,,0,0,0,,{\k13\q2\fad(200,200)\k11}Ki{\k10}mi {\k28}to {\k25}is{\k19}sho {\k50}ni {\k10}ni{\k9}ji {\k26}no {\k24}sa{\k22}ki {\k42}e
-Dialogue: 0,0:01:39.25,0:01:42.14,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Together with you, beyond the rainbow
-Dialogue: 0,0:01:42.14,0:01:47.60,Song OP Romaji,,0,0,0,,{\k23\q2\fad(200,200)\k39}Ka{\k36}na{\k36}e{\k35}ru {\k52}yo {\k16}ki{\k29}se{\k21}ki {\k23}sa{\k236}e
-Dialogue: 0,0:01:42.14,0:01:47.60,Song OP TL,,0,0,0,,{\q2\fad(200,200)}As long as there are miracles that can come true
-Dialogue: 0,0:01:47.85,0:01:52.44,Song OP Romaji,,0,0,0,,{\k16\q2\fad(200,500)\k40}Ki{\k35}ra{\k36}ki{\k36}ra {\k50}ni {\k21}Sh{\k26}ine {\k22}In {\k21}The {\k-1}Sky{\b1\fnYuMinStars\k156}☆
-Dialogue: 0,0:01:47.85,0:01:52.44,Song OP TL,,0,0,0,,{\=5\q2\fad(200,500)}Twinkling Shine In The Sky{\b1\fnYuMinStars}☆
-Dialogue: 0,0:01:58.05,0:02:01.13,Dialogue,,0,0,0,,Well then, I look forward to working together!
-Dialogue: 0,0:02:02.47,0:02:07.20,Dialogue,,0,0,0,,As we discussed, we'll match\Nour schedules to the concert dates.
-Dialogue: 0,0:02:02.47,0:02:06.23,Dialogue Top,,0,0,0,,I'll finalize what we discussed today, then.
-Dialogue: 0,0:02:06.23,0:02:07.65,Dialogue Top,,0,0,0,,Thank you very much!
-Dialogue: 0,0:02:07.69,0:02:08.73,Dialogue,,0,0,0,,Well then, I've got...
-Dialogue: 0,0:02:07.65,0:02:08.73,Dialogue Top,,0,0,0,,I understand.
-Dialogue: 0,0:02:09.12,0:02:11.02,Dialogue,,0,0,0,,Hmm...
-Dialogue: 0,0:02:24.62,0:02:29.63,Episode Title,,0,0,0,,{\be20\x110\q2\fad(550,550)\pos(960,966)}Episode {\x100}6{\x75} {\x150}~{\x75} {\x110}What is it that you wear more of the hotter it gets?
-Dialogue: 0,0:02:25.16,0:02:27.36,Dialogue Top,,0,0,0,,One, two, three, four.
-Dialogue: 0,0:02:26.55,0:02:28.13,Dialogue Top,,0,0,0,,Sup!
-Dialogue: 0,0:02:27.36,0:02:29.79,Dialogue Top,,0,0,0,,One, two, three, four.
-Dialogue: 0,0:02:29.79,0:02:31.17,Dialogue,,0,0,0,,And... Turn!
-Dialogue: 0,0:02:31.17,0:02:33.17,Dialogue,,0,0,0,,Wah!
-Dialogue: 0,0:02:31.17,0:02:33.17,Dialogue,,0,0,0,,Ahh!
-Dialogue: 0,0:02:33.17,0:02:34.29,Dialogue,,0,0,0,,Ah...
-Dialogue: 0,0:02:34.29,0:02:37.97,Dialogue,,0,0,0,,Haru-chan, good morning~
-Dialogue: 0,0:02:39.27,0:02:41.43,Dialogue,,0,0,0,,What are you guys doing?
-Dialogue: 0,0:02:41.43,0:02:43.09,Dialogue,,0,0,0,,We're experimenting.
-Dialogue: 0,0:02:43.09,0:02:47.88,Dialogue,,0,0,0,,We were talking about how much our skirts\Nwould move when we're actually dancing.
-Dialogue: 0,0:02:47.88,0:02:51.19,Dialogue,,0,0,0,,What if it was Producer who came in instead of me?
-Dialogue: 0,0:02:51.84,0:02:53.19,Dialogue,,0,0,0,,That's true.
-Dialogue: 0,0:02:53.19,0:02:56.73,Dialogue,,0,0,0,,We almost got him locked up in jail.
-Dialogue: 0,0:02:56.73,0:03:00.85,Dialogue,,0,0,0,,But, man, how can idols\Ndance around in those frilly outfits?
-Dialogue: 0,0:03:00.85,0:03:02.88,Dialogue,,0,0,0,,You're an idol too, you know.
-Dialogue: 0,0:03:02.88,0:03:04.88,Dialogue,,0,0,0,,I don't remember ever becoming one.
-Dialogue: 0,0:03:04.88,0:03:06.78,Dialogue,,0,0,0,,You...
-Dialogue: 0,0:03:06.78,0:03:11.37,Dialogue,,0,0,0,,But I think a cute outfit\Nwould really fit you, Haru-chan~
-Dialogue: 0,0:03:11.37,0:03:12.38,Dialogue,,0,0,0,,Huh!?
-Dialogue: 0,0:03:12.38,0:03:14.90,Dialogue,,0,0,0,,I don't think I can recall ever\Nseeing you in one, actually.
-Dialogue: 0,0:03:14.90,0:03:19.48,Dialogue,,0,0,0,,That's right! You've got a nice body, Haru,\Nso you should wear skirts and stuff like that more!
-Dialogue: 0,0:03:19.48,0:03:20.98,Dialogue,,0,0,0,,No way!
-Dialogue: 0,0:03:23.49,0:03:26.10,Dialogue,,0,0,0,,I like wearing these kinds of clothes.
-Dialogue: 0,0:03:26.10,0:03:29.05,Dialogue,,0,0,0,,Listen, fashion is about how you match clothes.
-Dialogue: 0,0:03:29.05,0:03:32.77,Dialogue,,0,0,0,,If we just get you a matching bottom... Hm?
-Dialogue: 0,0:03:32.77,0:03:34.94,Dialogue,,0,0,0,,Are Yuuki-san and Matoba-san here?
-Dialogue: 0,0:03:35.65,0:03:37.23,Dialogue,,0,0,0,,You need to knock.
-Dialogue: 0,0:03:37.23,0:03:40.16,Dialogue,,0,0,0,,Is that any way to enter a room\Nwhere ladies are present?
-Dialogue: 0,0:03:40.16,0:03:43.30,Dialogue,,0,0,0,,But this is where I work!
-Dialogue: 0,0:03:44.57,0:03:46.49,Dialogue,,0,0,0,,Ow...
-Dialogue: 0,0:03:46.49,0:03:49.16,Dialogue,,0,0,0,,Oh, right, where's Yuuki-san?
-Dialogue: 0,0:03:49.16,0:03:51.66,Dialogue,,0,0,0,,Hm? Do you need me for something?
-Dialogue: 0,0:03:51.66,0:03:54.29,Dialogue,,0,0,0,,That's right! And Matoba-san too!
-Dialogue: 0,0:03:55.00,0:03:57.97,Dialogue,,0,0,0,,Do you two want to try being backup dancers?
-Dialogue: 0,0:03:57.97,0:03:58.95,Dialogue,,0,0,0,,Ba...
-Dialogue: 0,0:04:00.10,0:04:01.88,Dialogue,,0,0,0,,Backup dancers?
-Dialogue: 0,0:04:01.88,0:04:03.99,Dialogue,,0,0,0,,It seems the girls who were\Noriginally picked for this...
-Dialogue: 0,0:04:03.99,0:04:06.93,Dialogue,,0,0,0,,...had other commitments come up\Nthat they couldn't miss.
-Dialogue: 0,0:04:06.93,0:04:09.15,Dialogue,,0,0,0,,A live concert? That's great!
-Dialogue: 0,0:04:09.15,0:04:10.87,Dialogue,,0,0,0,,L... Hm?
-Dialogue: 0,0:04:10.87,0:04:11.86,Dialogue,,0,0,0,,P-p...P?
-Dialogue: 0,0:04:11.86,0:04:14.48,Dialogue,,0,0,0,,It's LiPPS! I told you about them earlier, didn't I?
-Dialogue: 0,0:04:14.95,0:04:17.25,Dialogue,,0,0,0,,Why are you asking those two?
-Dialogue: 0,0:04:17.25,0:04:20.79,Dialogue,,0,0,0,,It's actually happening this weekend...
-Dialogue: 0,0:04:20.79,0:04:21.89,Dialogue,,0,0,0,,That's so soon.
-Dialogue: 0,0:04:20.79,0:04:21.89,Dialogue,,0,0,0,,Soon!
-Dialogue: 0,0:04:22.70,0:04:25.19,Dialogue,,0,0,0,,It's a really short amount of time to practice,
-Dialogue: 0,0:04:25.19,0:04:28.21,Dialogue,,0,0,0,,and there are a lot of events\Nin the summer, so everyone is busy.
-Dialogue: 0,0:04:28.21,0:04:31.47,Dialogue,,0,0,0,,It was hard to find people\Nwhose schedules matched...
-Dialogue: 0,0:04:31.47,0:04:36.73,Dialogue,,0,0,0,,But considering how Yuuki-san's so athletic,\Nand how Matoba-san's a fast learner,
-Dialogue: 0,0:04:36.73,0:04:38.73,Dialogue,,0,0,0,,I felt like they could handle it.
-Dialogue: 0,0:04:40.64,0:04:44.74,Dialogue,,0,0,0,,In that case, they certainly\Nare the best choice for this.
-Dialogue: 0,0:04:44.74,0:04:47.51,Dialogue,,0,0,0,,They're both excellent at dancing, after all.
-Dialogue: 0,0:04:47.51,0:04:48.75,Dialogue,,0,0,0,,So, what do you think?
-Dialogue: 0,0:04:48.75,0:04:49.89,Dialogue,,0,0,0,,Wanna try it?
-Dialogue: 0,0:04:49.89,0:04:52.69,Dialogue,,0,0,0,,Of course I'll do it!
-Dialogue: 0,0:04:52.69,0:04:54.62,Dialogue,,0,0,0,,Just what I hoped, Matoba-san!
-Dialogue: 0,0:04:54.62,0:04:56.50,Dialogue,,0,0,0,,How about you, Yuuki-san?
-Dialogue: 0,0:04:56.50,0:05:00.56,Dialogue,,0,0,0,,Hmm... I don't really get this whole idol thing,
-Dialogue: 0,0:05:00.56,0:05:03.15,Dialogue,,0,0,0,,but this seems pretty cool!
-Dialogue: 0,0:05:03.15,0:05:05.03,Dialogue,,0,0,0,,It's like playing defense!
-Dialogue: 0,0:05:05.03,0:05:08.13,Dialogue,,0,0,0,,Yeah, backup dancers are cool!
-Dialogue: 0,0:05:08.13,0:05:11.48,Dialogue,,0,0,0,,They're an irreplaceable\Npart of the performance...
-Dialogue: 0,0:05:11.48,0:05:14.21,Dialogue,,0,0,0,,...that bring more impact by\Nadding more movement to the stage.
-Dialogue: 0,0:05:14.21,0:05:16.50,Dialogue,,0,0,0,,In any case, it's an important job.
-Dialogue: 0,0:05:16.50,0:05:18.38,Dialogue,,0,0,0,,Assists are important, after all.
-Dialogue: 0,0:05:18.38,0:05:19.01,Dialogue,,0,0,0,,Exactly!
-Dialogue: 0,0:05:19.01,0:05:20.59,Dialogue,,0,0,0,,Soccer-for-brains...
-Dialogue: 0,0:05:20.59,0:05:23.01,Dialogue,,0,0,0,,Alright then, I'll do it too!
-Dialogue: 0,0:05:23.01,0:05:24.08,Dialogue,,0,0,0,,Wahh~
-Dialogue: 0,0:05:24.08,0:05:25.99,Dialogue,,0,0,0,,I can't wait~
-Dialogue: 0,0:05:25.99,0:05:27.51,Dialogue,,0,0,0,,I shall be cheering for you.
-Dialogue: 0,0:05:27.51,0:05:29.04,Dialogue,,0,0,0,,Thanks, you guys!
-Dialogue: 0,0:05:29.04,0:05:31.64,Dialogue,,0,0,0,,Okay, then let's start the lessons right away.
-Dialogue: 0,0:05:31.64,0:05:32.85,Dialogue,,0,0,0,,Let's do our best!
-Dialogue: 0,0:05:34.34,0:05:35.27,Dialogue,,0,0,0,,Yeah!
-Dialogue: 0,0:05:42.84,0:05:44.59,Dialogue,,0,0,0,,Ohh...
-Dialogue: 0,0:05:44.59,0:05:46.27,Dialogue,,0,0,0,,Yup, you're looking good.
-Dialogue: 0,0:05:46.27,0:05:48.11,Dialogue,,0,0,0,,Hahaha...
-Dialogue: 0,0:05:48.11,0:05:51.18,Dialogue,,0,0,0,,He's so easy to read, isn't he?
-Dialogue: 0,0:05:51.18,0:05:52.12,Dialogue,,0,0,0,,Gross.
-Dialogue: 0,0:05:52.12,0:05:56.12,Dialogue,,0,0,0,,By the way, Risa, your tempo\Nwas off by a beat earlier.
-Dialogue: 0,0:05:56.12,0:05:58.30,Dialogue,,0,0,0,,Well, your movements are sloppy.
-Dialogue: 0,0:05:58.30,0:06:00.08,Dialogue,,0,0,0,,Let's run through it one more time.
-Dialogue: 0,0:06:07.43,0:06:09.81,Sign Generic,,0,0,0,,{\fs9\blur1.25\frz343\pos(1084,733)}Lazy Lazy – Crazy Crazy
-Dialogue: 0,0:06:11.52,0:06:13.97,Dialogue,,0,0,0,,Umm... Ichinose Shiki.
-Dialogue: 0,0:06:13.97,0:06:15.84,Dialogue,,0,0,0,,That's right, it's Ichinose Shi–
-Dialogue: 0,0:06:15.84,0:06:16.60,Dialogue,,0,0,0,,Wah!
-Dialogue: 0,0:06:17.20,0:06:19.15,Dialogue,,0,0,0,,Spot on!
-Dialogue: 0,0:06:20.11,0:06:21.12,Dialogue,,0,0,0,,You were here?
-Dialogue: 0,0:06:21.12,0:06:22.32,Dialogue,,0,0,0,,Nyahaha~
-Dialogue: 0,0:06:22.32,0:06:25.05,Dialogue,,0,0,0,,I've been watching since\Nyour first day of lessons.
-Dialogue: 0,0:06:25.05,0:06:28.02,Dialogue,,0,0,0,,Eh? Then you should've said... something...
-Dialogue: 0,0:06:28.02,0:06:29.80,Dialogue,,0,0,0,,Sniff, sniff, sniff, sniff...
-Dialogue: 0,0:06:29.80,0:06:31.25,Dialogue,,0,0,0,,Smell, smell, smell, smell...
-Dialogue: 0,0:06:31.25,0:06:32.38,Dialogue,,0,0,0,,Sniff, sniff, sniff...
-Dialogue: 0,0:06:32.38,0:06:34.20,Dialogue,,0,0,0,,Hmmm... Mm.
-Dialogue: 0,0:06:35.31,0:06:37.71,Dialogue,,0,0,0,,Well, I guess it's okay.
-Dialogue: 0,0:06:37.71,0:06:39.63,Dialogue,,0,0,0,,Huh? What is?
-Dialogue: 0,0:06:39.63,0:06:44.88,Dialogue,,0,0,0,,Your dancing seems fine,\Nso Shiki-chan's leaving now~
-Dialogue: 0,0:06:52.30,0:06:53.40,Dialogue,,0,0,0,,Oh right,
-Dialogue: 0,0:06:53.40,0:06:57.52,Dialogue,,0,0,0,,I'm actually really looking forward to this show.
-Dialogue: 0,0:06:57.52,0:07:00.27,Dialogue,,0,0,0,,Which is why...
-Dialogue: 0,0:07:00.27,0:07:07.65,Dialogue,,0,0,0,,if you don't entertain me, I might use you\Nas guinea pigs for some sketchy drugs.
-Dialogue: 0,0:07:07.65,0:07:08.49,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:07:08.49,0:07:10.07,Dialogue,,0,0,0,,Just kidding.
-Dialogue: 0,0:07:10.07,0:07:12.12,Dialogue,,0,0,0,,Nyahahaha~
-Dialogue: 0,0:07:14.66,0:07:16.90,Dialogue,,0,0,0,,What was that, what was that!?
-Dialogue: 0,0:07:16.90,0:07:18.00,Dialogue,,0,0,0,,That was scary!
-Dialogue: 0,0:07:18.00,0:07:19.09,Dialogue,,0,0,0,,Idols are scary!
-Dialogue: 0,0:07:18.82,0:07:21.09,Dialogue,,0,0,0,,Not everyone is like Shiki, you know!
-Dialogue: 0,0:07:22.82,0:07:24.06,Dialogue,,0,0,0,,Ta-da!
-Dialogue: 0,0:07:24.06,0:07:26.42,Dialogue,,0,0,0,,Your outfits have arrived!
-Dialogue: 0,0:07:28.87,0:07:31.28,Dialogue,,0,0,0,,Oh, that looks great!
-Dialogue: 0,0:07:31.28,0:07:32.19,Dialogue,,0,0,0,,Right?
-Dialogue: 0,0:07:32.19,0:07:35.64,Dialogue,,0,0,0,,I'll take your detailed measurements,\Nso can you wear them during practice today?
-Dialogue: 0,0:07:35.64,0:07:37.23,Dialogue,,0,0,0,,Okay!
-Dialogue: 0,0:07:37.23,0:07:38.14,Dialogue,,0,0,0,,Haru!
-Dialogue: 0,0:07:40.91,0:07:42.19,Dialogue,,0,0,0,,Haru?
-Dialogue: 0,0:07:43.63,0:07:45.02,Dialogue,,0,0,0,,Ahh...
-Dialogue: 0,0:07:44.41,0:07:45.02,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:07:46.81,0:07:47.81,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:07:48.78,0:07:49.96,Dialogue,,0,0,0,,No way, no way, no way!
-Dialogue: 0,0:07:49.96,0:07:51.15,Dialogue,,0,0,0,,There's no way!
-Dialogue: 0,0:07:51.15,0:07:53.36,Dialogue,,0,0,0,,What's up with these clothes!?
-Dialogue: 0,0:07:53.36,0:07:55.03,Dialogue,,0,0,0,,I-I'm not wearin' them!
-Dialogue: 0,0:07:55.03,0:07:56.79,Dialogue,,0,0,0,,What's gotten into you all of a sudden?
-Dialogue: 0,0:07:56.79,0:07:57.99,Dialogue,,0,0,0,,Isn't it cute?
-Dialogue: 0,0:07:57.99,0:08:01.37,Dialogue,,0,0,0,,S-some people don't like cute!
-Dialogue: 0,0:08:01.37,0:08:03.25,Dialogue,,0,0,0,,Isn't this a good opportunity to try it?
-Dialogue: 0,0:08:03.25,0:08:04.72,Dialogue,,0,0,0,,It'll definitely look good on you.
-Dialogue: 0,0:08:06.21,0:08:09.38,Dialogue,,0,0,0,,H-hey, isn't there some way\Nwe can change the outfit?
-Dialogue: 0,0:08:09.38,0:08:11.09,Dialogue,,0,0,0,,Eh, umm...
-Dialogue: 0,0:08:11.09,0:08:13.20,Dialogue,,0,0,0,,There's no way that's possible.
-Dialogue: 0,0:08:13.20,0:08:15.18,Dialogue,,0,0,0,,They're made to match LiPPS's, after all.
-Dialogue: 0,0:08:18.62,0:08:20.52,Dialogue,,0,0,0,,I'm sorry, Yuuki-san.
-Dialogue: 0,0:08:20.52,0:08:22.98,Dialogue,,0,0,0,,I definitely thought you knew.
-Dialogue: 0,0:08:22.98,0:08:24.56,Dialogue,,0,0,0,,Why don't you want to wear it?
-Dialogue: 0,0:08:24.56,0:08:30.03,Dialogue,,0,0,0,,Eh? Umm... Mmm...
-Dialogue: 0,0:08:30.93,0:08:33.24,Dialogue,,0,0,0,,It's girly, you know?
-Dialogue: 0,0:08:33.24,0:08:35.91,Dialogue,,0,0,0,,Mmh... Listen, you.
-Dialogue: 0,0:08:35.91,0:08:38.58,Dialogue,,0,0,0,,The performance is soon, so this\Nisn't the time to start being selfish.
-Dialogue: 0,0:08:38.58,0:08:39.99,Dialogue,,0,0,0,,I get that.
-Dialogue: 0,0:08:39.99,0:08:42.19,Dialogue,,0,0,0,,You decided you were going to do it, didn't you?
-Dialogue: 0,0:08:42.19,0:08:44.75,Dialogue,,0,0,0,,Giving up halfway is the lamest thing possible.
-Dialogue: 0,0:08:44.75,0:08:47.93,Dialogue,,0,0,0,,Like I said, I didn't know\Nabout this when I agreed to it!
-Dialogue: 0,0:08:47.93,0:08:49.35,Dialogue,,0,0,0,,If I had known from the start...
-Dialogue: 0,0:08:48.82,0:08:50.57,Dialogue Top,,0,0,0,,Now, now, you two...
-Dialogue: 0,0:08:49.35,0:08:54.24,Dialogue,,0,0,0,,Hey, being an idol isn't so laid-back\Nthat you can be picky about your outfits!
-Dialogue: 0,0:08:55.89,0:08:59.76,Dialogue,,0,0,0,,I'm always telling you that you need to be\Nmore aware of the fact that you're an idol.
-Dialogue: 0,0:08:59.76,0:09:01.82,Dialogue,,0,0,0,,Get it through your head already.
-Dialogue: 0,0:09:01.65,0:09:02.89,Dialogue,,0,0,0,,I'm...!
-Dialogue: 0,0:09:02.89,0:09:04.06,Dialogue,,0,0,0,,Ah...
-Dialogue: 0,0:09:05.40,0:09:09.90,Dialogue,,0,0,0,,I'm not doing this 'cause I wanted\Nto be an idol like you guys!
-Dialogue: 0,0:09:13.75,0:09:14.90,Dialogue,,0,0,0,,My bad.
-Dialogue: 0,0:09:15.41,0:09:17.00,Dialogue,,0,0,0,,I'm gonna go cool off.
-Dialogue: 0,0:09:17.00,0:09:18.53,Dialogue,,0,0,0,,Wai– Yuuki-san!
-Dialogue: 0,0:09:23.04,0:09:24.92,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\=0\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)}Lost & Found
-Dialogue: 0,0:09:24.92,0:09:25.04,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.28)\org(1066.69,700.89)\iclip(m 1140 721.82 l 1152.73 707.27 1167.27 672.73 1185.45 740)}Lost & Found
-Dialogue: 0,0:09:25.04,0:09:25.17,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1034.55 680 l 1018.18 705.45 1021.82 714.55 1020 761.82 940 729.09 963.64 658.18)}Lost & Found
-Dialogue: 0,0:09:25.17,0:09:25.30,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1005.45 680 l 1010.91 740 940 743.64 930.91 676.36)}Lost & Found
-Dialogue: 0,0:09:25.30,0:09:25.42,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 990.91 690.91 l 1003.64 725.45 903.64 780 910.91 670.91)}Lost & Found
-Dialogue: 0,0:09:25.42,0:09:25.55,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1070.91 683.64 l 1054.55 743.64 916.36 747.27 921.82 658.18)}Lost & Found
-Dialogue: 0,0:09:25.55,0:09:25.67,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1069.09 700 l 1049.09 721.82 1036.36 770.91 940 712.73 940 638.18)}Lost & Found
-Dialogue: 0,0:09:25.67,0:09:25.75,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1090.91 685.45 l 1081.82 705.45 1061.82 736.36 930.91 745.45 938.18 576.36)}Lost & Found
-Dialogue: 0,0:09:25.75,0:09:25.84,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1107.27 681.82 l 1100 700 1085.45 721.82 952.73 750.91 941.82 647.27)}Lost & Found
-Dialogue: 0,0:09:25.84,0:09:25.96,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1120 681.82 l 1110.91 701.82 1096.36 725.45 934.55 736.36 945.45 636.36)}Lost & Found
-Dialogue: 0,0:09:25.96,0:09:26.09,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1101.82 683.64 l 1092.73 701.82 1074.55 727.27 1081.82 703.64 1090.91 676.36 1070.91 698.18 1060 710.91 1052.73 750.91 901.82 767.27 920 665.45 1112.73 640)}Lost & Found
-Dialogue: 0,0:09:26.09,0:09:26.21,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1069.09 676.36 l 1056.36 692.73 1040 709.09 1040 756.36 972.73 736.36 896.36 714.55 910.91 643.64)}Lost & Found
-Dialogue: 0,0:09:26.21,0:09:26.34,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 950.91 681.82 l 932.73 736.36 1067.27 725.45 1090.91 663.64 1100 663.64 1098.18 690.91 1081.82 729.09 1107.27 687.27 1118.18 652.73 945.45 638.18)}Lost & Found
-Dialogue: 0,0:09:26.34,0:09:26.46,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1145.45 676.36 l 1140 690.91 1132.73 705.45 1120 727.27 850.91 770.91 849.09 569.09)}Lost & Found
-Dialogue: 0,0:09:26.46,0:09:26.59,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1140 672.73 l 1132.73 696.36 1121.82 720 1103.64 720 1107.27 696.36 1090.91 725.45 914.55 767.27 909.09 672.73)}Lost & Found
-Dialogue: 0,0:09:26.59,0:09:27.42,Sign Generic,,0,0,0,,{\b1\fnBillyTheFlyingRobot LC BB\fs39\1c&H080808&\1a&H00&\=1\blur2\fax0.037877\x101.00\y91.96\frz1.3517\frx2.2370\fry15.6336\-0.5\pos(1065.92,719.78)\org(1066.69,701.39)\iclip(m 1134.55 676.36 l 1129.09 694.55 1120 714.55 1110.91 730.91 1098.18 729.09 1103.64 709.09 1109.09 680 1100 696.36 1089.09 709.09 1080 727.27 940 763.64 921.82 627.27)}Lost & Found
-Dialogue: 0,0:09:24.48,0:09:27.42,Dialogue,,0,0,0,,Ahh, god, this sucks!
-Dialogue: 0,0:09:29.19,0:09:32.12,Dialogue,,0,0,0,,Hey, hurry up and chase after her!
-Dialogue: 0,0:09:32.12,0:09:34.55,Dialogue,,0,0,0,,Huh? But, Matoba-san...
-Dialogue: 0,0:09:34.55,0:09:36.50,Dialogue,,0,0,0,,You're so dumb.
-Dialogue: 0,0:09:36.50,0:09:38.22,Dialogue,,0,0,0,,I'm telling you to leave me alone.
-Dialogue: 0,0:09:38.22,0:09:39.63,Dialogue,,0,0,0,,S-sorry!
-Dialogue: 0,0:09:40.93,0:09:41.96,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:09:41.96,0:09:43.06,Dialogue,,0,0,0,,Wait.
-Dialogue: 0,0:09:44.64,0:09:48.35,Dialogue,,0,0,0,,Haru would definitely be at that place.
-Dialogue: 0,0:09:53.19,0:09:55.38,Dialogue,,0,0,0,,I'm so lame...
-Dialogue: 0,0:09:55.38,0:09:56.74,Dialogue,,0,0,0,,Damn it!
-Dialogue: 0,0:09:57.78,0:09:58.91,Dialogue,,0,0,0,,Whoa!
-Dialogue: 0,0:10:00.38,0:10:01.83,Dialogue,,0,0,0,,Yuuki-sa–
-Dialogue: 0,0:10:01.83,0:10:03.12,Dialogue,,0,0,0,,Wah!
-Dialogue: 0,0:10:03.12,0:10:05.29,Dialogue,,0,0,0,,Are you okay, Producer!?
-Dialogue: 0,0:10:05.29,0:10:06.40,Dialogue,,0,0,0,,I'm so sorry!
-Dialogue: 0,0:10:06.40,0:10:08.40,Dialogue,,0,0,0,,I'm okay...
-Dialogue: 0,0:10:10.52,0:10:14.76,Dialogue,,0,0,0,,You came to the agency 'cause your\Nfamily told you to, right, Yuuki-san?
-Dialogue: 0,0:10:14.76,0:10:19.60,Dialogue,,0,0,0,,My old man was saying\Nhe wanted me to dress cuter and stuff.
-Dialogue: 0,0:10:19.60,0:10:22.87,Dialogue,,0,0,0,,I just wanted to play soccer over the summer,
-Dialogue: 0,0:10:22.87,0:10:25.31,Dialogue,,0,0,0,,but even my brothers thought it'd be fun.
-Dialogue: 0,0:10:25.74,0:10:27.65,Dialogue,,0,0,0,,I see.
-Dialogue: 0,0:10:27.65,0:10:30.37,Dialogue,,0,0,0,,It's not like I hate everything about it.
-Dialogue: 0,0:10:30.37,0:10:32.48,Dialogue,,0,0,0,,I mean, I still like soccer the best.
-Dialogue: 0,0:10:32.48,0:10:36.15,Dialogue,,0,0,0,,But I like getting to move my body,\Nand dancing is like working on a team.
-Dialogue: 0,0:10:36.15,0:10:39.78,Dialogue,,0,0,0,,That's true. You two were amazing today.
-Dialogue: 0,0:10:39.78,0:10:40.75,Dialogue,,0,0,0,,Ah...
-Dialogue: 0,0:10:40.75,0:10:42.48,Dialogue,,0,0,0,,You see, Risa...
-Dialogue: 0,0:10:42.48,0:10:46.29,Dialogue,,0,0,0,,She can be harsh with her words,\Nbut she's super serious about being an idol.
-Dialogue: 0,0:10:46.29,0:10:50.06,Dialogue,,0,0,0,,And if I'm doing it, I wanna take it seriously too.
-Dialogue: 0,0:10:50.06,0:10:54.92,Dialogue,,0,0,0,,But suddenly having to wear that outfit\Nis just so hard, and there's no time left.
-Dialogue: 0,0:10:54.92,0:10:59.43,Dialogue,,0,0,0,,I'm so bad at thinking through all this stuff!
-Dialogue: 0,0:11:00.76,0:11:05.31,Dialogue,,0,0,0,,If someone on your team wasn't taking it\Nseriously, of course that'd piss you off.
-Dialogue: 0,0:11:06.51,0:11:10.27,Dialogue,,0,0,0,,What's so fun about being an idol?
-Dialogue: 0,0:11:10.27,0:11:11.15,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:11:11.15,0:11:14.67,Dialogue,,0,0,0,,Well that's, you know...
-Dialogue: 0,0:11:14.67,0:11:15.73,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:11:16.65,0:11:17.46,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:11:19.36,0:11:20.28,Dialogue,,0,0,0,,Ah...
-Dialogue: 1,0:11:22.16,0:11:24.54,Sign Generic,,0,0,0,,{\fnKG Corner of the Sky\fs90\1c&H000000&\1a&H00&\blur2\shad2\frz2.2\pos(901.83,478.83)}Park
-Dialogue: 0,0:11:24.98,0:11:25.81,Dialogue,,0,0,0,,Heh...
-Dialogue: 0,0:11:27.09,0:11:28.80,Dialogue,,0,0,0,,Let's go see together.
-Dialogue: 0,0:11:30.09,0:11:31.54,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:11:31.54,0:11:32.80,Dialogue,,0,0,0,,Ah...
-Dialogue: 0,0:11:32.80,0:11:36.35,Dialogue,,0,0,0,,Let's go, Yuuki-san, Matoba-san.
-Dialogue: 0,0:11:38.05,0:11:39.36,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:11:40.86,0:11:45.31,Dialogue,,0,0,0,,Now then, let's start our screening!
-Dialogue: 0,0:11:52.95,0:11:55.32,Dialogue,,0,0,0,,What is this, Producer?
-Dialogue: 0,0:11:55.32,0:11:58.43,Dialogue,,0,0,0,,By the way, Yuuki-san, have\Nyou ever seen an idol concert?
-Dialogue: 0,0:11:58.43,0:12:01.01,Dialogue,,0,0,0,,I've seen music programs and stuff before.
-Dialogue: 0,0:12:01.01,0:12:02.57,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:12:02.57,0:12:05.70,Dialogue,,0,0,0,,W-well anyway, try watching just this once!
-Dialogue: 0,0:12:05.70,0:12:09.45,Dialogue,,0,0,0,,Once you do, I'm sure, {\i1}sure{\i0}\Nthat you'll come to like idols.
-Dialogue: 0,0:12:16.71,0:12:19.15,Dialogue,,0,0,0,,Wah!
-Dialogue: 0,0:12:33.60,0:12:39.26,Tulip Romaji Mika,,0,0,0,,{\=16\q2\fad(500,200)\k39} {\k14}Wa{\k22}su{\k17}re{\k23}te {\k9}ki{\k65}te {\k19}a{\k23}ge{\k19}ta {\k28}no {\k67}yo {\k20}ji{\k39}bun {\k20}no {\k19}ka{\k20}sa {\k103}wa
-Dialogue: 0,0:12:33.60,0:12:39.26,Tulip TL Mika,,0,0,0,,{\q2\fad(500,200)\pos(1875,100)}I forgot my own umbrella
-Dialogue: 0,0:12:39.26,0:12:45.79,Tulip Romaji Fred,,0,0,0,,{\q2\fad(200,200)\k91} {\k19}A{\k22}me {\k11}no {\k36}hi {\k65}wa {\k23}yo{\k13}ri{\k65}sot{\k57}te {\k20}chi{\k21}ka{\k18}zu{\k20}ke{\k19}ru {\k14}de{\k139}sho
-Dialogue: 0,0:12:39.26,0:12:45.79,Tulip TL Fred,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}So that we could get closer to each other in the rain
-Dialogue: 0,0:12:45.79,0:12:52.30,Tulip Romaji Syuko,,0,0,0,,{\q2\fad(200,200)\k64} {\k17}Ko{\k21}u{\k19}e{\k28}n {\k64}no {\k24}chu{\k21}u{\k37}rip{\k14}pu {\k68}mo {\k16}nu{\k19}re{\k8}te {\k35}sa{\k17}i{\k19}te{\k160}ru
-Dialogue: 0,0:12:45.79,0:12:52.30,Tulip TL Syuko,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}The tulips in the park are dripping wet as they bloom
-Dialogue: 0,0:12:52.30,0:12:57.66,Tulip Romaji Shiki,,0,0,0,,{\q2\fad(200,200)\k32} {\k21}Ko{\k19}no {\k16}cha{\k25}n{\k82}su {\k15}no{\k14}ga{\k25}shi{\k28}ta{\k64}ra {\k25}tsu{\k20}gi {\k17}wa {\k23}na{\k18}i {\k19}ka{\k73}mo
-Dialogue: 0,0:12:52.30,0:12:57.66,Tulip TL Shiki,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}If you miss this chance, there might not be another
-Dialogue: 0,0:12:57.66,0:13:04.47,Tulip Romaji Kanade,,0,0,0,,{\q2\fad(200,200)\k27} {\k38}Ku{\k42}chi{\k80}bi{\k53}ru {\k93}wa {\k28}sha{\k22}be{\k35}ru {\k33}ta{\k24}me {\k40}ja{\k19}na{\k147}ku
-Dialogue: 0,0:12:57.66,0:13:04.47,Tulip TL Kanade,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Lips aren't just for talking
-Dialogue: 0,0:13:04.47,0:13:07.93,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k46} {\k25}Ki{\k18}mi {\k21}no {\k13}ta{\k26}me {\k36}ni {\k33}ki{\k20}su {\k24}su{\k18}ru {\k24}ta{\k19}me {\k23}ni
-Dialogue: 0,0:13:04.47,0:13:07.93,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}For the sake of kissing you
-Dialogue: 0,0:13:07.93,0:13:10.78,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k52}Sa{\k21}i{\k40}te {\k38}i{\k134}ru
-Dialogue: 0,0:13:07.93,0:13:10.78,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}They're blooming
-Dialogue: 0,0:13:10.78,0:13:14.48,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k36} {\k48}Kiss {\k15}m{\k36}e {\k38}chu {\k43}chu {\k19}chu {\k19}chu {\k21}chu {\k-1}chu{\fnInterHeart\fs60\k37\x75}♡{\fnal kisah\fs74\x100\k58}lip
-Dialogue: 0,0:13:10.78,0:13:14.48,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Kiss me chu chu chu chu chu tu{\fnInterHeart\fs60\x75}♡{\fnal kisah\fs74\x100}lip\h
-Dialogue: 0,0:13:14.48,0:13:17.63,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k25} {\k37}Kiss {\k19}m{\k35}e {\k41}chu {\k20}chu {\k17}chu {\k21}chu {\k-1}chu{\fnInterHeart\fs60\k40\x75}♡{\fnal kisah\fs74\x100\k60}lip
-Dialogue: 0,0:13:14.48,0:13:17.63,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Kiss me chu chu chu chu tu{\fnInterHeart\fs60\x75}♡{\fnal kisah\fs74\x100}lip\h
-Dialogue: 0,0:13:17.63,0:13:20.15,Tulip Romaji Shiki,,0,0,0,,{\q2\fad(200,200)\k18} {\k20}Ha{\k15}ji{\k26}ma{\k18}ri {\k17}wa {\k80}sot{\k58}to
-Dialogue: 0,0:13:17.63,0:13:20.15,Tulip TL Shiki,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}The start is gentle
-Dialogue: 0,0:13:20.15,0:13:23.23,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k14} {\k23}Su {\k34}Ki{\k25}ss {\k32}ki{\k24}ss {\k113}ki{\k43}ss
-Dialogue: 0,0:13:20.15,0:13:23.23,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Su-Kiss, kiss, kiss
-Dialogue: 0,0:13:23.23,0:13:26.98,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k48} {\k38}Kiss {\k14}m{\k37}e {\k39}chu {\k42}chu {\k18}chu {\k21}chu {\k17}chu {\k-1}chu{\fnInterHeart\fs60\k43\x75}♡{\fnal kisah\fs74\x100\k58}lip
-Dialogue: 0,0:13:23.23,0:13:26.98,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Kiss me chu chu chu chu chu tu{\fnInterHeart\fs60\x75}♡{\fnal kisah\fs74\x100}lip\h
-Dialogue: 0,0:13:26.98,0:13:29.94,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k21} {\k41}Kiss {\k15}m{\k36}e {\k40}chu {\k20}chu {\k19}chu {\k19}chu {\k-1}chu{\fnInterHeart\fs60\k38\x75}♡{\fnal kisah\fs74\x100\k47}lip
-Dialogue: 0,0:13:26.98,0:13:29.94,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Kiss me chu chu chu chu tu{\fnInterHeart\fs60\x75}♡{\fnal kisah\fs74\x100}lip\h
-Dialogue: 0,0:13:29.94,0:13:32.63,Tulip Romaji Mika,,0,0,0,,{\q2\fad(200,200)\k35} {\k20}Ko{\k20}no {\k20}a{\k19}to {\k19}wa {\k77}mot{\k59}to
-Dialogue: 0,0:13:29.94,0:13:32.63,Tulip TL Mika,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}From here on there'll be more
-Dialogue: 0,0:13:32.63,0:13:35.08,Tulip Romaji Group,,0,0,0,,{\q2\fad(200,200)\k14} {\k21}s{\k40}kip {\k22}s{\k39}kip {\k18}s{\k91}kip
-Dialogue: 0,0:13:32.63,0:13:35.08,Tulip TL Group,,0,0,0,,{\q2\fad(200,200)\pos(1875,100)}Skip, skip, skip
-Dialogue: 0,0:13:35.08,0:13:36.46,Tulip Romaji Shiki,,0,0,0,,{\q2\fad(200,500)\k12}...{\k18}Na{\k19}n{\k18}te {\k55}ne.
-Dialogue: 0,0:13:35.08,0:13:36.46,Tulip TL Shiki,,0,0,0,,{\=17\q2\fad(200,500)\pos(1875,100)}...Just kidding.
-Dialogue: 0,0:12:36.63,0:12:38.15,Dialogue,,0,0,0,,What do you think?
-Dialogue: 0,0:12:58.09,0:13:05.53,Dialogue,,0,0,0,,At soccer matches, it's so much fun\Ncheering along with everyone like this.
-Dialogue: 0,0:13:05.53,0:13:13.35,Dialogue,,0,0,0,,But... actually playing is tons\Nmore fun than just watching.
-Dialogue: 0,0:13:13.35,0:13:15.73,Dialogue,,0,0,0,,If being an idol is the same way,
-Dialogue: 0,0:13:15.73,0:13:18.86,Dialogue,,0,0,0,,then it might not be so bad\Nto try and stand up there myself.
-Dialogue: 0,0:13:20.61,0:13:23.03,Dialogue,,0,0,0,,Then, are you gonna be okay with it?
-Dialogue: 0,0:13:23.65,0:13:25.32,Dialogue,,0,0,0,,With what?
-Dialogue: 0,0:13:30.79,0:13:33.73,Dialogue,,0,0,0,,Oh right, the outfit!
-Dialogue: 0,0:13:41.38,0:13:42.76,Dialogue,,0,0,0,,Why?
-Dialogue: 0,0:13:42.76,0:13:43.87,Dialogue,,0,0,0,,Wh...
-Dialogue: 0,0:13:45.99,0:13:50.44,Dialogue,,0,0,0,,You were the one that said if we left it to\Nyour kids, they'd definitely be fine, weren't you?
-Dialogue: 0,0:13:50.44,0:13:52.06,Dialogue,,0,0,0,,So what's this about, then?
-Dialogue: 0,0:13:52.06,0:13:53.78,Dialogue,,0,0,0,,Of course it's impossible.
-Dialogue: 0,0:13:53.78,0:13:56.48,Dialogue,,0,0,0,,I-I understand that it would be difficult, but...
-Dialogue: 0,0:13:56.48,0:13:59.65,Dialogue,,0,0,0,,...I'm sure she'd be able to give\Na much better performance like this.
-Dialogue: 0,0:13:59.65,0:14:02.82,Dialogue,,0,0,0,,You should be dealing with\Nthat kind of selfishness on your own!
-Dialogue: 0,0:14:02.82,0:14:06.20,Dialogue,,0,0,0,,"Selfishness"? They're still just ki...
-Dialogue: 0,0:14:10.49,0:14:12.68,Dialogue,,0,0,0,,I'm very sorry.
-Dialogue: 0,0:14:17.52,0:14:24.01,Dialogue,,0,0,0,,For the time being, I'll ask the higher-ups,\Nbut don't get your hopes up.
-Dialogue: 0,0:14:37.49,0:14:38.27,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:14:43.11,0:14:44.98,Dialogue,,0,0,0,,Like I said!
-Dialogue: 0,0:14:44.98,0:14:47.74,Dialogue,,0,0,0,,It's fine since you'd look good in it!
-Dialogue: 0,0:14:47.74,0:14:50.59,Dialogue,,0,0,0,,And I'm saying that's not the issue here!
-Dialogue: 0,0:14:50.03,0:14:51.60,Dialogue,,0,0,0,,Then what is it?
-Dialogue: 0,0:14:52.02,0:14:53.60,Dialogue Top,,0,0,0,,U-um...
-Dialogue: 0,0:14:51.60,0:14:52.88,Dialogue,,0,0,0,,To start with, I never agreed to wear it!
-Dialogue: 0,0:14:52.53,0:14:53.87,Dialogue,,0,0,0,,Why don't you just try it on?
-Dialogue: 0,0:14:54.83,0:14:56.75,Dialogue,,0,0,0,,Sorry for the wait!
-Dialogue: 0,0:14:58.69,0:14:59.80,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:15:00.25,0:15:02.72,Dialogue,,0,0,0,,Eh, why a skirt?
-Dialogue: 0,0:15:02.72,0:15:06.13,Dialogue,,0,0,0,,I couldn't get them to change the outfit, sorry!
-Dialogue: 0,0:15:06.13,0:15:12.31,Dialogue,,0,0,0,,And that's why... I figured this was just\Nabout the only thing left that I could do!
-Dialogue: 0,0:15:12.31,0:15:14.48,Dialogue,,0,0,0,,When you move like that, it's even grosser!
-Dialogue: 0,0:15:14.48,0:15:16.24,Dialogue,,0,0,0,,Don't call me gross!
-Dialogue: 0,0:15:16.24,0:15:19.79,Dialogue,,0,0,0,,You're very cute, Producer-san~
-Dialogue: 0,0:15:19.79,0:15:20.90,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:15:21.64,0:15:23.30,Dialogue,,0,0,0,,Th-thanks...
-Dialogue: 0,0:15:23.30,0:15:25.36,Dialogue,,0,0,0,,Why are you wearing it?
-Dialogue: 0,0:15:25.36,0:15:26.39,Dialogue,,0,0,0,,Well...
-Dialogue: 0,0:15:26.39,0:15:28.39,Dialogue,,0,0,0,,Apologize to Sasaki-san!
-Dialogue: 0,0:15:28.39,0:15:28.96,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:15:28.96,0:15:32.85,Dialogue,,0,0,0,,Eh, A-Arisu-chan, Chie's fine...
-Dialogue: 0,0:15:32.85,0:15:33.58,Dialogue,,0,0,0,,Pfft...
-Dialogue: 0,0:15:33.58,0:15:35.48,Dialogue,,0,0,0,,Hahahaha!
-Dialogue: 0,0:15:35.48,0:15:38.12,Dialogue,,0,0,0,,It sure looks good on you, Producer!
-Dialogue: 0,0:15:38.12,0:15:40.76,Dialogue,,0,0,0,,It's ridiculous!
-Dialogue: 0,0:15:40.76,0:15:41.44,Dialogue,,0,0,0,,Haru.
-Dialogue: 0,0:15:41.44,0:15:42.17,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:15:43.61,0:15:45.55,Dialogue,,0,0,0,,I'm sorry.
-Dialogue: 0,0:15:45.55,0:15:47.51,Dialogue,,0,0,0,,I-it's fine.
-Dialogue: 0,0:15:47.51,0:15:49.74,Dialogue,,0,0,0,,I'm sorry for being selfish.
-Dialogue: 0,0:15:49.74,0:15:54.32,Dialogue,,0,0,0,,Huh? What's wrong with being selfish?
-Dialogue: 0,0:15:54.83,0:15:57.12,Dialogue,,0,0,0,,That's just like you.
-Dialogue: 0,0:15:57.12,0:15:58.98,Dialogue,,0,0,0,,Huh? What's that supposed to mean?
-Dialogue: 0,0:15:58.98,0:16:00.86,Dialogue Top,,0,0,0,,I mean, even just the other day...
-Dialogue: 0,0:16:00.45,0:16:02.53,Dialogue Top,,0,0,0,,What are you trying to say?
-Dialogue: 0,0:16:00.45,0:16:02.53,Dialogue,,0,0,0,,Yuuki-san, Matoba-san.
-Dialogue: 0,0:16:02.53,0:16:03.81,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:16:03.81,0:16:06.36,Dialogue,,0,0,0,,Think you're ready to start the lesson?
-Dialogue: 0,0:16:08.40,0:16:09.74,Dialogue,,0,0,0,,Of course.
-Dialogue: 0,0:16:08.40,0:16:09.74,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:16:11.93,0:16:15.81,Dialogue,,0,0,0,,More importantly, how about you\Nhurry up and get changed already?
-Dialogue: 0,0:16:15.81,0:16:17.70,Dialogue,,0,0,0,,Ahh...
-Dialogue: 1,0:16:21.54,0:16:28.55,Sign Generic,,0,0,0,,{\fnKG Corner of the Sky\1c&H29281F&\1a&H00&\-1\blur1\pos(1772.25,421.5)}Delicate floor
-Dialogue: 0,0:16:23.11,0:16:24.39,Dialogue,,0,0,0,,Phew...
-Dialogue: 0,0:16:25.05,0:16:26.77,Dialogue,,0,0,0,,Producer!
-Dialogue: 0,0:16:26.77,0:16:28.04,Dialogue,,0,0,0,,Thanks...
-Dialogue: 0,0:16:28.04,0:16:31.51,Dialogue,,0,0,0,,Also... sorry for laughing!
-Dialogue: 1,0:16:28.55,0:16:31.51,Sign Generic,,0,0,0,,{\fnKG Corner of the Sky\fs40\1c&H2B2821&\1a&H00&\-1\blur1.5\pos(1346.8,199.68)}Delicate floor
-Dialogue: 0,0:16:32.20,0:16:35.44,Dialogue,,0,0,0,,Risa, let's go get some burgers!
-Dialogue: 0,0:16:35.44,0:16:37.17,Dialogue,,0,0,0,,I told you, you're an idol!
-Dialogue: 0,0:16:37.17,0:16:39.14,Dialogue,,0,0,0,,Idols eat them too, don't they?
-Dialogue: 0,0:16:46.09,0:16:47.84,Dialogue,,0,0,0,,This is so exciting, isn't it?
-Dialogue: 0,0:16:47.45,0:16:48.76,Dialogue,,0,0,0,,So excited!
-Dialogue: 0,0:16:47.84,0:16:49.32,Dialogue,,0,0,0,,I can't wait!
-Dialogue: 0,0:16:51.44,0:16:53.41,Dialogue,,0,0,0,,Yuuki-san, Matoba-san,
-Dialogue: 0,0:16:53.41,0:16:55.17,Dialogue,,0,0,0,,it's about time to standby.
-Dialogue: 0,0:16:55.17,0:16:56.91,Dialogue,,0,0,0,,Okay.
-Dialogue: 0,0:16:58.34,0:16:59.58,Dialogue,,0,0,0,,Think you'll be okay?
-Dialogue: 0,0:16:59.58,0:17:00.41,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:17:00.41,0:17:03.41,Dialogue,,0,0,0,,I'm still not used to it, and it feels weird,
-Dialogue: 0,0:17:03.41,0:17:05.59,Dialogue,,0,0,0,,but it's better than it was at first.
-Dialogue: 0,0:17:05.59,0:17:07.14,Dialogue,,0,0,0,,Helps that I'm wearing spats too.
-Dialogue: 0,0:17:07.14,0:17:09.49,Dialogue,,0,0,0,,You really got permission for that, right?
-Dialogue: 0,0:17:09.49,0:17:10.49,Dialogue,,0,0,0,,Of course.
-Dialogue: 0,0:17:10.49,0:17:12.80,Dialogue,,0,0,0,,I did have to put in a little effort for it though!
-Dialogue: 0,0:17:12.80,0:17:14.62,Dialogue,,0,0,0,,What's with that?
-Dialogue: 0,0:17:26.50,0:17:31.57,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:31.57,0:17:37.36,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:37.36,0:17:43.09,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:43.09,0:17:48.78,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:48.78,0:17:54.38,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:54.38,0:18:00.40,Dialogue Top,,0,0,0,,Encore! Encore! Encore!
-Dialogue: 0,0:17:54.38,0:17:58.09,Dialogue,,0,0,0,,What's this, you feeling nervous?
-Dialogue: 0,0:17:58.63,0:17:59.67,Dialogue,,0,0,0,,Fufun~
-Dialogue: 0,0:17:59.67,0:18:01.11,Dialogue,,0,0,0,,Heheh...
-Dialogue: 0,0:18:01.11,0:18:03.43,Dialogue,,0,0,0,,They're about to be seen by everyone, after all.
-Dialogue: 0,0:18:03.43,0:18:06.55,Dialogue,,0,0,0,,Wanna eat some sweets with Syuko-chan?
-Dialogue: 0,0:18:06.55,0:18:09.53,Dialogue,,0,0,0,,Just follow along with us and you'll be fine!
-Dialogue: 0,0:18:09.53,0:18:11.10,Dialogue,,0,0,0,,Let's have fun together!
-Dialogue: 0,0:18:11.10,0:18:14.43,Dialogue,,0,0,0,,Wow! Mika-chan's charisma mode!
-Dialogue: 0,0:18:14.43,0:18:15.29,Dialogue,,0,0,0,,Whew whew!
-Dialogue: 0,0:18:15.29,0:18:17.12,Dialogue,,0,0,0,,Rika-chan's here after all.
-Dialogue: 0,0:18:17.12,0:18:19.25,Dialogue,,0,0,0,,Th-that's not it!
-Dialogue: 0,0:18:19.25,0:18:21.49,Dialogue,,0,0,0,,Oh...
-Dialogue: 0,0:18:27.13,0:18:29.49,Dialogue,,0,0,0,,Time for the kickoff, Risa.
-Dialogue: 0,0:18:30.47,0:18:31.63,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:18:32.42,0:18:34.40,Dialogue,,0,0,0,,Let's go, Haru!
-Dialogue: 0,0:18:58.82,0:18:59.92,Nightwear Romaji Shiki,,0,0,0,,{\=12\q2\fad(500,200)\k7} {\k27}Ho{\k76}ra
-Dialogue: 0,0:18:58.82,0:18:59.92,Nightwear TL Shiki,,0,0,0,,{\q2\fad(500,200)}Come on
-Dialogue: 0,0:18:59.92,0:19:01.74,Nightwear Romaji Shiki,,0,0,0,,{\q2\fad(200,200)\k33} {\k18}O{\k20}wa{\k23}rou {\k20}yo {\k34}mot{\k34}to
-Dialogue: 0,0:18:59.92,0:19:01.74,Nightwear TL Shiki,,0,0,0,,{\q2\fad(200,200)}Let's end this, more
-Dialogue: 0,0:19:01.74,0:19:03.92,Nightwear Romaji Shiki,,0,0,0,,{\q2\fad(200,200)\k31} {\k14}Ka{\k18}mi{\k24}tsui{\k20}te {\k38}sot{\k73}to
-Dialogue: 0,0:19:01.74,0:19:03.92,Nightwear TL Shiki,,0,0,0,,{\q2\fad(200,200)}Bite me softly
-Dialogue: 0,0:19:03.92,0:19:04.99,Nightwear Romaji Shiki,,0,0,0,,{\q2\fad(200,200)\k26} {\k81}Sou
-Dialogue: 0,0:19:03.92,0:19:04.99,Nightwear TL Shiki,,0,0,0,,{\q2\fad(200,200)}Yeah
-Dialogue: 0,0:19:04.99,0:19:08.99,Nightwear Romaji Fred,,0,0,0,,{\q2\fad(200,200)\k44} {\k29}Se{\k25}na{\k24}ka {\k17}ni {\k38}tsui{\k68}ta {\k10}o{\k23}mo{\k21}ri {\k23}ha{\k24}zu{\k17}shi{\k37}te
-Dialogue: 0,0:19:04.99,0:19:08.99,Nightwear TL Fred,,0,0,0,,{\q2\fad(200,200)}Take off this weight from my back
-Dialogue: 0,0:19:08.99,0:19:11.38,Nightwear Romaji Fred,,0,0,0,,{\q2\fad(200,200)\k23} {\k14}A{\k20}ra{\k22}re {\k21}mo {\k37}nai {\k102}ne
-Dialogue: 0,0:19:08.99,0:19:11.38,Nightwear TL Fred,,0,0,0,,{\q2\fad(200,200)}Isn't that immodest of me?
-Dialogue: 0,0:19:11.38,0:19:14.25,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k40} {\k17}Ka{\k27}ri{\k18}nu{\k26}i {\k23}no {\k23}nai{\k19}to{\k19}we{\k75}a
-Dialogue: 0,0:19:11.38,0:19:14.25,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}This loosely-sewn nightwear
-Dialogue: 0,0:19:14.25,0:19:16.25,Nightwear Romaji Syuko,,0,0,0,,{\q2\fad(200,200)\k32} {\k15}Fu{\k23}ta{\k22}ri {\k21}no {\k34}ai{\k53}da
-Dialogue: 0,0:19:14.25,0:19:16.25,Nightwear TL Syuko,,0,0,0,,{\q2\fad(200,200)}A clear conversation
-Dialogue: 0,0:19:16.25,0:19:18.41,Nightwear Romaji Syuko,,0,0,0,,{\q2\fad(200,200)\k14} {\k21}To{\k12}u{\k25}mei {\k21}na {\k33}kai{\k90}wa
-Dialogue: 0,0:19:16.25,0:19:18.41,Nightwear TL Syuko,,0,0,0,,{\q2\fad(200,200)}between the two of us
-Dialogue: 0,0:19:18.41,0:19:19.76,Nightwear Romaji Syuko,,0,0,0,,{\q2\fad(200,200)\k22} {\k113}Mou
-Dialogue: 0,0:19:18.41,0:19:19.76,Nightwear TL Syuko,,0,0,0,,{\q2\fad(200,200)}Now
-Dialogue: 0,0:19:19.76,0:19:21.69,Nightwear Romaji Mika,,0,0,0,,{\q2\fad(200,200)\k22} {\k15}I{\k17}bi{\k24}tsu {\k19}na {\k35}auto{\k61}rain
-Dialogue: 0,0:19:19.76,0:19:21.69,Nightwear TL Mika,,0,0,0,,{\q2\fad(200,200)}This twisted outline
-Dialogue: 0,0:19:21.69,0:19:23.47,Nightwear Romaji Mika,,0,0,0,,{\q2\fad(200,200)\k7} {\k13}I{\k17}mi {\k17}su{\k31}ru {\k35}nai {\k58}wa
-Dialogue: 0,0:19:21.69,0:19:23.47,Nightwear TL Mika,,0,0,0,,{\q2\fad(200,200)}has no meaning
-Dialogue: 0,0:19:23.47,0:19:25.68,Nightwear Romaji Kanade,,0,0,0,,{\q2\fad(200,200)\k9} {\k15}Yu{\k19}bi {\k21}de {\k30}ko{\k14}wa{\k13}shi{\k100}te
-Dialogue: 0,0:19:23.47,0:19:25.68,Nightwear TL Kanade,,0,0,0,,{\q2\fad(200,200)}Break me with your fingers
-Dialogue: 0,0:19:25.68,0:19:26.85,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k10} {\k24}Ho{\k83}ra
-Dialogue: 0,0:19:25.68,0:19:26.85,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Come on
-Dialogue: 0,0:19:41.07,0:19:43.09,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k43} {\k9}A{\k21}i{\k23}mai {\k20}na {\k34}kisu {\k52}ja
-Dialogue: 0,0:19:41.07,0:19:43.09,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Just a vague kiss
-Dialogue: 0,0:19:43.09,0:19:44.82,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k15} {\k14}Ta{\k22}ri{\k20}nai {\k23}yo {\k24}ko{\k12}n{\k43}ya
-Dialogue: 0,0:19:43.09,0:19:44.82,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}won't be enough for tonight
-Dialogue: 0,0:19:44.82,0:19:46.53,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k23} {\k14}Ha{\k20}ni{\k23}kan{\k14}da {\k38}shou{\k39}jo
-Dialogue: 0,0:19:44.82,0:19:46.53,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}That bashful girl
-Dialogue: 0,0:19:46.53,0:19:48.35,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k18} {\k11}Ko{\k14}ko {\k23}ni {\k21}wa {\k20}i{\k36}nai {\k39}no
-Dialogue: 0,0:19:46.53,0:19:48.35,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}isn't here now
-Dialogue: 0,0:19:48.35,0:19:50.15,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k33} {\k7}Ma{\k22}chi{\k23}gai {\k24}mo {\k29}zen{\k42}bu
-Dialogue: 0,0:19:48.35,0:19:50.15,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Even all the mistakes
-Dialogue: 0,0:19:50.15,0:19:51.89,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k17} {\k22}Shi{\k21}ri{\k24}tai {\k20}yo {\k36}kit{\k34}to
-Dialogue: 0,0:19:50.15,0:19:51.89,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}I'm sure I want to know them
-Dialogue: 0,0:19:51.89,0:19:55.71,Nightwear Romaji Kanade,,0,0,0,,{\q2\fad(200,200)\k22} {\k14}Wa{\k25}ta{\k17}shi {\k30}da{\k16}ke {\k24}no {\k19}ki{\k21}mi {\k23}o {\k16}mi{\k29}se{\k126}te
-Dialogue: 0,0:19:51.89,0:19:55.71,Nightwear TL Kanade,,0,0,0,,{\q2\fad(200,200)}Show me the you that belongs only to me
-Dialogue: 0,0:19:55.71,0:19:57.41,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k12} {\k12}Ba{\k18}chi{\k23}gai {\k19}na {\k22}ki{\k15}su {\k49}de
-Dialogue: 0,0:19:55.71,0:19:57.41,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Out-of-place kisses
-Dialogue: 0,0:19:57.41,0:19:59.09,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k15} {\k16}Ka{\k16}ma{\k27}wa{\k26}nai {\k29}kon{\k39}ya
-Dialogue: 0,0:19:57.41,0:19:59.09,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}won't bother me tonight
-Dialogue: 0,0:19:59.09,0:20:00.95,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k28} {\k10}Ka{\k24}ji{\k22}kan{\k23}da {\k33}ryou{\k46}te
-Dialogue: 0,0:19:59.09,0:20:00.95,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}I want you to melt
-Dialogue: 0,0:20:00.95,0:20:02.64,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k14} {\k7}To{\k7}ka{\k27}shi{\k22}te {\k17}ho{\k29}shi{\k11}ku{\k35}te
-Dialogue: 0,0:20:00.95,0:20:02.64,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}these frozen hands
-Dialogue: 0,0:20:02.64,0:20:04.39,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k30} {\k13}Ma{\k24}chi{\k22}gai {\k18}mo {\k39}zen{\k29}bu
-Dialogue: 0,0:20:02.64,0:20:04.39,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Even all the mistakes
-Dialogue: 0,0:20:04.39,0:20:06.20,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k34} {\k12}Da{\k24}shi{\k21}kit{\k22}te {\k35}dou{\k33}ka
-Dialogue: 0,0:20:04.39,0:20:06.20,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Please use them up
-Dialogue: 0,0:20:06.20,0:20:10.89,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k24} {\k10}Ko{\k26}no {\k19}te {\k33}o {\k11}a{\k21}ta{\k17}ta{\k28}me{\k19}ru {\k26}yo{\k23}u {\k112}ni {\k22}ke{\k13}ga{\k33}shi{\k32}te
-Dialogue: 0,0:20:06.20,0:20:10.89,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Dirty my hands to warm them up
-Dialogue: 0,0:20:16.90,0:20:18.50,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,200)\k14} {\k23}Ke{\k21}ga{\k26}shi{\k76}te
-Dialogue: 0,0:20:16.90,0:20:18.50,Nightwear TL Group,,0,0,0,,{\q2\fad(200,200)}Dirty me
-Dialogue: 0,0:20:24.92,0:20:26.80,Nightwear Romaji Group,,0,0,0,,{\q2\fad(200,500)\k11} {\k147}Ne{\k30}e
-Dialogue: 0,0:20:24.92,0:20:26.80,Nightwear TL Group,,0,0,0,,{\=13\q2\fad(200,500)}Okay?
-Dialogue: 0,0:19:35.57,0:19:37.56,Dialogue,,0,0,0,,So cool!
-Dialogue: 0,0:19:36.08,0:19:37.94,Dialogue,,0,0,0,,Risa-chan!
-Dialogue: 0,0:19:48.12,0:19:51.42,Dialogue,,0,0,0,,Haru-chan looks so cool~
-Dialogue: 0,0:19:51.42,0:19:56.75,Dialogue,,0,0,0,,But, man, she really catches your eye, doesn't she?
-Dialogue: 0,0:20:52.64,0:20:56.11,Dialogue,,0,0,0,,Oh man! That was a blast!
-Dialogue: 0,0:20:56.11,0:20:58.64,Dialogue,,0,0,0,,Good work! You were great!
-Dialogue: 0,0:20:58.64,0:21:03.13,Dialogue,,0,0,0,,I messed up a step and it's like I can\Nbarely remember anything at all!
-Dialogue: 0,0:21:03.13,0:21:04.74,Dialogue,,0,0,0,,You...
-Dialogue: 0,0:21:06.99,0:21:08.18,Dialogue,,0,0,0,,Producer!
-Dialogue: 0,0:21:08.18,0:21:08.70,Dialogue,,0,0,0,,Hm?
-Dialogue: 0,0:21:08.70,0:21:11.20,Dialogue,,0,0,0,,It sure is fun being an idol, huh?
-Dialogue: 0,0:21:12.45,0:21:13.96,Dialogue,,0,0,0,,Isn't it?
-Dialogue: 0,0:21:13.96,0:21:16.21,Dialogue,,0,0,0,,Good work, everyone!
-Dialogue: 0,0:21:16.21,0:21:17.86,Dialogue,,0,0,0,,Shiki!
-Dialogue: 0,0:21:17.86,0:21:19.84,Dialogue,,0,0,0,,Today was so much fun!
-Dialogue: 0,0:21:19.84,0:21:22.39,Dialogue,,0,0,0,,Let me be a backup dancer for you again sometime!
-Dialogue: 0,0:21:22.39,0:21:23.70,Dialogue,,0,0,0,,Eh~
-Dialogue: 0,0:21:23.70,0:21:25.09,Dialogue,,0,0,0,,No thank you.
-Dialogue: 0,0:21:25.09,0:21:26.10,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:21:26.10,0:21:27.89,Dialogue,,0,0,0,,You had fun, right?
-Dialogue: 0,0:21:27.89,0:21:29.22,Dialogue,,0,0,0,,Well then...
-Dialogue: 0,0:21:32.72,0:21:35.23,Dialogue,,0,0,0,,How 'bout you reach my level?
-Dialogue: 0,0:21:44.09,0:21:46.71,Dialogue,,0,0,0,,Haru-chan!
-Dialogue: 0,0:21:48.10,0:21:49.20,Dialogue,,0,0,0,,Hey, hey...
-Dialogue: 0,0:21:49.71,0:21:52.00,Dialogue,,0,0,0,,You were so amazing!
-Dialogue: 0,0:21:51.62,0:21:54.87,Dialogue,,0,0,0,,Haru-chan, you did wonderfully~
-Dialogue: 0,0:21:52.35,0:21:54.45,Dialogue,,0,0,0,,You were shining!
-Dialogue: 0,0:22:00.57,0:22:03.98,Dialogue,,0,0,0,,Next time, let's get you guys\Nto stand on your own stage.
-Dialogue: 0,0:22:04.76,0:22:09.26,Dialogue,,0,0,0,,With your own outfits,\Nand by your own wills, okay?
-Dialogue: 0,0:22:09.26,0:22:10.89,Dialogue,,0,0,0,,Ah...
-Dialogue: 0,0:22:10.89,0:22:12.52,Dialogue,,0,0,0,,Wahh!
-Dialogue: 0,0:22:17.28,0:22:21.40,Dialogue,,0,0,0,,Yeah, I'll stand on the field of an idol.
-Dialogue: 0,0:22:21.40,0:22:25.03,Dialogue,,0,0,0,,I'm counting on you, Producer!
-Dialogue: 0,0:22:33.37,0:22:38.80,Song ED Romaji,,0,0,0,,{\=28\q2\fad(500,200)\k19} {\k64}Pat{\k16}to {\k38}hi{\k29}rai{\k43}te{\k42}ku {\k23}ji{\k32}bun {\k31}ni {\k42}a{\k43}ru {\k21}ka{\k29}nou{\k34}sei {\k37}o
-Dialogue: 0,0:22:33.37,0:22:38.80,Song ED TL,,0,0,0,,{\q2\fad(500,200)}The possibilities within you burst open
-Dialogue: 0,0:22:38.40,0:22:40.34,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k11} {\k33}(Star{\k23}ry {\k42}eyed {\k21}Let {\k21}it {\k43}ride)
-Dialogue: 0,0:22:38.40,0:22:40.34,Song ED TL,,0,0,0,,{\q2\fad(200,200)}(Starry eyed, Let it ride)
-Dialogue: 0,0:22:40.23,0:22:46.61,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k7} {\k64}Mat{\k23}te{\k33}ru {\k31}yo{\k42}ri {\k43}mo {\k20}mu{\k22}ka{\k11}e {\k21}ni {\k9}i{\k43}kut{\k40}te {\k24}ki{\k31}me{\k33}ta{\k141}ra
-Dialogue: 0,0:22:40.23,0:22:46.61,Song ED TL,,0,0,0,,{\q2\fad(200,200)}How about you go meet them rather than waiting around?
-Dialogue: 0,0:22:46.61,0:22:50.47,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k7} {\k61}Uh {\k17}mu{\k27}suu {\k19}no {\k10}koo{\k21}su {\k77}o {\k21}e{\k21}ran{\k19}de {\k31}Lock {\k55}on
-Dialogue: 0,0:22:46.61,0:22:50.47,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Oh, choose from the countless courses and Lock on
-Dialogue: 0,0:22:50.47,0:22:53.84,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k22} {\k7}Mu{\k15}zu{\k11}ka{\k17}shi{\k12}i {\k22}shou{\k11}bu {\k32}mo {\k20}te {\k17}o {\k13}tsu{\k12}ku{\k32}se {\k27}zen{\k13}ryo{\k13}ku {\k41}de
-Dialogue: 0,0:22:50.47,0:22:53.84,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Even in a difficult match, give it everything you've got
-Dialogue: 0,0:22:53.84,0:22:57.21,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k23} {\k20}Ji{\k22}yuu {\k22}ni {\k20}no{\k10}zo{\k74}mou {\k21}tsu{\k23}kan{\k19}de {\k35}Hold {\k48}on
-Dialogue: 0,0:22:53.84,0:22:57.21,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Confront it at your own pace, grab it and Hold on
-Dialogue: 0,0:22:57.21,0:23:00.48,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k18} {\k27}Se{\k20}na{\k21}ka {\k10}o{\k13}su {\k13}ka{\k26}ze {\k24}chi{\k12}ka{\k9}ra {\k13}ko{\k8}me{\k7}ta{\k14}ra {\k10}ka{\k11}ra{\k14}da {\k8}u{\k10}go{\k10}ka{\k29}se
-Dialogue: 0,0:22:57.21,0:23:00.48,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Move your body with the wind at your back
-Dialogue: 0,0:23:01.97,0:23:04.49,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k11} {\k21}Me{\k21}za{\k13}su {\k10}ri{\k21}sou {\k21}to {\k41}ses{\k93}shon
-Dialogue: 0,0:23:01.97,0:23:04.49,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Have a session with your aimed-for ideal
-Dialogue: 0,0:23:05.33,0:23:07.24,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k13} {\k20}Ma{\k16}ke{\k29}nai {\k31}kon{\k12}bi{\k40}nee{\k30}shon
-Dialogue: 0,0:23:05.33,0:23:07.24,Song ED TL,,0,0,0,,{\q2\fad(200,200)}An undefeatable combination
-Dialogue: 0,0:23:08.72,0:23:11.36,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k12} {\k11}Ma{\k11}e{\k16}no{\k11}me{\k15}ri {\k13}no {\k30}foo{\k42}mee{\k103}shon
-Dialogue: 0,0:23:08.72,0:23:11.36,Song ED TL,,0,0,0,,{\q2\fad(200,200)}A proactive formation
-Dialogue: 0,0:23:13.79,0:23:15.66,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k14} {\k173}(Foo!)
-Dialogue: 0,0:23:13.79,0:23:15.66,Song ED TL,,0,0,0,,{\q2\fad(200,200)}(Foo!)
-Dialogue: 0,0:23:15.66,0:23:21.76,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k17} {\k42}Wake {\k38}up {\k25}tsu{\k42}me{\k43}kon{\k42}da {\k21}ki{\k21}ta{\k22}i {\k20}no {\k43}One {\k42}day {\k18}ka{\k24}chi{\k14}to{\k29}ru {\k43}ma{\k64}de
-Dialogue: 0,0:23:15.66,0:23:21.76,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Wake up those bottled-up expectations until One day you win
-Dialogue: 0,0:23:21.76,0:23:28.72,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k19} {\k18}A{\k25}tsu{\k20}ku {\k43}Run {\k43}up {\k21}i{\k44}tsu{\k40}de{\k42}mo {\k41}hon{\k22}ki {\k21}de {\k41}Let's {\k44}try {\k21}ta{\k17}me{\k21}shi{\k26}te {\k42}mi{\k85}tai
-Dialogue: 0,0:23:21.76,0:23:28.72,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Run up passionately and Let's try to challenge things seriously
-Dialogue: 0,0:23:28.72,0:23:32.52,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k15} {\k47}Hey! {\k9}ka{\k14}ke{\k9}go{\k31}e {\k22}ni {\k11}ko{\k11}ta{\k8}e{\k34}te {\k39}Hey! {\k23}sou {\k10}ta{\k12}no{\k21}shii {\k9}na{\k12}ra {\k9}su{\k12}be{\k22}te
-Dialogue: 0,0:23:28.72,0:23:32.52,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Hey! Respond to the cheers, and Hey! All that matters is having fun
-Dialogue: 0,0:23:32.52,0:23:36.06,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k20} {\k11}A{\k12}ki{\k8}ra{\k34}me{\k19}nai {\k10}a{\k12}shi{\k11}ta {\k22}e {\k40}su{\k33}su{\k21}n{\k20}de{\k42}kou{\k39}ze
-Dialogue: 0,0:23:32.52,0:23:36.06,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Let's move forward to tomorrow without giving up
-Dialogue: 0,0:23:36.06,0:23:40.87,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k5} {\k42}Will {\k42}go {\k33}ta{\k31}bi{\k40}da{\k44}tsu {\k21}ta{\k21}ga{\k22}i {\k21}ni {\k41}Good {\k118}luck
-Dialogue: 0,0:23:36.06,0:23:40.87,Song ED TL,,0,0,0,,{\q2\fad(200,200)}We'll go on a journey and wish each other Good luck
-Dialogue: 0,0:23:40.87,0:23:44.44,Song ED Romaji,,0,0,0,,{\q2\fad(200,500)\k10} {\k16}Ya{\k18}ri{\k14}tai {\k26}ko{\k20}to {\k33}ka{\k20}na{\k21}e{\k179}you
-Dialogue: 0,0:23:40.87,0:23:44.44,Song ED TL,,0,0,0,,{\=29\q2\fad(200,500)}Let's make our dreams come true
+Dialogue: 0,0:00:24.96,0:00:27.18,*Dialogue,,0,0,0,,Wah...
+Dialogue: 0,0:00:51.40,0:00:53.99,Dialogue,,0,0,0,,I hope tomorrow is sunny too~
+Dialogue: 0,0:00:53.99,0:00:55.99,Dialogue,,0,0,0,,Right, Hyou-kun?
+Dialogue: 0,0:01:00.97,0:01:03.72,Song OP Romaji,,0,0,0,,{\=28\k17\q2\fad(500,200)\k27}Te {\k28}to {\k21}te {\k67}o {\k35}tsu{\k29}na{\k18}i{\k33}de
+Dialogue: 0,0:01:00.97,0:01:03.72,Song OP TL,,0,0,0,,{\q2\fad(500,200)}Hand in hand together
+Dialogue: 0,0:01:03.72,0:01:07.69,Song OP Romaji,,0,0,0,,{\k18\q2\fad(200,200)\k15}Ki{\k10}mi {\k23}to {\k34}is{\k18}sho {\k54}ni {\k9}ni{\k13}ji {\k20}no {\k32}sa{\k21}ki {\k130}e
+Dialogue: 0,0:01:03.72,0:01:07.69,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Together with you, beyond the rainbow
+Dialogue: 0,0:01:14.60,0:01:17.56,Song OP Romaji,,0,0,0,,{\k34\q2\fad(200,200)\k18}Ta{\k18}ka{\k17}ra{\k37}mo{\k15}no {\k19}o {\k17}mi{\k35}tsu{\k38}ke {\k48}ni
+Dialogue: 0,0:01:14.60,0:01:17.56,Song OP TL,,0,0,0,,{\q2\fad(200,200)}In order to find the treasure
+Dialogue: 0,0:01:17.56,0:01:20.41,Song OP Romaji,,0,0,0,,{\k21\q2\fad(200,200)\k17}Do{\k19}a {\k20}no {\k32}mu{\k34}kou {\k19}e {\k17}de{\k19}ka{\k32}ke{\k55}you
+Dialogue: 0,0:01:17.56,0:01:20.41,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Let's go outside, past the door
+Dialogue: 0,0:01:20.41,0:01:24.17,Song OP Romaji,,0,0,0,,{\k18\q2\fad(200,200)\k18}Ga{\k16}ra{\k21}su {\k32}no {\k18}ku{\k37}tsu {\k53}mo {\k15}ba{\k23}sha {\k49}mo {\k36}nai {\k19}ke{\k21}do
+Dialogue: 0,0:01:20.41,0:01:24.17,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Though we don't have glass shoes or a carriage
+Dialogue: 0,0:01:24.17,0:01:26.12,Song OP Romaji,,0,0,0,,{\k9\q2\fad(200,200)\k38}Jit{\k17}to {\k20}shi{\k15}te{\k20}ra{\k18}re{\k22}na{\k36}i
+Dialogue: 0,0:01:24.17,0:01:26.12,Song OP TL,,0,0,0,,{\q2\fad(200,200)}I just can't stay put
+Dialogue: 0,0:01:26.12,0:01:28.96,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k8\k19}To{\k20}ki{\k18}me{\k33}ki {\k19}no {\k20}o{\k32}to {\k17}ta{\k20}ka{\k20}na{\k58}ru
+Dialogue: 0,0:01:26.12,0:01:28.96,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The beating sound of my heart
+Dialogue: 0,0:01:28.96,0:01:31.50,Song OP Romaji,,0,0,0,,{\k9\q2\fad(200,200)\k20}ko{\k34}dou {\k33}no {\k22}ha{\k14}ri {\k37}chik{\k18}ku {\k35}tak{\k32}ku
+Dialogue: 0,0:01:28.96,0:01:31.50,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The pointer on my pulse goes tick-tock
+Dialogue: 0,0:01:31.50,0:01:36.05,Song OP Romaji,,0,0,0,,{\k39\q2\fad(200,200)\k15}Ma{\k21}ho{\k19}u {\k83}no {\k21}ju{\k18}mo{\k21}n {\k64}wa {\k19}ko{\k19}ko{\k17}ro {\k14}ga {\k39}shit{\k20}te{\k26}ru
+Dialogue: 0,0:01:31.50,0:01:36.05,Song OP TL,,0,0,0,,{\q2\fad(200,200)}My heart knows the magic spell
+Dialogue: 0,0:01:36.05,0:01:37.07,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k24\k18}Wa{\k18}ku{\k15}wa{\k27}ku
+Dialogue: 0,0:01:36.05,0:01:37.07,Song OP TL,,0,0,0,,{\q2\fad(200,200)}So exciting
+Dialogue: 0,0:01:37.07,0:01:39.02,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k20}Hi{\k16}bi{\k20}ku {\k33}me{\k36}ro{\k18}di{\k42}i
+Dialogue: 0,0:01:37.07,0:01:39.02,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The resounding melody
+Dialogue: 0,0:01:39.02,0:01:39.95,Song OP Romaji,,0,0,0,,{\k8\q2\fad(200,200)\k19}Ki{\k19}ko{\k19}e{\k28}ru?
+Dialogue: 0,0:01:39.02,0:01:39.95,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Can you hear it?
+Dialogue: 0,0:01:39.95,0:01:41.81,Song OP Romaji,,0,0,0,,{\q2\fad(200,200)\k6\k18}Mi{\k17}mi {\k11}o {\k41}su{\k25}ma{\k28}shi{\k40}te
+Dialogue: 0,0:01:39.95,0:01:41.81,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Listen carefully
+Dialogue: 0,0:01:41.81,0:01:42.60,Song OP Romaji,,0,0,0,,{\k8\q2\fad(200,200)\k21}Ha{\k20}ji{\k18}ma{\k12}ru!
+Dialogue: 0,0:01:41.81,0:01:42.60,Song OP TL,,0,0,0,,{\q2\fad(200,200)}It's starting!
+Dialogue: 0,0:01:42.60,0:01:44.47,Song OP Romaji,,0,0,0,,{\k23\q2\fad(200,200)\k19}Mi{\k16}n{\k18}na {\k17}de {\k20}"su{\k35}taa{\k39}to!"
+Dialogue: 0,0:01:42.60,0:01:44.47,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Everyone's starting together
+Dialogue: 0,0:01:44.47,0:01:47.15,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k26}Ha{\k31}shi{\k16}ri {\k31}da{\k40}so{\k19}u {\k33}Let's {\k62}go!!
+Dialogue: 0,0:01:44.47,0:01:47.15,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Start running, let's go!!
+Dialogue: 0,0:01:47.15,0:01:50.23,Song OP Romaji,,0,0,0,,{\k10\q2\fad(200,200)\k31}A{\k22}sa {\k18}da {\k17}yo {\k33}o{\k37}ha{\k66}you! {\k18}A{\k41}so{\k15}bou!
+Dialogue: 0,0:01:47.15,0:01:50.23,Song OP TL,,0,0,0,,{\q2\fad(200,200)}It's the morning, good morning! Let's play!
+Dialogue: 0,0:01:50.23,0:01:53.09,Song OP Romaji,,0,0,0,,{\k12\q2\fad(200,200)\k25}So{\k19}ra {\k16}ni {\k35}e{\k35}ga{\k68}ku {\k23}yu{\k32}me {\k21}wa
+Dialogue: 0,0:01:50.23,0:01:53.09,Song OP TL,,0,0,0,,{\q2\fad(200,200)}The dream we'll draw in the sky
+Dialogue: 0,0:01:53.09,0:01:58.15,Song OP Romaji,,0,0,0,,{\k14\q2\fad(200,200)\k18}Ta{\k21}i{\k15}yo{\k30}u {\k24}yo{\k18}ri {\k68}mo {\k31}ma{\k21}bu{\k19}shi{\k52}ku {\k20}ka{\k35}ga{\k36}ya{\k33}i{\k23}te{\k28}ru
+Dialogue: 0,0:01:53.09,0:01:58.15,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Shines brighter than the sun
+Dialogue: 0,0:01:58.15,0:02:01.49,Song OP Romaji,,0,0,0,,{\k38\q2\fad(200,200)\k31}Ge{\k21}n{\k20}ki {\k19}ni {\k35}u{\k35}ta{\k58}ou! {\k17}O{\k36}do{\k10}rou!
+Dialogue: 0,0:01:58.15,0:02:01.49,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Cheerfully, let's sing! And dance!
+Dialogue: 0,0:02:01.49,0:02:04.39,Song OP Romaji,,0,0,0,,{\k17\q2\fad(200,200)\k20}Se{\k21}ka{\k15}i{\k37}ju{\k36}u {\k67}ni {\k20}to{\k35}do{\k22}ke
+Dialogue: 0,0:02:01.49,0:02:04.39,Song OP TL,,0,0,0,,{\q2\fad(200,200)}So that it reaches the whole world
+Dialogue: 0,0:02:04.39,0:02:10.56,Song OP Romaji,,0,0,0,,{\k11\q2\fad(200,200)\k22}Mi{\k19}ra{\k17}i {\k26}o {\k25}te{\k20}ra{\k49}su {\k19}hi{\k37}ka{\k34}ri {\k55}ni {\k19}na{\k14}ru {\k18}yo {\k19}wa{\k34}ta{\k17}shi{\k35}-ta{\k127}chi
+Dialogue: 0,0:02:04.39,0:02:10.56,Song OP TL,,0,0,0,,{\q2\fad(200,200)}We'll be the lights that illuminate the future
+Dialogue: 0,0:02:10.56,0:02:13.20,Song OP Romaji,,0,0,0,,{\k13\q2\fad(200,200)\k27}Te {\k28}to {\k18}te {\k69}o {\k26}tsu{\k29}na{\k18}i{\k36}de
+Dialogue: 0,0:02:10.56,0:02:13.20,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Hand in hand together
+Dialogue: 0,0:02:13.20,0:02:16.09,Song OP Romaji,,0,0,0,,{\k13\q2\fad(200,200)\k11}Ki{\k10}mi {\k28}to {\k25}is{\k19}sho {\k50}ni {\k10}ni{\k9}ji {\k26}no {\k24}sa{\k22}ki {\k42}e
+Dialogue: 0,0:02:13.20,0:02:16.09,Song OP TL,,0,0,0,,{\q2\fad(200,200)}Together with you, beyond the rainbow
+Dialogue: 0,0:02:16.09,0:02:21.55,Song OP Romaji,,0,0,0,,{\k23\q2\fad(200,200)\k39}Ka{\k36}na{\k36}e{\k35}ru {\k52}yo {\k16}ki{\k29}se{\k21}ki {\k23}sa{\k236}e
+Dialogue: 0,0:02:16.09,0:02:21.55,Song OP TL,,0,0,0,,{\q2\fad(200,200)}As long as there are miracles that can come true
+Dialogue: 0,0:02:21.80,0:02:26.39,Song OP Romaji,,0,0,0,,{\k16\q2\fad(200,500)\k40}Ki{\k35}ra{\k36}ki{\k36}ra {\k50}ni {\k21}Sh{\k26}ine {\k22}In {\k21}The {\k-1}Sky{\b1\fnYuMinStars\k156}☆
+Dialogue: 0,0:02:21.80,0:02:26.39,Song OP TL,,0,0,0,,{\=29\q2\fad(200,500)}Twinkling Shine In The Sky{\b1\fnYuMinStars}☆
+Dialogue: 0,0:02:31.41,0:02:33.09,Dialogue,,0,0,0,,Ohh!
+Dialogue: 0,0:02:31.41,0:02:33.09,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:02:33.09,0:02:35.34,Dialogue,,0,0,0,,So this is your friend, Koharu-chan?
+Dialogue: 0,0:02:36.39,0:02:42.23,Episode Title,,0,0,0,,{\be20\x110\q2\fad(550,550)\pos(960,966)}Episode {\x100}7{\x75} {\x150}~{\x75} {\x110}What is it that can speak to you even without a voice?
+Dialogue: 0,0:02:35.34,0:02:36.71,Dialogue Top,,0,0,0,,Yes~
+Dialogue: 0,0:02:36.71,0:02:39.39,Dialogue Top,,0,0,0,,This is my best friend, Hyou-kun~
+Dialogue: 0,0:02:39.39,0:02:40.49,Dialogue Top,,0,0,0,,Hyou-kun!
+Dialogue: 0,0:02:40.49,0:02:42.30,Dialogue Top,,0,0,0,,Nice to meet you! I'm Kaoru!
+Dialogue: 0,0:02:42.68,0:02:46.01,Dialogue,,0,0,0,,Hello, I am Hyou-kun.
+Dialogue: 0,0:02:46.01,0:02:47.56,Dialogue,,0,0,0,,I am an iguana~
+Dialogue: 0,0:02:47.56,0:02:48.94,Dialogue,,0,0,0,,Huh...
+Dialogue: 0,0:02:48.94,0:02:49.73,Dialogue,,0,0,0,,Uwah!
+Dialogue: 0,0:02:49.73,0:02:53.33,Dialogue,,0,0,0,,Hehe, it's okay to pet him~
+Dialogue: 0,0:02:53.33,0:02:55.73,Dialogue,,0,0,0,,Wow, he's so well-behaved.
+Dialogue: 0,0:02:55.73,0:02:57.49,Dialogue,,0,0,0,,Yes~
+Dialogue: 0,0:02:57.49,0:02:59.78,Dialogue,,0,0,0,,Apparently, if they're\Naround humans from a young age,
+Dialogue: 0,0:02:59.78,0:03:02.24,Dialogue,,0,0,0,,iguanas can become\Nquite affectionate with people.
+Dialogue: 0,0:03:02.24,0:03:04.87,Dialogue,,0,0,0,,It also says that they're highly intelli– Uwah!?
+Dialogue: 0,0:03:05.46,0:03:07.62,Dialogue,,0,0,0,,Would you like to hold him?
+Dialogue: 0,0:03:07.62,0:03:09.79,Dialogue,,0,0,0,,Eh!? Ah...
+Dialogue: 0,0:03:10.04,0:03:12.00,Dialogue,,0,0,0,,Gently~
+Dialogue: 0,0:03:12.00,0:03:15.21,Dialogue,,0,0,0,,And just like that,\Nlet him hang over your shoulder~
+Dialogue: 0,0:03:15.21,0:03:17.21,Dialogue,,0,0,0,,Uwah!
+Dialogue: 0,0:03:17.21,0:03:19.15,Dialogue,,0,0,0,,You're good at it~
+Dialogue: 0,0:03:19.15,0:03:20.32,Dialogue,,0,0,0,,Phew...
+Dialogue: 0,0:03:20.32,0:03:21.97,Dialogue,,0,0,0,,He's quite cute.
+Dialogue: 0,0:03:21.97,0:03:23.84,Dialogue,,0,0,0,,Ehehe~
+Dialogue: 0,0:03:23.84,0:03:26.13,Dialogue,,0,0,0,,Isn't that nice, Hyou-kun?
+Dialogue: 0,0:03:27.24,0:03:29.02,Dialogue,,0,0,0,,Koga-san, I'll go next!
+Dialogue: 0,0:03:29.02,0:03:32.44,Dialogue,,0,0,0,,Sure, that's fine~
+Dialogue: 0,0:03:31.61,0:03:33.27,Dialogue,,0,0,0,,It seems safe.
+Dialogue: 0,0:03:33.27,0:03:35.76,Dialogue,,0,0,0,,I-it's not like I'm scared!
+Dialogue: 0,0:03:35.76,0:03:37.37,Dialogue,,0,0,0,,Th-th-th-that's right!
+Dialogue: 0,0:03:41.82,0:03:43.06,Dialogue,,0,0,0,,Heheh~
+Dialogue: 0,0:03:43.06,0:03:45.15,Dialogue,,0,0,0,,He really is friendly, isn't he?
+Dialogue: 0,0:03:45.15,0:03:47.48,Dialogue,,0,0,0,,You must be really close, huh?
+Dialogue: 0,0:03:47.48,0:03:48.75,Dialogue,,0,0,0,,Yes~
+Dialogue: 0,0:03:48.75,0:03:52.62,Dialogue,,0,0,0,,Hyou-kun is Koharu's knight~
+Dialogue: 0,0:03:52.62,0:03:54.30,Dialogue,,0,0,0,,Knight?
+Dialogue: 0,0:03:54.30,0:03:56.42,Dialogue,,0,0,0,,That's right~
+Dialogue: 0,0:03:56.42,0:03:59.09,Dialogue,,0,0,0,,Until recently...
+Dialogue: 0,0:03:59.09,0:04:02.09,Dialogue,,0,0,0,,Koharu would get lost a lot~
+Dialogue: 0,0:04:02.71,0:04:04.82,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:04:04.82,0:04:06.36,Dialogue,,0,0,0,,Wahh~
+Dialogue: 0,0:04:06.36,0:04:07.85,Dialogue,,0,0,0,,Ahaha!
+Dialogue: 0,0:04:08.91,0:04:11.48,Dialogue,,0,0,0,,Mommy, look, look!
+Dialogue: 0,0:04:11.48,0:04:12.56,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:04:12.56,0:04:13.91,Dialogue,,0,0,0,,Mommy...?
+Dialogue: 0,0:04:13.91,0:04:18.61,Dialogue,,0,0,0,,So I decided to wish upon the stars~
+Dialogue: 0,0:04:20.33,0:04:25.11,Dialogue,,0,0,0,,That I'd always be able to smile~
+Dialogue: 0,0:04:25.11,0:04:28.08,Dialogue,,0,0,0,,And the next day...
+Dialogue: 0,0:04:29.74,0:04:30.95,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:04:30.96,0:04:34.21,Sign Pet Store,,0,0,0,,{\1c&H49D2DB&\1a&HFF&\3c&H000000&\3a&H33&\frz5\blur1.5\1\pos(1461.67,837.22)}Just arrived
+Dialogue: 1,0:04:30.96,0:04:34.21,Sign Pet Store,,0,0,0,,{\1c&H64DBE3&\1a&H33&\bord0\frz5\blur1.5\1\pos(1461.67,837.22)}Just arrived
+Dialogue: 0,0:04:37.96,0:04:39.96,Dialogue,,0,0,0,,Wah...
+Dialogue: 0,0:04:42.89,0:04:44.97,Dialogue,,0,0,0,,Wahhh~
+Dialogue: 0,0:04:45.39,0:04:49.18,Dialogue,,0,0,0,,I became friends with Hyou-kun~
+Dialogue: 0,0:04:50.47,0:04:57.04,Dialogue,,0,0,0,,When I'm with Hyou-kun, Mommy\Nand Daddy are able to find me in no time~
+Dialogue: 0,0:04:57.04,0:05:00.86,Dialogue,,0,0,0,,It must be because Hyou-kun's protecting me, right?
+Dialogue: 0,0:05:00.86,0:05:02.35,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:05:02.35,0:05:03.82,Dialogue,,0,0,0,,Hyou-kun's so cool!
+Dialogue: 0,0:05:03.82,0:05:05.03,Dialogue,,0,0,0,,What a wonderful knight!
+Dialogue: 0,0:05:05.03,0:05:07.99,Dialogue,,0,0,0,,Maybe you should start by\Nnot getting lost in the first place...
+Dialogue: 0,0:05:07.99,0:05:09.03,Dialogue,,0,0,0,,Gyaa!
+Dialogue: 0,0:05:10.07,0:05:11.11,Dialogue,,0,0,0,,A knight...
+Dialogue: 0,0:05:11.11,0:05:13.62,Dialogue,,0,0,0,,Wait, that's like saying I'm the bad guy!
+Dialogue: 0,0:05:13.62,0:05:15.77,Dialogue,,0,0,0,,Kaoru wants to hold him too!
+Dialogue: 0,0:05:15.77,0:05:17.08,Dialogue,,0,0,0,,Heh~
+Dialogue: 0,0:05:21.24,0:05:25.09,Dialogue,,0,0,0,,Today was so much fun~
+Dialogue: 0,0:05:25.09,0:05:28.34,Dialogue,,0,0,0,,It's all thanks to you, Hyou-kun~
+Dialogue: 0,0:05:28.34,0:05:30.60,Dialogue,,0,0,0,,Ehehe~
+Dialogue: 0,0:05:32.85,0:05:40.51,Dialogue,,0,0,0,,Next time, I hope I can\Nmake even more people smile~
+Dialogue: 0,0:05:44.46,0:05:47.45,Dialogue,,0,0,0,,A job for Koharu?
+Dialogue: 0,0:05:47.45,0:05:48.45,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:05:48.45,0:05:53.70,Dialogue,,0,0,0,,There's a big event coming up and I was\Nwondering if you'd like to be on one of the stages.
+Dialogue: 0,0:05:55.22,0:05:57.58,Dialogue,,0,0,0,,But there is one condition...
+Dialogue: 0,0:05:57.58,0:06:03.74,Dialogue,,0,0,0,,It's an event where the audience\Ngets to interact with rare animals.
+Dialogue: 0,0:06:03.74,0:06:07.55,Dialogue,,0,0,0,,That is, they specifically\Nwant you to come with Hyou-kun...
+Dialogue: 0,0:06:07.55,0:06:08.53,Dialogue,,0,0,0,,What do you think?
+Dialogue: 0,0:06:09.97,0:06:11.81,Dialogue,,0,0,0,,I-I'll do it!
+Dialogue: 0,0:06:11.81,0:06:12.90,Dialogue,,0,0,0,,Y-yeah...
+Dialogue: 0,0:06:12.90,0:06:14.47,Dialogue,,0,0,0,,Hehe~
+Dialogue: 0,0:06:15.16,0:06:17.32,Dialogue,,0,0,0,,Isn't that great, Koharu-chan?
+Dialogue: 0,0:06:17.32,0:06:18.44,Dialogue,,0,0,0,,Yes~
+Dialogue: 0,0:06:18.44,0:06:22.26,Dialogue,,0,0,0,,You made a wish on a star\Nthe time you met Hyou-kun too, right?
+Dialogue: 0,0:06:22.26,0:06:24.08,Dialogue,,0,0,0,,That's right~
+Dialogue: 0,0:06:24.08,0:06:29.41,Dialogue,,0,0,0,,They always shine so brightly\Nand help Koharu out~
+Dialogue: 0,0:06:29.41,0:06:31.16,Dialogue,,0,0,0,,Lucky!
+Dialogue: 0,0:06:31.16,0:06:35.56,Dialogue,,0,0,0,,Why did you think to make\Na wish upon a star, Koga-san?
+Dialogue: 0,0:06:35.56,0:06:37.29,Dialogue,,0,0,0,,Well, you see~
+Dialogue: 0,0:06:38.29,0:06:42.36,Dialogue,,0,0,0,,It's because Koharu's dream\Nis to become a princess~
+Dialogue: 0,0:06:42.36,0:06:44.13,Dialogue,,0,0,0,,A princess?
+Dialogue: 0,0:06:44.13,0:06:45.38,Dialogue,,0,0,0,,Yes~
+Dialogue: 0,0:06:45.38,0:06:52.06,Dialogue,,0,0,0,,There's a story where, when a girl wishes\Nupon a star, she becomes a princess...
+Dialogue: 0,0:06:52.06,0:06:55.01,Dialogue,,0,0,0,,And her dress is so fluffy and sparkly...
+Dialogue: 0,0:06:55.01,0:06:57.30,Dialogue,,0,0,0,,Koharu loves it so much~
+Dialogue: 0,0:06:57.30,0:06:58.29,Dialogue,,0,0,0,,Heh...
+Dialogue: 0,0:06:58.29,0:07:00.70,Dialogue,,0,0,0,,You always wear such lovely outfits, don't you?
+Dialogue: 0,0:07:00.70,0:07:01.73,Dialogue,,0,0,0,,Mmhmm!
+Dialogue: 0,0:07:01.73,0:07:03.12,Dialogue,,0,0,0,,Ehehe~
+Dialogue: 0,0:07:03.12,0:07:04.64,Dialogue,,0,0,0,,You too, Arisu-chan~
+Dialogue: 0,0:07:04.64,0:07:07.90,Dialogue,,0,0,0,,Th-that's just what my mom prefers...
+Dialogue: 0,0:07:07.90,0:07:10.27,Dialogue,,0,0,0,,If really fluffy clothes make you a princess,
+Dialogue: 0,0:07:10.27,0:07:12.78,Dialogue,,0,0,0,,then wouldn't the clothes\Nyou normally wear make you a princess?
+Dialogue: 0,0:07:12.78,0:07:14.04,Dialogue,,0,0,0,,Wah...
+Dialogue: 0,0:07:14.04,0:07:17.89,Dialogue,,0,0,0,,K-Koharu still isn't a princess yet~
+Dialogue: 0,0:07:17.89,0:07:19.62,Dialogue,,0,0,0,,A princess would be...
+Dialogue: 0,0:07:19.62,0:07:24.66,Dialogue,,0,0,0,,...more, um... uhhh...
+Dialogue: 0,0:07:24.66,0:07:29.13,Dialogue,,0,0,0,,A wonderful person who's loved by everyone~
+Dialogue: 0,0:07:29.13,0:07:30.63,Dialogue,,0,0,0,,Hmm?
+Dialogue: 0,0:07:30.63,0:07:33.18,Dialogue,,0,0,0,,I hope your wish comes true!
+Dialogue: 0,0:07:33.18,0:07:34.14,Dialogue,,0,0,0,,Yeah~
+Dialogue: 0,0:07:35.12,0:07:37.12,Dialogue,,0,0,0,,A princess...
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\1c&H9A806A&\1a&H00&\4\fax0.011485\x122.01\y96.26\frz2.7327\frx1.1308\fry2.2415\xbord5.49\ybord4.33\org(893.17,259.52)\move(892.54,216.21,892.54,246.21)}A{\1c&HBFAEF5&\1a&H00&}n{\1c&HA5A4B0&\1a&H00&}i{\1c&H9C303F&\1a&H00&}m{\1c&HA5B4BB&\1a&H00&}a{\1c&H55646A&\1a&H00&}l {\1c&H3B372A&\1a&H00&}D{\1c&H36EBE6&\1a&H00&}i{\1c&HC7AEA7&\1a&H00&}a{\1c&HA6A3E8&\1a&H00&}r{\1c&HAEE5E3&\1a&H00&}y
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HA8D33F&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HA8D33F&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HAACE3E&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HAACE3E&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HABC93E&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HABC93E&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HADC43D&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HADC43D&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HAEC03D&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HAEC03D&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HB0BB3C&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HB0BB3C&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HB1B63C&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HB1B63C&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnMarker-Extended\fs69\fax0.009547\x100.18\y96.14\frx1.3763\fry2.7166\xbord4.51\ybord4.32\frz1.809\org(876.45,488.82)\move(876.12,455.17,876.12,485.17)}Petting{\1c&HB3B13B&\1a&H00&\-10} {\0}Zoo{\-10} {\1c&HB3B13B&\1a&H00&\0}Stage
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnArquitectura\fs55\1c&HD462F4&\1a&H00&\3c&H000000&\3a&H00&\y80\bord4\be1.5\frz15.59\move(1311.45,188.89,1311.45,218.89)}Summer Break
+Dialogue: 1,0:07:37.85,0:07:40.85,Sign Backdrop,,0,0,0,,{\fnArquitectura\fs55\1c&HF8FEFC&\1a&H00&\3c&H000000&\3a&H00&\y80\bord4\be1.5\frz15.59\move(1338.11,226.67,1338.11,256.67)}Edition
+Dialogue: 0,0:07:43.65,0:07:44.88,Dialogue,,0,0,0,,Ahh...
+Dialogue: 0,0:07:43.65,0:07:45.46,Dialogue,,0,0,0,,Mm-hmm-hmm!
+Dialogue: 0,0:07:45.46,0:07:47.23,Dialogue,,0,0,0,,Producer-san!
+Dialogue: 0,0:07:48.00,0:07:50.99,Dialogue,,0,0,0,,Whoa, you look great in that, Koga-san!
+Dialogue: 0,0:07:50.99,0:07:53.24,Dialogue,,0,0,0,,Thank you~
+Dialogue: 0,0:07:53.24,0:07:55.01,Dialogue,,0,0,0,,And you're not nervous?
+Dialogue: 0,0:07:55.01,0:07:56.10,Dialogue,,0,0,0,,Not at all~
+Dialogue: 0,0:07:56.10,0:07:58.95,Dialogue,,0,0,0,,Hyou-kun is here with me, after all~
+Dialogue: 0,0:07:59.88,0:08:01.54,Dialogue,,0,0,0,,I-I see!
+Dialogue: 0,0:08:01.54,0:08:03.98,Dialogue,,0,0,0,,Good luck, Koharu-chan!
+Dialogue: 0,0:08:03.98,0:08:05.65,Dialogue,,0,0,0,,Please do your best!
+Dialogue: 0,0:08:05.65,0:08:07.92,Dialogue,,0,0,0,,Thank you~
+Dialogue: 0,0:08:08.31,0:08:09.44,Dialogue,,0,0,0,,Eheheh~
+Dialogue: 0,0:08:09.44,0:08:11.19,Dialogue,,0,0,0,,I'm sure it'll be fun~
+Dialogue: 0,0:08:11.19,0:08:12.51,Dialogue,,0,0,0,,Hehe~
+Dialogue: 0,0:08:13.72,0:08:19.18,Dialogue,,0,0,0,,This is the Animal Diary Summer Break\NEdition's Petting Zoo Stage!
+Dialogue: 0,0:08:19.18,0:08:23.09,Dialogue,,0,0,0,,Your hosts today will be me, Takamori Aiko, and...
+Dialogue: 0,0:08:23.09,0:08:24.77,Dialogue,,0,0,0,,Me, Domyoji Karin!
+Dialogue: 1,0:08:24.78,0:08:33.62,Sign Backdrop,,0,0,0,,{\1c&H9A806A&\1a&H00&\4\x130\xbord5.49\ybord4.33\pos(954.75,82.88)}A{\1c&HBFAEF5&\1a&H00&}n{\1c&HA5A4B0&\1a&H00&}i{\1c&H9C303F&\1a&H00&}m{\1c&HA5B4BB&\1a&H00&}a{\1c&H55646A&\1a&H00&}l {\1c&H3B372A&\1a&H00&}D{\1c&H36EBE6&\1a&H00&}i{\1c&HC7AEA7&\1a&H00&}a{\1c&HA6A3E8&\1a&H00&}r{\1c&HAEE5E3&\1a&H00&}y
+Dialogue: 1,0:08:24.78,0:08:33.62,Sign Backdrop,,0,0,0,,{\fnArquitectura\fs49\1c&HD462F4&\1a&H00&\3c&H000000&\3a&H00&\y80\bord3\be1.5\frz12.88\pos(1404.78,100)}Summer Break
+Dialogue: 1,0:08:24.78,0:08:33.62,Sign Backdrop,,0,0,0,,{\fnArquitectura\fs49\1c&HF8FEFC&\1a&H00&\3c&H000000&\3a&H00&\y80\bord3\be1.5\frz12.88\pos(1429.22,133.33)}Edition
+Dialogue: 0,0:08:24.77,0:08:28.00,Dialogue,,0,0,0,,And today, we also have a guest!
+Dialogue: 0,0:08:28.00,0:08:28.88,Dialogue,,0,0,0,,Kogya Koha...
+Dialogue: 0,0:08:28.88,0:08:31.22,Dialogue,,0,0,0,,K-Koga... Kohyaru-chan!
+Dialogue: 0,0:08:31.22,0:08:33.61,Dialogue,,0,0,0,,Come on out!
+Dialogue: 0,0:08:33.61,0:08:35.37,Dialogue,,0,0,0,,Good luck, Koga-san!
+Dialogue: 0,0:08:35.37,0:08:37.58,Dialogue,,0,0,0,,Ehehe!
+Dialogue: 0,0:08:39.49,0:08:42.02,Dialogue,,0,0,0,,I'm Koga Koharu~
+Dialogue: 0,0:08:42.02,0:08:44.97,Dialogue,,0,0,0,,Thank you for having me~
+Dialogue: 0,0:08:44.97,0:08:49.34,Dialogue,,0,0,0,,And this is my best friend, Hyou-kun~
+Dialogue: 0,0:08:49.34,0:08:51.97,Dialogue,,0,0,0,,Hyaa!
+Dialogue: 0,0:08:51.97,0:08:53.06,Dialogue,,0,0,0,,Wahh~
+Dialogue: 0,0:08:53.06,0:08:54.34,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:08:54.34,0:08:55.09,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:08:55.09,0:08:55.93,Dialogue,,0,0,0,,Ah!?
+Dialogue: 0,0:08:55.09,0:08:55.93,Dialogue,,0,0,0,,Kyaa!
+Dialogue: 0,0:08:59.26,0:09:00.89,Dialogue,,0,0,0,,Ohh...
+Dialogue: 0,0:09:00.89,0:09:03.77,Dialogue,,0,0,0,,I'm shaking...
+Dialogue: 0,0:09:03.77,0:09:05.95,Dialogue,,0,0,0,,A-are you okay!?
+Dialogue: 0,0:09:05.95,0:09:06.71,Dialogue,,0,0,0,,Ah!?
+Dialogue: 0,0:09:06.71,0:09:08.91,Dialogue,,0,0,0,,Fyeh– ahh!
+Dialogue: 0,0:09:10.54,0:09:13.19,Dialogue,,0,0,0,,Ahh... ah... okay!
+Dialogue: 1,0:09:11.19,0:09:11.32,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0\blur1\y110\pos(649.67,265.68)}Keep going
+Dialogue: 1,0:09:11.32,0:09:11.45,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz-0.18\blur1\y110\pos(652.08,256.41)}Keep going
+Dialogue: 1,0:09:11.44,0:09:11.57,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.27\blur1\y110\pos(652.66,254.28)}Keep going
+Dialogue: 1,0:09:11.57,0:09:11.65,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.96,248.02)}Keep going
+Dialogue: 1,0:09:11.65,0:09:11.69,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.96,248.02)}Keep going
+Dialogue: 1,0:09:11.69,0:09:11.73,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.96,248.02)}Keep going
+Dialogue: 1,0:09:11.73,0:09:11.78,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.97,248)}Keep going
+Dialogue: 1,0:09:11.78,0:09:11.82,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.99,247.96)}Keep going
+Dialogue: 1,0:09:11.82,0:09:11.86,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(655,247.94)}Keep going
+Dialogue: 1,0:09:11.86,0:09:11.90,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(655.02,247.89)}Keep going
+Dialogue: 1,0:09:11.90,0:09:11.94,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(655.04,247.84)}Keep going
+Dialogue: 1,0:09:11.94,0:09:12.03,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.21\blur1\y110\pos(655.04,247.75)}Keep going
+Dialogue: 1,0:09:12.03,0:09:12.07,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.89,248.05)}Keep going
+Dialogue: 1,0:09:12.07,0:09:12.11,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.84,248.11)}Keep going
+Dialogue: 1,0:09:12.11,0:09:12.15,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.82,248.13)}Keep going
+Dialogue: 1,0:09:12.15,0:09:12.19,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.78,248.18)}Keep going
+Dialogue: 1,0:09:12.19,0:09:12.24,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.76,248.18)}Keep going
+Dialogue: 1,0:09:12.24,0:09:12.28,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.74,248.17)}Keep going
+Dialogue: 1,0:09:12.28,0:09:12.32,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.71,247.82)}Keep going
+Dialogue: 1,0:09:12.32,0:09:12.36,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.69,247.84)}Keep going
+Dialogue: 1,0:09:12.36,0:09:12.40,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.69,247.86)}Keep going
+Dialogue: 1,0:09:12.40,0:09:12.44,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.72,247.86)}Keep going
+Dialogue: 1,0:09:12.44,0:09:12.49,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.21\blur1\y110\pos(654.77,247.84)}Keep going
+Dialogue: 1,0:09:12.49,0:09:12.53,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.21\blur1\y110\pos(654.8,247.83)}Keep going
+Dialogue: 1,0:09:12.53,0:09:12.57,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.8,247.83)}Keep going
+Dialogue: 1,0:09:12.57,0:09:12.61,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.79,247.6)}Keep going
+Dialogue: 1,0:09:12.61,0:09:12.65,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.78,247.37)}Keep going
+Dialogue: 1,0:09:12.65,0:09:12.74,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.74,247.11)}Keep going
+Dialogue: 1,0:09:12.74,0:09:12.78,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.21\blur1\y110\pos(654.76,247.57)}Keep going
+Dialogue: 1,0:09:12.78,0:09:12.82,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.77,247.87)}Keep going
+Dialogue: 1,0:09:12.82,0:09:12.86,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.77,248.1)}Keep going
+Dialogue: 1,0:09:12.86,0:09:12.90,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.22\blur1\y110\pos(654.77,248.1)}Keep going
+Dialogue: 1,0:09:12.90,0:09:12.94,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.25\blur1\y110\pos(654.73,247.54)}Keep going
+Dialogue: 1,0:09:12.94,0:09:12.99,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.72,247.47)}Keep going
+Dialogue: 1,0:09:12.99,0:09:13.03,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.72,247.44)}Keep going
+Dialogue: 1,0:09:13.03,0:09:13.07,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.72,247.42)}Keep going
+Dialogue: 1,0:09:13.07,0:09:13.11,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.23\blur1\y110\pos(654.69,247.55)}Keep going
+Dialogue: 1,0:09:13.11,0:09:13.15,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2\frz0.24\blur1\y110\pos(654.64,247.78)}Keep going
+Dialogue: 1,0:09:13.15,0:09:13.19,Sign Direction,,0,0,0,,{\1c&H3B383A&\1a&H00&\=2=23\frz0.2\blur1\y110\pos(654.62,247.74)}Keep going
+Dialogue: 0,0:09:13.19,0:09:14.76,Dialogue,,0,0,0,,Hahaha...
+Dialogue: 0,0:09:14.76,0:09:16.24,Dialogue,,0,0,0,,They're laughing...
+Dialogue: 0,0:09:17.59,0:09:19.95,Dialogue,,0,0,0,,It's okay~
+Dialogue: 0,0:09:27.05,0:09:29.59,Dialogue,,0,0,0,,Ah... Hah!
+Dialogue: 0,0:09:29.59,0:09:31.71,Dialogue,,0,0,0,,Hehe~
+Dialogue: 0,0:09:31.71,0:09:36.43,Dialogue,,0,0,0,,Now then, which of our friends out there\Nwants to be the next to hold Hyou-kun?
+Dialogue: 0,0:09:36.43,0:09:37.64,Dialogue Top,,0,0,0,,Me!
+Dialogue: 0,0:09:36.43,0:09:37.64,Dialogue Top,,0,0,0,,I do!
+Dialogue: 0,0:09:37.64,0:09:38.98,Dialogue Top,,0,0,0,,Me! Me!
+Dialogue: 0,0:09:38.98,0:09:41.64,Dialogue Top,,0,0,0,,I do! Me!
+Dialogue: 0,0:09:41.64,0:09:42.46,Dialogue Top,,0,0,0,,Me! Me!
+Dialogue: 0,0:09:42.46,0:09:43.57,Dialogue Top,,0,0,0,,Pick me!
+Dialogue: 0,0:09:43.57,0:09:47.15,Dialogue Top,,0,0,0,,Me, me, me!
+Dialogue: 0,0:09:47.15,0:09:50.52,Dialogue Top,,0,0,0,,Me! Me!
+Dialogue: 0,0:09:47.15,0:09:50.52,Dialogue,,0,0,0,,Then, next will be...
+Dialogue: 0,0:09:50.52,0:09:52.53,Dialogue,,0,0,0,,Thank you very much.
+Dialogue: 0,0:09:52.21,0:09:53.38,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:09:52.53,0:09:54.75,Dialogue,,0,0,0,,Please make sure to cherish it.
+Dialogue: 0,0:09:54.75,0:09:56.49,*Dialogue,,0,0,0,,Take care of it, okay?
+Dialogue: 0,0:09:56.49,0:09:58.24,*Dialogue,,0000,0000,0000,,Mm-hmm!
+Dialogue: 0,0:09:56.49,0:09:58.24,*Dialogue,,0,0,0,,Hyou-kun Dolls for sale
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\=24\shad0\bord10\-7\pos(616.22,398.9)}H
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(616.22,398.9)}H
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(644.22,414.46)}y
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(644.22,414.46)}y
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(660.22,432.46)}o
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(660.22,432.46)}o
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(678.22,452.46)}u
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(678.22,452.46)}u
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\iclip(m 704 438 l 708 496 746 456)\pos(692.22,478.46)}-
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\iclip(m 754 438 l 758 496 796 456)\pos(620.22,420.46)}-
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\iclip(m 754 438 l 758 496 796 456)\pos(644.22,450.46)}-
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(692.22,478.46)}-
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(620.22,452.46)}k
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(620.22,452.46)}k
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(642.22,472.46)}u
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(642.22,472.46)}u
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&HFFFFFF&\1a&H00&\shad0\bord10\-7\pos(664.22,490.46)}n
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\b1\fnComic Neue\fs60\1c&H346FEF&\1a&H00&\shad0\bord0\-7\pos(664.22,490.46)}n
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\pos(660,548)}D
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\pos(660,614)}O
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\pos(660,680)}L
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\pos(660,750)}L
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\pos(660,818)}S
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\fs55\1c&HC16E22&\1a&H00&\-5\pos(660,878)}for
+Dialogue: 0,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\fs74\3c&H75FFCE&\3a&H00&\bord5\shad0\-5\pos(608,936)}SALE
+Dialogue: 1,0:09:56.49,0:09:58.24,Sign Banner,,0,0,0,,{\fs74\1c&H2AC53D&\1a&H00&\=25\-5\pos(608,936)}SALE
+Dialogue: 0,0:10:03.06,0:10:04.45,Dialogue Top,,0,0,0,,Koga-san!
+Dialogue: 0,0:10:04.24,0:10:04.96,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,0:10:04.96,0:10:06.35,Dialogue,,0,0,0,,Were you okay up there?
+Dialogue: 0,0:10:06.35,0:10:07.71,Dialogue,,0,0,0,,Yes~
+Dialogue: 0,0:10:07.71,0:10:10.88,Dialogue,,0,0,0,,It's all thanks to Hyou-kun and the stars~
+Dialogue: 0,0:10:10.88,0:10:14.34,Dialogue,,0,0,0,,That was great, Koga-san! \NYou seemed really confident!
+Dialogue: 0,0:10:14.34,0:10:15.77,Dialogue,,0,0,0,,Ehehe~
+Dialogue: 0,0:10:15.77,0:10:20.35,Dialogue,,0,0,0,,Everyone was smiling, and it was so, {\i1}so{\i0} much fun~
+Dialogue: 0,0:10:20.35,0:10:21.59,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:10:21.59,0:10:26.30,Dialogue,,0,0,0,,I knew you had the power\Nto make everyone smile, Koga-san!
+Dialogue: 0,0:10:26.30,0:10:28.23,Dialogue,,0,0,0,,Just what I expected of a princess!
+Dialogue: 0,0:10:29.31,0:10:32.69,Dialogue,,0,0,0,,Koharu is a princess...?
+Dialogue: 0,0:10:37.11,0:10:41.13,Dialogue,,0,0,0,,Hyou-kun, what did you think of the job?
+Dialogue: 0,0:10:41.13,0:10:45.87,Dialogue,,0,0,0,,Koharu's heart feels all fluffy~
+Dialogue: 0,0:10:45.87,0:10:50.74,Dialogue,,0,0,0,,Everyone had such nice smiles, huh~
+Dialogue: 0,0:10:54.00,0:10:55.07,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:10:55.07,0:10:56.18,Dialogue,,0,0,0,,Wah~
+Dialogue: 0,0:10:56.18,0:10:58.09,Dialogue,,0,0,0,,A cute butterfly!
+Dialogue: 0,0:10:58.84,0:11:01.62,Dialogue,,0,0,0,,I've never seen you before~
+Dialogue: 0,0:11:01.62,0:11:03.72,Dialogue,,0,0,0,,Where did you come from?
+Dialogue: 0,0:11:05.68,0:11:07.00,Dialogue,,0,0,0,,Ahh!
+Dialogue: 0,0:11:07.00,0:11:09.14,Dialogue,,0,0,0,,Please wait~
+Dialogue: 0,0:11:10.45,0:11:12.43,Dialogue,,0,0,0,,Wait~
+Dialogue: 0,0:11:17.49,0:11:18.61,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:11:19.03,0:11:21.85,Dialogue,,0,0,0,,Koga-san, have you finished changing yet?
+Dialogue: 0,0:11:21.85,0:11:22.80,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:11:23.99,0:11:24.87,Dialogue,,0,0,0,,Hm...
+Dialogue: 0,0:11:24.87,0:11:26.37,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:11:29.00,0:11:33.21,Dialogue,,0,0,0,,Mmmm... Hmmm...
+Dialogue: 0,0:11:33.21,0:11:34.11,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:11:38.72,0:11:39.75,Dialogue,,0,0,0,,Ehh...
+Dialogue: 0,0:11:39.75,0:11:41.02,Dialogue,,0,0,0,,Producer!
+Dialogue: 0,0:11:41.02,0:11:43.75,Dialogue,,0,0,0,,We couldn't find Koharu-san in the restroom.
+Dialogue: 0,0:11:43.75,0:11:47.35,Dialogue,,0,0,0,,W-we checked other places too,\Nbut she wasn't anywhere...
+Dialogue: 0,0:11:47.35,0:11:49.55,Dialogue,,0,0,0,,I-it's okay, it's okay!
+Dialogue: 0,0:11:49.55,0:11:50.81,Dialogue,,0,0,0,,Stay calm!
+Dialogue: 0,0:11:53.11,0:11:54.56,Dialogue Top,,0,0,0,,Excuse me!
+Dialogue: 0,0:11:54.07,0:11:54.56,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:11:54.56,0:11:57.55,Dialogue,,0,0,0,,Have you seen a girl carrying an iguana?
+Dialogue: 0,0:11:57.55,0:11:58.35,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:11:58.35,0:12:02.07,Dialogue,,0,0,0,,Ahh, I saw her go that way a while ago...
+Dialogue: 0,0:12:04.36,0:12:05.63,Dialogue,,0,0,0,,Ehh...
+Dialogue: 0,0:12:07.60,0:12:09.45,Dialogue,,0,0,0,,Mr. Butterfly~
+Dialogue: 0,0:12:09.45,0:12:12.92,Dialogue,,0,0,0,,Where did you go~
+Dialogue: 0,0:12:12.92,0:12:15.80,Dialogue,,0,0,0,,I lost him~
+Dialogue: 0,0:12:15.80,0:12:19.92,Dialogue,,0,0,0,,But this is a really nice place, isn't it Hyou-kun?
+Dialogue: 0,0:12:19.92,0:12:20.63,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:12:22.51,0:12:25.06,Dialogue,,0,0,0,,Wah, a cute birdie!
+Dialogue: 0,0:12:25.06,0:12:27.42,Dialogue,,0,0,0,,It looks like Arisu-chan~
+Dialogue: 0,0:12:27.42,0:12:28.35,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:12:28.96,0:12:31.02,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:12:31.02,0:12:35.86,Dialogue,,0,0,0,,Well, I don't think she left through this exit.
+Dialogue: 0,0:12:35.86,0:12:36.81,Dialogue,,0,0,0,,Ahh...
+Dialogue: 0,0:12:37.03,0:12:38.01,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,0:12:38.01,0:12:40.01,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:12:40.01,0:12:42.20,Dialogue,,0,0,0,,Um, that's...
+Dialogue: 0,0:12:41.63,0:12:42.20,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:12:46.20,0:12:47.62,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:13:01.88,0:13:03.24,Dialogue,,0,0,0,,Wah~
+Dialogue: 0,0:13:03.24,0:13:03.86,Dialogue,,0,0,0,,Hehe!
+Dialogue: 0,0:13:03.86,0:13:04.88,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:13:04.88,0:13:07.21,Dialogue,,0,0,0,,It looks like Haru-chan~
+Dialogue: 0,0:13:07.21,0:13:10.43,Dialogue,,0,0,0,,And the small one is Kaoru-chan~
+Dialogue: 0,0:13:12.39,0:13:13.14,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:13:13.14,0:13:15.65,Dialogue,,0,0,0,,Wait for me~
+Dialogue: 0,0:13:16.05,0:13:17.92,Dialogue,,0,0,0,,Koga-san!
+Dialogue: 0,0:13:17.92,0:13:18.65,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:13:20.40,0:13:22.00,Dialogue,,0,0,0,,Koga-san!
+Dialogue: 0,0:13:23.04,0:13:24.10,Dialogue,,0,0,0,,Koga-san!
+Dialogue: 0,0:13:23.47,0:13:24.10,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:13:24.10,0:13:25.03,Dialogue,,0,0,0,,Eh!?
+Dialogue: 0,0:13:25.03,0:13:27.15,Dialogue,,0,0,0,,S-sorry...!
+Dialogue: 2,0:13:28.53,0:13:30.29,Dialogue,,0,0,0,,Koga-san!
+Dialogue: 2,0:13:30.29,0:13:32.41,Dialogue,,0,0,0,,Koga-saaan!
+Dialogue: 2,0:13:32.41,0:13:34.41,Dialogue,,0,0,0,,Koga-saaaan!
+Dialogue: 0,0:13:33.54,0:13:33.71,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\=10\pos(960,1070)\blur3\p1}m -2 -956 l 274 -934 582 -1026 616 -844 -6 -780
+Dialogue: 1,0:13:33.54,0:13:33.71,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1242,219)}I wonder...?
+Dialogue: 0,0:13:33.54,0:13:33.71,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\pos(10,540)\blur3\p1}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.54,0:13:33.71,Sign SNS Text,,0,0,0,,{\frz5.24\pos(454,430)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.54,0:13:33.71,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur3\p1}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.54,0:13:33.71,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1068,765)}Got
+Dialogue: 1,0:13:33.54,0:13:33.71,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1120,849)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.71,0:13:33.75,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(954,1014)}m -2 -956 l 274 -934 582 -1026 616 -844 -6 -780
+Dialogue: 1,0:13:33.71,0:13:33.75,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1236,163)}I wonder...?
+Dialogue: 0,0:13:33.71,0:13:33.75,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(4,484)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.71,0:13:33.75,Sign SNS Text,,0,0,0,,{\frz5.24\pos(448,374)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.71,0:13:33.75,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(954,1014)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.71,0:13:33.75,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1062,709)}Got
+Dialogue: 1,0:13:33.71,0:13:33.75,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1114,793)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.75,0:13:33.79,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(952,962)}m -2 -956 l 274 -934 582 -1026 616 -844 -6 -780
+Dialogue: 1,0:13:33.75,0:13:33.79,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1234,111)}I wonder...?
+Dialogue: 0,0:13:33.75,0:13:33.79,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(2,432)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.75,0:13:33.79,Sign SNS Text,,0,0,0,,{\frz5.24\pos(446,322)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.75,0:13:33.79,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(952,962)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.75,0:13:33.79,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1060,657)}Got
+Dialogue: 1,0:13:33.75,0:13:33.79,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1112,741)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.79,0:13:33.84,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(944,908)}m -2 -956 l 274 -934 582 -1026 616 -844 -6 -780
+Dialogue: 1,0:13:33.79,0:13:33.84,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1226,57)}I wonder...?
+Dialogue: 0,0:13:33.79,0:13:33.84,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(-6,378)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.79,0:13:33.84,Sign SNS Text,,0,0,0,,{\frz5.24\pos(438,268)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.79,0:13:33.84,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(944,908)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.79,0:13:33.84,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1052,603)}Got
+Dialogue: 1,0:13:33.79,0:13:33.84,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1104,687)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.84,0:13:33.88,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(938,856)}m -2 -956 l 274 -934 582 -1026 616 -844 -6 -780
+Dialogue: 1,0:13:33.84,0:13:33.88,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1220,5)}I wonder...?
+Dialogue: 0,0:13:33.84,0:13:33.88,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(-12,326)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.84,0:13:33.88,Sign SNS Text,,0,0,0,,{\frz5.24\pos(432,216)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.84,0:13:33.88,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(938,856)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.84,0:13:33.88,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1046,551)}Got
+Dialogue: 1,0:13:33.84,0:13:33.88,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1098,635)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.88,0:13:34.79,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(-16,268)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:33.88,0:13:34.79,Sign SNS Text,,0,0,0,,{\frz5.24\pos(428,158)}Let's look into it together next time!!
+Dialogue: 0,0:13:33.88,0:13:34.79,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(934,798)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:33.88,0:13:34.79,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1042,493)}Got
+Dialogue: 1,0:13:33.88,0:13:34.79,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1094,577)}i{\5}t{\0}!!
+Dialogue: 0,0:13:33.83,0:13:33.87,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\=9\x49.92\y49.92\blur3\p1\frz359\pos(888.8,745.26)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:33.83,0:13:33.87,Sign SNS Text,,0,0,0,,{\fs56\=8\x47.92\y47.92\1\frz5.353\pos(1338.1,978.06)}Koharu-chan's gone missing
+Dialogue: 0,0:13:33.87,0:13:33.91,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\=9\x66.56\frz-1.31\y66.56\pos(601.23,672.55)\blur3\p1}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:33.87,0:13:33.91,Sign SNS Text,,0,0,0,,{\fs56\=8\x66.56\y66.56\1\frz4.972\pos(1180.1,978.7)}Koharu-chan's gone missing
+Dialogue: 0,0:13:33.91,0:13:33.96,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\=9\x82.88\frz-0.86\y82.88\pos(311.16,604.07)\blur3\p1}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:33.91,0:13:33.96,Sign SNS Text,,0,0,0,,{\fs56\=8\x82.88\y82.88\1\frz5.04\pos(1036.9,981.65)}Koharu-chan's gone missing
+Dialogue: 0,0:13:33.96,0:13:34.79,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\=9\x100\frz0\y100\pos(10,540)\blur3\p1}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:33.96,0:13:34.79,Sign SNS Text,,0,0,0,,{\fs56\=8\x100\y100\1\frz5.172\pos(888,984)}Koharu-chan's gone missing
+Dialogue: 0,0:13:34.79,0:13:34.84,Sign SNS Text,,0,0,0,,{\1c&HF5F3F3&\1a&H00&\an7\blur3\p1\pos(-26,154)}m 424 -152 l 1104 -210 1112 -132 428 -68
+Dialogue: 1,0:13:34.79,0:13:34.84,Sign SNS Text,,0,0,0,,{\frz5.24\pos(418,44)}Let's look into it together next time!!
+Dialogue: 0,0:13:34.79,0:13:34.84,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(924,684)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:34.79,0:13:34.84,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1032,379)}Got
+Dialogue: 1,0:13:34.79,0:13:34.84,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1084,463)}i{\5}t{\0}!!
+Dialogue: 0,0:13:34.79,0:13:34.84,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\blur3\p1\pos(0,426)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:34.79,0:13:34.84,Sign SNS Text,,0,0,0,,{\fs56\1\pos(880,866)\frz5.213}Koharu-chan's gone missing
+Dialogue: 0,0:13:34.84,0:13:34.88,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(910,564)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:34.84,0:13:34.88,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1018,267)}Got
+Dialogue: 1,0:13:34.84,0:13:34.88,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1070,351)}i{\5}t{\0}!!
+Dialogue: 0,0:13:34.84,0:13:34.88,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\blur3\p1\pos(-14,306)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:34.84,0:13:34.88,Sign SNS Text,,0,0,0,,{\fs56\1\pos(866,746)\frz5.096}Koharu-chan's gone missing
+Dialogue: 0,0:13:34.88,0:13:34.92,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(898,444)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:34.88,0:13:34.92,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1006,153)}Got
+Dialogue: 1,0:13:34.88,0:13:34.92,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1058,237)}i{\5}t{\0}!!
+Dialogue: 0,0:13:34.88,0:13:34.92,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\blur3\p1\pos(-26,186)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:34.88,0:13:34.92,Sign SNS Text,,0,0,0,,{\fs56\1\pos(854,626)\frz5.07}Koharu-chan's gone missing
+Dialogue: 0,0:13:34.92,0:13:34.96,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(890,346)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 1,0:13:34.92,0:13:34.96,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(984,17)}Got
+Dialogue: 1,0:13:34.92,0:13:34.96,Sign SNS Sticker,,0,0,0,,{\bord5\blur2\frz6.73\pos(1036,101)}i{\5}t{\0}!!
+Dialogue: 0,0:13:34.92,0:13:34.96,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\blur3\p1\pos(-36,64)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:34.92,0:13:34.96,Sign SNS Text,,0,0,0,,{\fs56\1\pos(844,508)\frz5.062}Koharu-chan's gone missing
+Dialogue: 0,0:13:34.96,0:13:36.05,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\blur3\p1\pos(882,232)}m 38 -588 l 186 -572 178 -330 260 -184 250 -8 72 -2
+Dialogue: 0,0:13:34.96,0:13:36.05,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(882,232)\blur3\p1}m 148 302 l 676 256 676 426 138 460
+Dialogue: 1,0:13:34.96,0:13:36.05,Sign SNS Sticker,,0,0,0,,{\fs101\1c&HCA9B36&\1a&H00&\bord5\blur2\frz6.73\pos(1270,645)}Help...
+Dialogue: 0,0:13:34.96,0:13:36.05,Sign SNS Text,,0,0,0,,{\1c&HDF98A2&\1a&H00&\an7\blur3\p1\pos(-44,-50)}m 736 410 l 1576 336 1584 428 748 498
+Dialogue: 1,0:13:34.96,0:13:36.05,Sign SNS Text,,0,0,0,,{\fs56\=11\1\pos(836,392)\frz5.055}Koharu-chan's gone missing
+Dialogue: 2,0:13:36.04,0:13:39.25,Dialogue,,0,0,0,,Koga-saaaaaan!
+Dialogue: 0,0:13:40.76,0:13:40.80,Sign SNS Text,,0,0,0,,{\1c&H8314D2&\1a&H00&\an7\=20\pos(10,540)\blur2\p1}m 1211.41 -126.26 b 1236.48 -149.66 1266.34 -143.46 1313.94 -134.15 1331.13 -131.05 1322.68 -116.96 1327.46 -110.48 1324.93 -108.51 1319.86 -104.56 1317.32 -102.59 1290.85 -108.23 1237.89 -119.5 1211.41 -125.14
+Dialogue: 0,0:13:40.80,0:13:40.84,Sign SNS Text,,0,0,0,,{\1c&H8A39D2&\1a&H00&\an7\pos(10,540)\blur2\p1}m 1211.41 -126.26 b 1236.48 -149.66 1266.34 -143.46 1313.94 -134.15 1331.13 -131.05 1322.68 -116.96 1327.46 -110.48 1324.93 -108.51 1319.86 -104.56 1317.32 -102.59 1290.85 -108.23 1237.89 -119.5 1211.41 -125.14
+Dialogue: 0,0:13:40.84,0:13:41.01,Sign SNS Text,,0,0,0,,{\1c&H9C5ECF&\1a&H00&\an7\pos(10,540)\blur2\p1}m 1211.41 -126.26 b 1236.48 -149.66 1266.34 -143.46 1313.94 -134.15 1331.13 -131.05 1322.68 -116.96 1327.46 -110.48 1324.93 -108.51 1319.86 -104.56 1317.32 -102.59 1290.85 -108.23 1237.89 -119.5 1211.41 -125.14
+Dialogue: 1,0:13:40.76,0:13:41.01,Sign SNS Sticker,,0,0,0,,{\fs20\1c&HCA9B36&\1a&H00&\bord1\be1\fad(103,0)\frz347.3\pos(1283.52,424.04)}Help...
+Dialogue: 0,0:13:40.76,0:13:41.01,Sign SNS Text,,0,0,0,,{\fs23\=21\be3\fad(103,0)\fax-0.445012\x100.24\y85.55\frz-14.1519\frx-10.8518\fry4.6254\pos(972.78,370.66)\org(1087.8,370.66)}Sasaki Chie sent a sticker
+Dialogue: 0,0:13:47.01,0:13:48.59,Dialogue,,0,0,0,,Hmmm...
+Dialogue: 0,0:13:48.59,0:13:52.14,Dialogue,,0,0,0,,Hyou-kun, where are we...?
+Dialogue: 0,0:13:52.65,0:13:54.04,Dialogue,,0,0,0,,Mmm...
+Dialogue: 0,0:13:59.65,0:14:00.61,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:14:01.21,0:14:02.26,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:14:02.26,0:14:03.94,Dialogue,,0,0,0,,Oh no~
+Dialogue: 0,0:14:13.70,0:14:17.41,Dialogue,,0,0,0,,It's a good thing we didn't get too wet, Hyou-kun.
+Dialogue: 0,0:14:17.41,0:14:18.12,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:14:20.88,0:14:23.92,Dialogue,,0,0,0,,Heheh, it looks like Miria-chan~
+Dialogue: 0,0:14:23.92,0:14:25.30,Dialogue,,0,0,0,,Hello there~
+Dialogue: 0,0:14:28.51,0:14:29.63,Dialogue,,0,0,0,,Eheh...
+Dialogue: 0,0:14:31.24,0:14:35.34,Dialogue,,0,0,0,,I wonder if Producer\Nand the others are staying dry...
+Dialogue: 0,0:14:36.52,0:14:38.35,Dialogue,,0,0,0,,Hyou-kun...
+Dialogue: 0,0:14:38.35,0:14:40.52,Dialogue,,0,0,0,,I miss everyone else...
+Dialogue: 0,0:14:43.47,0:14:45.34,Dialogue,,0,0,0,,I wonder if...
+Dialogue: 0,0:14:45.34,0:14:48.36,Dialogue,,0,0,0,,Koharu will have to live here forever...
+Dialogue: 0,0:14:51.28,0:14:53.93,Dialogue,,0,0,0,,Ah! That's right~
+Dialogue: 0,0:14:53.93,0:14:58.74,Dialogue,,0,0,0,,If I wish upon a star, then\Nsomeone might come and save me!
+Dialogue: 0,0:14:59.50,0:15:03.14,Dialogue,,0,0,0,,I can't see the stars at all~
+Dialogue: 0,0:15:17.30,0:15:19.05,Dialogue,,0,0,0,,What a great story!
+Dialogue: 0,0:15:19.05,0:15:22.77,Dialogue,,0,0,0,,I'm so happy the princess\Nlived happily ever after!
+Dialogue: 0,0:15:22.77,0:15:25.22,Dialogue,,0,0,0,,I'm so glad they found each other!
+Dialogue: 0,0:15:25.22,0:15:26.68,Dialogue,,0,0,0,,Ahh...
+Dialogue: 0,0:15:26.68,0:15:27.65,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,0:15:32.66,0:15:34.41,Dialogue,,0,0,0,,What a beautiful song...
+Dialogue: 0,0:15:34.41,0:15:34.50,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H0C&\3c&H855626&\3a&H0C&}What a beautiful song...
+Dialogue: 0,0:15:34.50,0:15:34.58,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H18&\3c&H855626&\3a&H18&}What a beautiful song...
+Dialogue: 0,0:15:34.58,0:15:34.66,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H24&\3c&H855626&\3a&H24&}What a beautiful song...
+Dialogue: 0,0:15:34.66,0:15:34.75,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H31&\3c&H855626&\3a&H31&}What a beautiful song...
+Dialogue: 0,0:15:34.75,0:15:34.83,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H3D&\3c&H855626&\3a&H3D&}What a beautiful song...
+Dialogue: 0,0:15:34.83,0:15:34.91,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H49&}What a beautiful song...
+Dialogue: 0,0:15:34.91,0:15:34.96,Dialogue,,0,0,0,,{\1c&HFFFFFF&\1a&H55&\3c&H855626&\3a&H55&}What a beautiful song...
+Dialogue: 0,0:15:40.61,0:15:45.32,Dialogue,,0,0,0,,Hyou-kun, I wonder, since I'm not a princess...
+Dialogue: 0,0:15:45.32,0:15:48.38,Dialogue,,0,0,0,,...will no one come save me...
+Dialogue: 0,0:15:48.38,0:15:50.06,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,0:15:52.10,0:15:53.39,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:15:53.39,0:15:54.37,Dialogue,,0,0,0,,Hya!
+Dialogue: 0,0:15:54.37,0:15:55.85,Dialogue,,0,0,0,,Hyou-kun...?
+Dialogue: 0,0:15:57.89,0:15:59.35,Dialogue,,0,0,0,,Where are you going?
+Dialogue: 0,0:15:59.35,0:16:01.20,Dialogue,,0,0,0,,Koharu too...
+Dialogue: 0,0:16:03.75,0:16:05.84,Dialogue,,0,0,0,,Hyou-kun...
+Dialogue: 0,0:16:06.73,0:16:10.49,Dialogue,,0,0,0,,Without Hyou-kun, Koharu...
+Dialogue: 0,0:16:36.87,0:16:40.64,Dialogue,,0,0,0,,The birdie that looked like Arisu-chan...
+Dialogue: 0,0:16:42.40,0:16:44.90,Dialogue,,0,0,0,,Ah, everyone...?
+Dialogue: 0,0:16:48.42,0:16:49.69,Dialogue,,0,0,0,,Koga-saaan!
+Dialogue: 0,0:16:52.16,0:16:53.15,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:16:53.15,0:16:53.91,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:16:53.91,0:16:56.49,Dialogue,,0,0,0,,Whoa! H-Hyou-kun?
+Dialogue: 0,0:17:00.08,0:17:03.49,Dialogue,,0,0,0,,Is Koga-san nearby?
+Dialogue: 0,0:17:05.97,0:17:07.34,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:17:08.67,0:17:09.84,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:17:10.55,0:17:12.47,Dialogue,,0,0,0,,Lead me there!
+Dialogue: 0,0:17:12.88,0:17:14.22,Dialogue,,0,0,0,,E-everyone!
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\=16\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur2\p1}m 892 400 l 950 364 470 -88 414 -56
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\fs35\1c&HFFFFFF&\1a&H00&\frz136.4\be2\pos(770,770)}Sasaki Chie
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\1c&HF5EEEF&\1a&H00&\an7\pos(10,540)\blur1\p1}m 750 102 l 748 120 934 298 952 292 958 278 768 100
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\fs20\0.25\fax-0.214136\y106.44\frz-223.3000\fry0.0002\org(882.14,757.39)\pos(782.78,757.39)}Hmm, what do they eat...?
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 78 -442 l 60 -436 74 -416 88 -416 102 -404 102 -390 120 -378 132 -376 140 -362 156 -356 156 -340 180 -314 192 -322 210 -332 192 -352 178 -364 166 -368 160 -386 142 -390 142 -402 118 -416 112 -412 92 -430 96 -442
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\fs35\frz136.1\be3\bord1.5\pos(1108,672)}I wonder...?
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\an7\pos(10,540)\blur1\p1}m 772 -202 l 788 -204 952 -54 948 -32 928 -38 764 -188
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\fs20\-1\fax-0.188259\x99.47\y97.55\frz-222.5806\frx-9.3833\fry-4.0643\org(835.01,386.89)\pos(660.85,386.89)}Let's look into it together next time!!
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 256 -406 l 306 -428 334 -470 382 -484 392 -462 366 -450 364 -424 292 -396 278 -374 260 -388
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\fs34\frz130\be3\bord1.5\pos(1284,650)}Got
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\fs34\frz130\be3\bord1.5\pos(1298,628)}it!!
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\1c&HF5EEEF&\1a&H00&\an7\pos(10,540)\blur1\p1}m 1164 -178 l 1144 -164 1360 36 1388 16
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Text,,0,0,0,,{\fs20\0.25\fax-0.214136\y106.44\fry0.0002\frz138.5\pos(1172.78,465.39)\org(1272.14,465.39)}Koharu chan's gone missing
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 0,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\1c&H000000&\1a&H00&\an7\pos(960,1070)\blur1\p1}m 390 -636 l 434 -618 510 -544 494 -540 480 -528 404 -596 384 -626
+Dialogue: 1,0:17:14.22,0:17:15.47,Sign SNS Sticker,,0,0,0,,{\fs36\1c&HCEA24A&\1a&H00&\=17\be3\bord1.5\pos(1422,486)\frz136.7}Help...
+Dialogue: 0,0:17:15.47,0:17:17.35,Dialogue,,0,0,0,,Ah...!
+Dialogue: 0,0:17:20.77,0:17:22.98,Dialogue,,0,0,0,,Why are you crying?
+Dialogue: 0,0:17:24.88,0:17:28.49,Dialogue,,0,0,0,,Koharu... is all alone...
+Dialogue: 0,0:17:28.49,0:17:31.99,Dialogue,,0,0,0,,Because Koharu isn't a princess...
+Dialogue: 0,0:17:31.13,0:17:31.99,Dialogue Top,,0,0,0,,Woof!
+Dialogue: 0,0:17:31.99,0:17:35.53,Dialogue,,0,0,0,,If you were a princess,\Nwould everyone come save you?
+Dialogue: 0,0:17:35.53,0:17:37.32,Dialogue,,0,0,0,,Why, why?
+Dialogue: 0,0:17:38.27,0:17:43.08,Dialogue,,0,0,0,,Because... everyone loves princesses, after all...
+Dialogue: 0,0:17:43.08,0:17:46.04,Dialogue,,0,0,0,,Why does everyone love princesses?
+Dialogue: 0,0:17:46.04,0:17:47.61,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:17:48.39,0:17:52.20,Dialogue,,0,0,0,,That's... I wonder...
+Dialogue: 0,0:17:52.20,0:17:53.24,Dialogue,,0,0,0,,Koharu-chan!
+Dialogue: 0,0:17:53.24,0:17:54.13,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:17:55.61,0:17:56.96,Dialogue,,0,0,0,,Koharu-chan!
+Dialogue: 0,0:17:56.96,0:17:57.80,Dialogue,,0,0,0,,Hm...?
+Dialogue: 0,0:18:00.31,0:18:01.78,Dialogue,,0,0,0,,Wah!
+Dialogue: 0,0:18:01.78,0:18:02.77,Dialogue,,0,0,0,,Hyou-kun!
+Dialogue: 0,0:18:02.77,0:18:07.27,Dialogue,,0,0,0,,Hey, what kind of princess\Ndo you want to be, Koharu-chan?
+Dialogue: 0,0:18:07.27,0:18:09.08,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:18:09.08,0:18:10.78,Dialogue,,0,0,0,,Koharu...
+Dialogue: 0,0:18:10.78,0:18:12.84,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,0:18:12.84,0:18:15.32,Dialogue,,0,0,0,,Hmmm...
+Dialogue: 0,0:18:15.32,0:18:17.99,Dialogue,,0,0,0,,{\fad(0,1185)}Hmmmm...
+Dialogue: 0,0:18:30.30,0:18:32.60,Dialogue,,0,0,0,,Wah...
+Dialogue: 0,0:18:35.05,0:18:39.18,Dialogue,,0,0,0,,La, la, la, la...
+Dialogue: 0,0:18:39.18,0:18:46.48,Dialogue,,0,0,0,,{\fad(0,1772)}If this song reaches you...
+Dialogue: 0,0:18:47.61,0:18:55.30,Insert Song Title,,0,0,0,,{\=42\pos(960,789)\blur3\t(0,80,}I{\1c&HFFFFFF&\1a&HFF&\t(14,94,}'{\t(28,108,}m {\1c&HFFFFFF&\1a&HFF&\t(42,122,}a Little Princess
+Dialogue: 0,0:18:48.48,0:18:55.30,Insert Song Title,,0,0,0,,{\pos(960,789)\blur3}I'm a {\1c&HFFFFFF&\1a&HFF&\t(367,487,}L{\t(458,578,}i{\1c&HFFFFFF&\1a&HFF&\t(550,670,}t{\t(642,762,}t{\1c&HFFFFFF&\1a&HFF&\t(734,854,}l{\t(825,945,}e {\1c&HFFFFFF&\1a&HFF&\t(917,1037,}P{\t(1009,1129,}r{\1c&HFFFFFF&\1a&HFF&\t(1101,1221,}i{\t(1192,1312,}n{\1c&HFFFFFF&\1a&HFF&\t(1284,1404,}c{\t(1376,1496,}e{\1c&HFFFFFF&\1a&HFF&\t(1468,1588,}s{\t(1560,1680,}s
+Dialogue: 0,0:18:51.24,0:18:55.30,Insert Song Title,,0,0,0,,{\fs52\blur3\pos(960,837)\t(0,20,}~{\1c&HFFFFFF&\1a&HFF&\t(20,40,}W{\t(40,60,}i{\1c&HFFFFFF&\1a&HFF&\t(60,80,}s{\t(80,100,}h {\1c&HFFFFFF&\1a&HFF&\t(100,120,}U{\t(120,140,}p{\1c&HFFFFFF&\1a&HFF&\t(140,160,}o{\t(160,180,}n {\1c&HFFFFFF&\1a&HFF&\t(180,200,}a {\t(200,220,}S{\1c&HFFFFFF&\1a&HFF&\t(220,240,}t{\t(240,260,}a{\1c&HFFFFFF&\1a&HFF&\t(260,280,}r{\t(280,300,}~
+Dialogue: 0,0:18:55.28,0:18:56.49,Insert Song Title,,0,0,0,,{\pos(960,789)\blur3\t(0,68,}I{\1c&HFFFFFF&\1a&H00&\t(68,136,}'{\t(136,204,}m {\1c&HFFFFFF&\1a&H00&\t(204,272,}a {\t(272,340,}L{\1c&HFFFFFF&\1a&H00&\t(340,408,}i{\t(408,476,}t{\1c&HFFFFFF&\1a&H00&\t(476,544,}t{\t(544,612,}l{\1c&HFFFFFF&\1a&H00&\t(612,680,}e {\t(680,748,}P{\1c&HFFFFFF&\1a&H00&\t(748,816,}r{\t(816,884,}i{\1c&HFFFFFF&\1a&H00&\t(884,952,}n{\t(952,1020,}c{\1c&HFFFFFF&\1a&H00&\t(1020,1088,}e{\t(1088,1156,}s{\1c&HFFFFFF&\1a&H00&\t(1156,1224,}s
+Dialogue: 0,0:18:55.28,0:18:56.28,Insert Song Title,,0,0,0,,{\fs52\blur3\fad(0,854)\pos(960,837)}~Wish Upon a Star~
+Dialogue: 0,0:18:51.24,0:18:53.28,Insert Song Title,,0,0,0,,{\fnYuMinStars\fs21\fad(150,1000)\blur3\pos(856,737)}★
+Dialogue: 0,0:18:51.44,0:18:53.45,Insert Song Title,,0,0,0,,{\fnYuMinStars\fs21\fad(150,1000)\blur3\pos(1086,737)}★
+Dialogue: 0,0:18:51.74,0:18:53.78,Insert Song Title,,0,0,0,,{\fnYuMinStars\fs30\=43\fad(150,1000)\blur3\pos(666,749)}★
+Dialogue: 0,0:18:47.39,0:18:50.85,Song Insert Romaji,,0,0,0,,{\fad(500,200)\k18} {\k29}Ki{\k114}ra {\k34}ki{\k33}ra{\k118}ra
+Dialogue: 0,0:18:47.39,0:18:50.85,Song Insert TL,,0,0,0,,{\fad(500,200)}Sparkle, spark-sparkle
+Dialogue: 0,0:18:50.85,0:18:57.42,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k39} {\k16}O{\k13}ho{\k25}shi{\k28}-sa{\k93}ma {\k21}ki{\k25}i{\k18}te {\k25}ho{\k49}shi{\k82}i {\k223}na
+Dialogue: 0,0:18:50.85,0:18:57.42,Song Insert TL,,0,0,0,,{\fad(200,200)}I hope the stars will hear me
+Dialogue: 0,0:18:58.74,0:19:03.70,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k14} {\k19}Fu{\k19}wa {\k15}fu{\k38}wa {\k33}su{\k16}ka{\k14}a{\k32}to {\k21}yu{\k12}ra{\k32}shi{\k60}te{\k22} {\k23}o{\k60}dot{\k22}ta{\k116}ra
+Dialogue: 0,0:18:58.74,0:19:03.70,Song Insert TL,,0,0,0,,{\fad(200,200)}If I dance with my skirt fluttering around
+Dialogue: 0,0:19:05.37,0:19:08.62,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k16} {\k20}Cho{\k29}u{\k17}cho{\k19}u {\k41}mo {\k22}o{\k20}to{\k21}mo{\k18}da{\k13}chi {\k31}de{\k58}shou?
+Dialogue: 0,0:19:05.37,0:19:08.62,Song Insert TL,,0,0,0,,{\fad(200,200)}The butterflies are my friends too, right?
+Dialogue: 0,0:19:08.62,0:19:11.83,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k36} {\k74}Sou {\k40}a{\k21}na{\k20}ta {\k130}mo
+Dialogue: 0,0:19:08.62,0:19:11.83,Song Insert TL,,0,0,0,,{\fad(200,200)}Yes, even you
+Dialogue: 0,0:19:11.83,0:19:15.51,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k17} {\k21}Da{\k11}i{\k40}su{\k35}ki {\k38}na {\k22}o{\k20}to{\k22}gi{\k30}ba{\k26}na{\k27}shi {\k59}no
+Dialogue: 0,0:19:11.83,0:19:15.51,Song Insert TL,,0,0,0,,{\fad(200,200)}Let's open the door
+Dialogue: 0,0:19:15.51,0:19:18.75,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k24} {\k22}To{\k20}bi{\k21}ra {\k22}o {\k29}a{\k36}ke{\k150}you
+Dialogue: 0,0:19:15.51,0:19:18.75,Song Insert TL,,0,0,0,,{\fad(200,200)}To our favorite fairy tale
+Dialogue: 0,0:19:18.75,0:19:23.97,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k33}Se{\k44}ka{\k22}i {\k24}wa {\k57}su{\k26}ba{\k66}ra{\k95}shi{\k155}i
+Dialogue: 0,0:19:18.75,0:19:23.97,Song Insert TL,,0,0,0,,{\fad(200,200)}The world is a wonderful place
+Dialogue: 0,0:19:23.97,0:19:27.18,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k28} {\k10}A{\k10}no {\k8}ku{\k14}mo {\k22}no {\k19}mu{\k19}ko{\k19}u {\k21}de {\k30}mat{\k15}te{\k18}i{\k64}ru
+Dialogue: 0,0:19:23.97,0:19:27.18,Song Insert TL,,0,0,0,,{\fad(200,200)}Waiting for us beyond those clouds
+Dialogue: 0,0:19:27.18,0:19:30.10,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k27} {\k10}O{\k13}mo{\k16}i {\k17}o {\k17}tsu{\k25}na{\k20}gi {\k21}ma{\k19}ta{\k8}ta{\k22}ku {\k12}yu{\k65}me
+Dialogue: 0,0:19:27.18,0:19:30.10,Song Insert TL,,0,0,0,,{\fad(200,200)}Lies a twinkling dream that weaves together our feelings
+Dialogue: 0,0:19:30.10,0:19:33.90,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k13} {\k19}Wa{\k13}ta{\k19}shi {\k46}mo {\k38}kit{\k44}to {\k22}ka{\k13}ga{\k18}ya{\k13}ku {\k122}wa
+Dialogue: 0,0:19:30.10,0:19:33.90,Song Insert TL,,0,0,0,,{\fad(200,200)}I'm sure I'll be able to shine as well
+Dialogue: 0,0:19:33.90,0:19:36.90,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k12} {\k23}I'm {\k24}a {\k27}lit{\k36}tle {\k50}Prin{\k128}cess!
+Dialogue: 0,0:19:33.90,0:19:36.90,Song Insert TL,,0,0,0,,{\fad(200,200)}I'm a little Princess!
+Dialogue: 0,0:19:36.99,0:19:40.40,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k46} {\k103}La {\k28}la {\k27}la {\k137}la
+Dialogue: 0,0:19:36.99,0:19:40.40,Song Insert TL,,0,0,0,,{\fad(200,200)}La la la la
+Dialogue: 0,0:19:40.40,0:19:43.77,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k12} {\k21}Ko{\k22}no {\k20}u{\k22}ta {\k78}ga {\k26}hi{\k18}bi{\k22}i{\k23}ta {\k36}na{\k37}ra
+Dialogue: 0,0:19:40.40,0:19:43.77,Song Insert TL,,0,0,0,,{\fad(200,200)}If this song resounds in you
+Dialogue: 0,0:19:43.77,0:19:46.99,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k32}Ki{\k94}ra {\k39}ki{\k30}ra{\k127}ra
+Dialogue: 0,0:19:43.77,0:19:46.99,Song Insert TL,,0,0,0,,{\fad(200,200)}Sparkle, spark-sparkle
+Dialogue: 0,0:19:46.99,0:19:50.62,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k20} {\k19}O{\k18}ho{\k15}shi{\k33}-sa{\k81}ma {\k23}ka{\k21}na{\k21}e{\k16}te {\k16}ho{\k24}shi{\k21}i {\k35}na
+Dialogue: 0,0:19:46.99,0:19:50.62,Song Insert TL,,0,0,0,,{\fad(200,200)}I hope the stars will grant my wish
+Dialogue: 0,0:19:50.62,0:19:53.63,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k9} {\k26}Ya{\k30}sa{\k28}shi{\k59}ku {\k27}a{\k31}ta{\k31}ta{\k22}ka{\k38}ku
+Dialogue: 0,0:19:50.62,0:19:53.63,Song Insert TL,,0,0,0,,{\fad(200,200)}Gently, warmly
+Dialogue: 0,0:19:53.63,0:19:57.38,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k24} {\k20}Min{\k22}na {\k15}o {\k23}shi{\k22}a{\k20}wa{\k24}se {\k12}ni {\k29}shi{\k55}ta{\k28}i {\k81}no
+Dialogue: 0,0:19:53.63,0:19:57.38,Song Insert TL,,0,0,0,,{\fad(200,200)}I want to bring happiness to everyone
+Dialogue: 0,0:19:57.38,0:20:03.89,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k37} {\k18}“Ko{\k17}ha{\k15}ru {\k19}wa {\k28}son{\k14}na {\k13}su{\k13}te{\k15}ki {\k65}na {\k17}o{\k14}hi{\k13}me{\k22}-sa{\k16}ma {\k18}ni {\k15}na{\k17}ri{\k13}ta{\k10}i{\k13}n {\k21}de{\k208}su!”
+Dialogue: 0,0:20:05.64,0:20:11.38,Song Insert Romaji,,0,0,0,,{\fad(200,200)\k30} {\k22}Ta{\k20}ma {\k23}ni {\k18}o{\k23}hi{\k20}sa{\k45}ma {\k19}ni {\k19}u{\k21}to{\k41}u{\k13}to {\k27}shi{\k66}chat{\k24}te{\k143}mo
+Dialogue: 0,0:20:05.64,0:20:11.38,Song Insert TL,,0,0,0,,{\fad(200,200)}Even if I sometimes doze off in the sun
+Dialogue: 0,0:20:13.06,0:20:19.00,Song Insert Romaji,,0,0,0,,{\fad(200,500)\k10} {\k24}Yu{\k23}ru{\k41}shi{\k32}te {\k33}ku{\k47}da{\k-1}sai{\fnAmaranth\k-1}~{\fnGarton Regular Bold\k384}......
+Dialogue: 0,0:20:13.06,0:20:19.00,Song Insert TL,,0,0,0,,{\=49\fad(200,500)}Please forgive me{\fnAmaranth}~{\fnGarton Regular Bold}...
+Dialogue: 0,0:19:57.38,0:20:03.89,Dialogue,,0,0,0,,{\q2}That's the kind of princess Koharu wants to be~!
+Dialogue: 0,0:20:22.42,0:20:24.55,Dialogue,,0,0,0,,{\blur2}Koga-san, we found you!
+Dialogue: 0,0:20:24.55,0:20:26.86,Dialogue,,0,0,0,,{\blur1}Koharu-chan! Koharu-chan!
+Dialogue: 0,0:20:26.86,0:20:29.05,Dialogue,,0,0,0,,{\blur0.5}Mmmm...
+Dialogue: 0,0:20:29.05,0:20:31.37,Dialogue,,0,0,0,,{\blur0.125}Hyou-kun?
+Dialogue: 0,0:20:31.37,0:20:33.00,Dialogue,,0,0,0,,Mmm...
+Dialogue: 0,0:20:33.77,0:20:36.25,Dialogue,,0,0,0,,Ah, Hyou-kun!
+Dialogue: 0,0:20:36.25,0:20:39.71,Dialogue,,0,0,0,,Seriously! You're lucky that\Nnothing awful happened!
+Dialogue: 0,0:20:39.71,0:20:41.42,Dialogue,,0,0,0,,I-I said I'm sorry!
+Dialogue: 0,0:20:43.01,0:20:44.10,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:20:44.10,0:20:46.22,Dialogue,,0,0,0,,Good morning, Koga-san!
+Dialogue: 0,0:20:46.22,0:20:49.73,Dialogue,,0,0,0,,Good morning~
+Dialogue: 0,0:20:49.73,0:20:51.68,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:20:51.68,0:20:53.55,Dialogue,,0,0,0,,Are you okay, Koharu-chan?
+Dialogue: 0,0:20:53.55,0:20:54.99,Dialogue,,0,0,0,,Are you feeling hungry?
+Dialogue: 0,0:20:54.99,0:20:57.90,Dialogue,,0,0,0,,Jeez, don't worry us like that.
+Dialogue: 0,0:20:58.26,0:21:00.40,Dialogue,,0,0,0,,I'm very glad you're safe.
+Dialogue: 0,0:21:00.40,0:21:02.02,Dialogue,,0,0,0,,Hehe...
+Dialogue: 0,0:21:02.93,0:21:06.91,Dialogue,,0,0,0,,You brought everyone with you, didn't you Hyou-kun?
+Dialogue: 0,0:21:06.91,0:21:08.16,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:21:09.22,0:21:10.41,Dialogue,,0,0,0,,Ehehe.
+Dialogue: 0,0:21:10.41,0:21:14.67,Dialogue,,0,0,0,,{\fad(0,938)}You're all like stars~
+Dialogue: 0,0:21:21.42,0:21:24.18,Dialogue,,0,0,0,,Sorry we took so long, Koga-san...
+Dialogue: 0,0:21:24.18,0:21:25.65,Dialogue,,0,0,0,,Heheh~
+Dialogue: 0,0:21:25.65,0:21:30.06,Dialogue,,0,0,0,,But Producer-san, you ended up finding Koharu~
+Dialogue: 0,0:21:30.33,0:21:32.22,Dialogue,,0,0,0,,Ah, that's right~
+Dialogue: 0,0:21:32.22,0:21:33.73,Dialogue,,0,0,0,,Producer-san!
+Dialogue: 0,0:21:33.73,0:21:38.05,Dialogue,,0,0,0,,Koharu figured out\Nwhat kind of princess she wants to be~
+Dialogue: 0,0:21:38.05,0:21:40.30,Dialogue,,0,0,0,,Koharu wants to be...
+Dialogue: 0,0:21:40.30,0:21:41.67,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:21:43.15,0:21:44.55,Dialogue,,0,0,0,,Koga-san?
+Dialogue: 0,0:21:44.55,0:21:45.91,Dialogue,,0,0,0,,Koharu?
+Dialogue: 0,0:21:54.32,0:21:58.12,Dialogue,,0,0,0,,La, la, la, la...
+Dialogue: 0,0:21:58.12,0:22:04.33,Dialogue,,0,0,0,,If this song reaches you...
+Dialogue: 0,0:22:08.44,0:22:11.39,Dialogue,,0,0,0,,Are you a princess, miss?
+Dialogue: 0,0:22:11.39,0:22:12.92,Dialogue,,0,0,0,,Eheheh~
+Dialogue: 0,0:22:12.92,0:22:15.86,Dialogue,,0,0,0,,I'm not a princess yet~
+Dialogue: 0,0:22:15.86,0:22:17.73,Dialogue,,0,0,0,,But Koharu...
+Dialogue: 0,0:22:17.73,0:22:22.20,Dialogue,,0,0,0,,...is someone who makes everyone\Nhappy, just like a princess!
+Dialogue: 0,0:22:22.20,0:22:24.17,Dialogue,,0,0,0,,An idol!
+Dialogue: 0,0:22:41.75,0:22:41.79,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13=14\x100\y100\pos(23,23)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.75,0:22:41.79,Sign Letter,,0,0,0,,{\=12\x100\y100\frz13.03\pos(925,431)}Koga Koharu-chan
+Dialogue: 0,0:22:41.79,0:22:41.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.1\y100.1\pos(22.18,22.79)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.79,0:22:41.84,Sign Letter,,0,0,0,,{\=12\x100.1\y100.1\frz13.03\pos(925.1,431.21)}Koga Koharu-chan
+Dialogue: 0,0:22:41.84,0:22:41.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.21\y100.21\pos(21.35,22.36)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.84,0:22:41.88,Sign Letter,,0,0,0,,{\=12\x100.21\y100.21\frz13.03\pos(925.2,431.2)}Koga Koharu-chan
+Dialogue: 0,0:22:41.88,0:22:41.92,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.31\y100.31\pos(20.88,22.14)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.88,0:22:41.92,Sign Letter,,0,0,0,,{\=12\x100.31\y100.31\frz13.03\pos(925.67,431.41)}Koga Koharu-chan
+Dialogue: 0,0:22:41.92,0:22:41.96,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.41\y100.41\pos(20.26,22.08)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.92,0:22:41.96,Sign Letter,,0,0,0,,{\=12\x100.41\y100.41\frz13.03\pos(925.93,431.75)}Koga Koharu-chan
+Dialogue: 0,0:22:41.96,0:22:42.00,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.51\y100.51\pos(19.17,21.96)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:41.96,0:22:42.00,Sign Letter,,0,0,0,,{\=12\x100.51\y100.51\frz13.03\pos(925.77,432.04)}Koga Koharu-chan
+Dialogue: 0,0:22:42.00,0:22:42.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.62\y100.62\pos(18.27,21.77)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.00,0:22:42.05,Sign Letter,,0,0,0,,{\=12\x100.62\y100.62\frz13.03\pos(925.82,432.29)}Koga Koharu-chan
+Dialogue: 0,0:22:42.05,0:22:42.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.72\y100.72\pos(17.58,21.52)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.05,0:22:42.09,Sign Letter,,0,0,0,,{\=12\x100.72\y100.72\frz13.03\pos(926.04,432.44)}Koga Koharu-chan
+Dialogue: 0,0:22:42.09,0:22:42.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.81\y100.81\pos(16.95,21.24)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.09,0:22:42.13,Sign Letter,,0,0,0,,{\=12\x100.81\y100.81\frz13.03\pos(926.29,432.56)}Koga Koharu-chan
+Dialogue: 0,0:22:42.13,0:22:42.17,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x100.92\y100.92\pos(16.18,20.95)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.13,0:22:42.17,Sign Letter,,0,0,0,,{\=12\x100.92\y100.92\frz13.03\pos(926.5,432.71)}Koga Koharu-chan
+Dialogue: 0,0:22:42.17,0:22:42.21,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.02\y101.02\pos(15.44,20.73)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.17,0:22:42.21,Sign Letter,,0,0,0,,{\=12\x101.02\y101.02\frz13.03\pos(926.66,432.9)}Koga Koharu-chan
+Dialogue: 0,0:22:42.21,0:22:42.25,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.13\y101.13\pos(14.64,20.51)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.21,0:22:42.25,Sign Letter,,0,0,0,,{\=12\x101.13\y101.13\frz13.03\pos(926.81,433.11)}Koga Koharu-chan
+Dialogue: 0,0:22:42.25,0:22:42.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.23\y101.23\pos(13.86,20.31)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.25,0:22:42.30,Sign Letter,,0,0,0,,{\=12\x101.23\y101.23\frz13.03\pos(926.95,433.33)}Koga Koharu-chan
+Dialogue: 0,0:22:42.30,0:22:42.34,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.33\y101.33\pos(13.09,20.06)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.30,0:22:42.34,Sign Letter,,0,0,0,,{\=12\x101.33\y101.33\frz13.03\pos(927.11,433.5)}Koga Koharu-chan
+Dialogue: 0,0:22:42.34,0:22:42.38,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.44\y101.44\pos(12.32,19.81)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.34,0:22:42.38,Sign Letter,,0,0,0,,{\=12\x101.44\y101.44\frz13.03\pos(927.29,433.67)}Koga Koharu-chan
+Dialogue: 0,0:22:42.38,0:22:42.42,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.54\y101.54\pos(11.57,19.56)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.38,0:22:42.42,Sign Letter,,0,0,0,,{\=12\x101.54\y101.54\frz13.03\pos(927.48,433.85)}Koga Koharu-chan
+Dialogue: 0,0:22:42.42,0:22:42.46,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.64\y101.64\pos(10.81,19.28)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.42,0:22:42.46,Sign Letter,,0,0,0,,{\=12\x101.64\y101.64\frz13.03\pos(927.64,433.99)}Koga Koharu-chan
+Dialogue: 0,0:22:42.46,0:22:42.50,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.75\y101.75\pos(10.01,19)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.46,0:22:42.50,Sign Letter,,0,0,0,,{\=12\x101.75\y101.75\frz13.03\pos(927.8,434.15)}Koga Koharu-chan
+Dialogue: 0,0:22:42.50,0:22:42.55,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.85\y101.85\pos(9.23,18.73)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.50,0:22:42.55,Sign Letter,,0,0,0,,{\=12\x101.85\y101.85\frz13.03\pos(927.95,434.29)}Koga Koharu-chan
+Dialogue: 0,0:22:42.55,0:22:42.59,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x101.96\y101.96\pos(8.41,18.56)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.55,0:22:42.59,Sign Letter,,0,0,0,,{\=12\x101.96\y101.96\frz13.03\pos(928.07,434.55)}Koga Koharu-chan
+Dialogue: 0,0:22:42.59,0:22:42.63,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.06\y102.06\pos(7.5,18.61)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.59,0:22:42.63,Sign Letter,,0,0,0,,{\=12\x102.06\y102.06\frz13.03\pos(928.09,435.02)}Koga Koharu-chan
+Dialogue: 0,0:22:42.63,0:22:42.67,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.17\y102.17\pos(6.66,18.42)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.63,0:22:42.67,Sign Letter,,0,0,0,,{\=12\x102.17\y102.17\frz13.03\pos(928.22,435.27)}Koga Koharu-chan
+Dialogue: 0,0:22:42.67,0:22:42.71,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.27\y102.27\pos(5.82,18.24)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.67,0:22:42.71,Sign Letter,,0,0,0,,{\=12\x102.27\y102.27\frz13.03\pos(928.33,435.52)}Koga Koharu-chan
+Dialogue: 0,0:22:42.71,0:22:42.75,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.38\y102.38\pos(5,18.05)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.71,0:22:42.75,Sign Letter,,0,0,0,,{\=12\x102.38\y102.38\frz13.03\pos(928.46,435.76)}Koga Koharu-chan
+Dialogue: 0,0:22:42.75,0:22:42.80,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.48\y102.48\pos(4.18,17.84)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.75,0:22:42.80,Sign Letter,,0,0,0,,{\=12\x102.48\y102.48\frz13.03\pos(928.58,435.98)}Koga Koharu-chan
+Dialogue: 0,0:22:42.80,0:22:42.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.59\y102.59\pos(3.34,17.61)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.80,0:22:42.84,Sign Letter,,0,0,0,,{\=12\x102.59\y102.59\frz13.03\pos(928.7,436.18)}Koga Koharu-chan
+Dialogue: 0,0:22:42.84,0:22:42.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.7\y102.7\pos(2.55,16.97)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.84,0:22:42.88,Sign Letter,,0,0,0,,{\=12\x102.7\y102.7\frz13.03\pos(928.9,435.99)}Koga Koharu-chan
+Dialogue: 0,0:22:42.88,0:22:42.92,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.81\y102.81\pos(1.69,16.82)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.88,0:22:42.92,Sign Letter,,0,0,0,,{\=12\x102.81\y102.81\frz13.03\pos(929.01,436.27)}Koga Koharu-chan
+Dialogue: 0,0:22:42.92,0:22:42.96,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x102.91\y102.91\pos(0.88,16.63)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.92,0:22:42.96,Sign Letter,,0,0,0,,{\=12\x102.91\y102.91\frz13.03\pos(929.15,436.51)}Koga Koharu-chan
+Dialogue: 0,0:22:42.96,0:22:43.00,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.01\y103.01\pos(0.14,16.39)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:42.96,0:22:43.00,Sign Letter,,0,0,0,,{\=12\x103.01\y103.01\frz13.03\pos(929.34,436.7)}Koga Koharu-chan
+Dialogue: 0,0:22:43.00,0:22:43.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.13\y103.13\pos(-0.61,16.14)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.00,0:22:43.05,Sign Letter,,0,0,0,,{\=12\x103.13\y103.13\frz13.03\pos(929.59,436.89)}Koga Koharu-chan
+Dialogue: 0,0:22:43.05,0:22:43.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.24\y103.24\pos(-1.43,15.9)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.05,0:22:43.09,Sign Letter,,0,0,0,,{\=12\x103.24\y103.24\frz13.03\pos(929.75,437.1)}Koga Koharu-chan
+Dialogue: 0,0:22:43.09,0:22:43.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.34\y103.34\pos(-2.23,15.67)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.09,0:22:43.13,Sign Letter,,0,0,0,,{\=12\x103.34\y103.34\frz13.03\pos(929.91,437.31)}Koga Koharu-chan
+Dialogue: 0,0:22:43.13,0:22:43.17,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.45\y103.45\pos(-3.07,15.24)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.13,0:22:43.17,Sign Letter,,0,0,0,,{\=12\x103.45\y103.45\frz13.03\pos(930.05,437.32)}Koga Koharu-chan
+Dialogue: 0,0:22:43.17,0:22:43.21,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.56\y103.56\pos(-3.88,14.79)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.17,0:22:43.21,Sign Letter,,0,0,0,,{\=12\x103.56\y103.56\frz13.03\pos(930.19,437.29)}Koga Koharu-chan
+Dialogue: 0,0:22:43.21,0:22:43.25,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.66\y103.66\pos(-4.77,14.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.21,0:22:43.25,Sign Letter,,0,0,0,,{\=12\x103.66\y103.66\frz13.03\pos(930.28,437.22)}Koga Koharu-chan
+Dialogue: 0,0:22:43.25,0:22:43.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.77\y103.77\pos(-5.59,14.08)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.25,0:22:43.30,Sign Letter,,0,0,0,,{\=12\x103.77\y103.77\frz13.03\pos(930.44,437.47)}Koga Koharu-chan
+Dialogue: 0,0:22:43.30,0:22:43.34,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.89\y103.89\pos(-6.38,14.24)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.30,0:22:43.34,Sign Letter,,0,0,0,,{\=12\x103.89\y103.89\frz13.03\pos(930.66,438.09)}Koga Koharu-chan
+Dialogue: 0,0:22:43.34,0:22:43.38,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x103.99\y103.99\pos(-7.2,14.38)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.34,0:22:43.38,Sign Letter,,0,0,0,,{\=12\x103.99\y103.99\frz13.03\pos(930.82,438.67)}Koga Koharu-chan
+Dialogue: 0,0:22:43.38,0:22:43.42,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.1\y104.1\pos(-8.07,14.4)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.38,0:22:43.42,Sign Letter,,0,0,0,,{\=12\x104.1\y104.1\frz13.03\pos(930.92,439.13)}Koga Koharu-chan
+Dialogue: 0,0:22:43.42,0:22:43.46,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.21\y104.21\pos(-8.81,14.15)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.42,0:22:43.46,Sign Letter,,0,0,0,,{\=12\x104.21\y104.21\frz13.03\pos(931.14,439.31)}Koga Koharu-chan
+Dialogue: 0,0:22:43.46,0:22:43.50,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.32\y104.32\pos(-9.78,13.36)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.46,0:22:43.50,Sign Letter,,0,0,0,,{\=12\x104.32\y104.32\frz13.03\pos(931.23,439)}Koga Koharu-chan
+Dialogue: 0,0:22:43.50,0:22:43.55,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.43\y104.43\pos(-10.59,13.04)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.50,0:22:43.55,Sign Letter,,0,0,0,,{\=12\x104.43\y104.43\frz13.03\pos(931.38,439.12)}Koga Koharu-chan
+Dialogue: 0,0:22:43.55,0:22:43.59,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.54\y104.54\pos(-11.45,12.79)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.55,0:22:43.59,Sign Letter,,0,0,0,,{\=12\x104.54\y104.54\frz13.03\pos(931.52,439.32)}Koga Koharu-chan
+Dialogue: 0,0:22:43.59,0:22:43.63,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.65\y104.65\pos(-12.29,12.56)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.59,0:22:43.63,Sign Letter,,0,0,0,,{\=12\x104.65\y104.65\frz13.03\pos(931.67,439.54)}Koga Koharu-chan
+Dialogue: 0,0:22:43.63,0:22:43.67,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.76\y104.76\pos(-13.15,12.45)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.63,0:22:43.67,Sign Letter,,0,0,0,,{\=12\x104.76\y104.76\frz13.03\pos(931.8,439.87)}Koga Koharu-chan
+Dialogue: 0,0:22:43.67,0:22:43.71,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.87\y104.87\pos(-14.03,12.49)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.67,0:22:43.71,Sign Letter,,0,0,0,,{\=12\x104.87\y104.87\frz13.03\pos(931.94,440.37)}Koga Koharu-chan
+Dialogue: 0,0:22:43.71,0:22:43.76,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x104.98\y104.98\pos(-14.86,12.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.71,0:22:43.76,Sign Letter,,0,0,0,,{\=12\x104.98\y104.98\frz13.03\pos(932.09,440.6)}Koga Koharu-chan
+Dialogue: 0,0:22:43.76,0:22:43.80,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.1\y105.1\pos(-15.7,12.03)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.76,0:22:43.80,Sign Letter,,0,0,0,,{\=12\x105.1\y105.1\frz13.03\pos(932.26,440.82)}Koga Koharu-chan
+Dialogue: 0,0:22:43.80,0:22:43.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.21\y105.21\pos(-16.5,11.76)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.80,0:22:43.84,Sign Letter,,0,0,0,,{\=12\x105.21\y105.21\frz13.03\pos(932.49,441.02)}Koga Koharu-chan
+Dialogue: 0,0:22:43.84,0:22:43.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.32\y105.32\pos(-17.3,11.4)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.84,0:22:43.88,Sign Letter,,0,0,0,,{\=12\x105.32\y105.32\frz13.03\pos(932.67,441.1)}Koga Koharu-chan
+Dialogue: 0,0:22:43.88,0:22:43.92,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.43\y105.43\pos(-18.15,11.29)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.88,0:22:43.92,Sign Letter,,0,0,0,,{\=12\x105.43\y105.43\frz13.03\pos(932.84,441.46)}Koga Koharu-chan
+Dialogue: 0,0:22:43.92,0:22:43.96,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.54\y105.54\pos(-19.06,10.79)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.92,0:22:43.96,Sign Letter,,0,0,0,,{\=12\x105.54\y105.54\frz13.03\pos(932.95,441.41)}Koga Koharu-chan
+Dialogue: 0,0:22:43.96,0:22:44.01,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.66\y105.66\pos(-19.9,10.73)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:43.96,0:22:44.01,Sign Letter,,0,0,0,,{\=12\x105.66\y105.66\frz13.03\pos(933.12,441.8)}Koga Koharu-chan
+Dialogue: 0,0:22:44.01,0:22:44.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.77\y105.77\pos(-20.77,10.68)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.01,0:22:44.05,Sign Letter,,0,0,0,,{\=12\x105.77\y105.77\frz13.03\pos(933.26,442.22)}Koga Koharu-chan
+Dialogue: 0,0:22:44.05,0:22:44.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.88\y105.88\pos(-21.69,10.49)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.05,0:22:44.09,Sign Letter,,0,0,0,,{\=12\x105.88\y105.88\frz13.03\pos(933.36,442.48)}Koga Koharu-chan
+Dialogue: 0,0:22:44.09,0:22:44.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x105.99\y105.99\pos(-22.58,10.25)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.09,0:22:44.13,Sign Letter,,0,0,0,,{\=12\x105.99\y105.99\frz13.03\pos(933.5,442.71)}Koga Koharu-chan
+Dialogue: 0,0:22:44.13,0:22:44.17,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.11\y106.11\pos(-23.44,10)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.13,0:22:44.17,Sign Letter,,0,0,0,,{\=12\x106.11\y106.11\frz13.03\pos(933.66,442.93)}Koga Koharu-chan
+Dialogue: 0,0:22:44.17,0:22:44.21,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.22\y106.22\pos(-24.29,9.77)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.17,0:22:44.21,Sign Letter,,0,0,0,,{\=12\x106.22\y106.22\frz13.03\pos(933.82,443.15)}Koga Koharu-chan
+Dialogue: 0,0:22:44.21,0:22:44.26,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.33\y106.33\pos(-25.12,9.53)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.21,0:22:44.26,Sign Letter,,0,0,0,,{\=12\x106.33\y106.33\frz13.03\pos(934.01,443.37)}Koga Koharu-chan
+Dialogue: 0,0:22:44.26,0:22:44.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.45\y106.45\pos(-25.95,9.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.26,0:22:44.30,Sign Letter,,0,0,0,,{\=12\x106.45\y106.45\frz13.03\pos(934.23,443.59)}Koga Koharu-chan
+Dialogue: 0,0:22:44.30,0:22:44.34,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.56\y106.56\pos(-26.77,9.05)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.30,0:22:44.34,Sign Letter,,0,0,0,,{\=12\x106.56\y106.56\frz13.03\pos(934.43,443.82)}Koga Koharu-chan
+Dialogue: 0,0:22:44.34,0:22:44.38,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.68\y106.68\pos(-27.57,8.8)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.34,0:22:44.38,Sign Letter,,0,0,0,,{\=12\x106.68\y106.68\frz13.03\pos(934.67,444.05)}Koga Koharu-chan
+Dialogue: 0,0:22:44.38,0:22:44.42,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.79\y106.79\pos(-28.5,8.61)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.38,0:22:44.42,Sign Letter,,0,0,0,,{\=12\x106.79\y106.79\frz13.03\pos(934.78,444.33)}Koga Koharu-chan
+Dialogue: 0,0:22:44.42,0:22:44.46,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x106.91\y106.91\pos(-29.44,8.43)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.42,0:22:44.46,Sign Letter,,0,0,0,,{\=12\x106.91\y106.91\frz13.03\pos(934.88,444.62)}Koga Koharu-chan
+Dialogue: 0,0:22:44.46,0:22:44.51,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.02\y107.02\pos(-30.28,8.19)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.46,0:22:44.51,Sign Letter,,0,0,0,,{\=12\x107.02\y107.02\frz13.03\pos(935.07,444.84)}Koga Koharu-chan
+Dialogue: 0,0:22:44.51,0:22:44.55,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.14\y107.14\pos(-31.12,7.93)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.51,0:22:44.55,Sign Letter,,0,0,0,,{\=12\x107.14\y107.14\frz13.03\pos(935.29,445.07)}Koga Koharu-chan
+Dialogue: 0,0:22:44.55,0:22:44.59,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.26\y107.26\pos(-31.98,7.68)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.55,0:22:44.59,Sign Letter,,0,0,0,,{\=12\x107.26\y107.26\frz13.03\pos(935.49,445.29)}Koga Koharu-chan
+Dialogue: 0,0:22:44.59,0:22:44.63,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.37\y107.37\pos(-32.83,7.43)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.59,0:22:44.63,Sign Letter,,0,0,0,,{\=12\x107.37\y107.37\frz13.03\pos(935.67,445.51)}Koga Koharu-chan
+Dialogue: 0,0:22:44.63,0:22:44.67,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.49\y107.49\pos(-33.69,7.14)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.63,0:22:44.67,Sign Letter,,0,0,0,,{\=12\x107.49\y107.49\frz13.03\pos(935.85,445.69)}Koga Koharu-chan
+Dialogue: 0,0:22:44.67,0:22:44.71,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.61\y107.61\pos(-34.61,6.6)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.67,0:22:44.71,Sign Letter,,0,0,0,,{\=12\x107.61\y107.61\frz13.03\pos(936,445.63)}Koga Koharu-chan
+Dialogue: 0,0:22:44.71,0:22:44.76,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.72\y107.72\pos(-35.5,6.41)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.71,0:22:44.76,Sign Letter,,0,0,0,,{\=12\x107.72\y107.72\frz13.03\pos(936.15,445.91)}Koga Koharu-chan
+Dialogue: 0,0:22:44.76,0:22:44.80,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.84\y107.84\pos(-36.41,6.34)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.76,0:22:44.80,Sign Letter,,0,0,0,,{\=12\x107.84\y107.84\frz13.03\pos(936.31,446.33)}Koga Koharu-chan
+Dialogue: 0,0:22:44.80,0:22:44.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x107.96\y107.96\pos(-37.31,6.11)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.80,0:22:44.84,Sign Letter,,0,0,0,,{\=12\x107.96\y107.96\frz13.03\pos(936.46,446.57)}Koga Koharu-chan
+Dialogue: 0,0:22:44.84,0:22:44.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.08\y108.08\pos(-38.2,5.88)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.84,0:22:44.88,Sign Letter,,0,0,0,,{\=12\x108.08\y108.08\frz13.03\pos(936.64,446.82)}Koga Koharu-chan
+Dialogue: 0,0:22:44.88,0:22:44.92,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.2\y108.2\pos(-39.12,5.64)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.88,0:22:44.92,Sign Letter,,0,0,0,,{\=12\x108.2\y108.2\frz13.03\pos(936.82,447.09)}Koga Koharu-chan
+Dialogue: 0,0:22:44.92,0:22:44.96,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.31\y108.31\pos(-39.96,5.4)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.92,0:22:44.96,Sign Letter,,0,0,0,,{\=12\x108.31\y108.31\frz13.03\pos(937,447.31)}Koga Koharu-chan
+Dialogue: 0,0:22:44.96,0:22:45.01,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.43\y108.43\pos(-40.86,5.19)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:44.96,0:22:45.01,Sign Letter,,0,0,0,,{\=12\x108.43\y108.43\frz13.03\pos(937.19,447.59)}Koga Koharu-chan
+Dialogue: 0,0:22:45.01,0:22:45.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.55\y108.55\pos(-41.73,4.96)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.01,0:22:45.05,Sign Letter,,0,0,0,,{\=12\x108.55\y108.55\frz13.03\pos(937.37,447.84)}Koga Koharu-chan
+Dialogue: 0,0:22:45.05,0:22:45.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.67\y108.67\pos(-42.63,4.73)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.05,0:22:45.09,Sign Letter,,0,0,0,,{\=12\x108.67\y108.67\frz13.03\pos(937.54,448.1)}Koga Koharu-chan
+Dialogue: 0,0:22:45.09,0:22:45.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.79\y108.79\pos(-43.53,4.53)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.09,0:22:45.13,Sign Letter,,0,0,0,,{\=12\x108.79\y108.79\frz13.03\pos(937.72,448.38)}Koga Koharu-chan
+Dialogue: 0,0:22:45.13,0:22:45.17,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x108.91\y108.91\pos(-44.45,4.26)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.13,0:22:45.17,Sign Letter,,0,0,0,,{\=12\x108.91\y108.91\frz13.03\pos(937.89,448.59)}Koga Koharu-chan
+Dialogue: 0,0:22:45.17,0:22:45.22,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.03\y109.03\pos(-45.37,3.99)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.17,0:22:45.22,Sign Letter,,0,0,0,,{\=12\x109.03\y109.03\frz13.03\pos(938.06,448.82)}Koga Koharu-chan
+Dialogue: 0,0:22:45.22,0:22:45.26,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.15\y109.15\pos(-46.29,3.7)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.22,0:22:45.26,Sign Letter,,0,0,0,,{\=12\x109.15\y109.15\frz13.03\pos(938.23,449.03)}Koga Koharu-chan
+Dialogue: 0,0:22:45.26,0:22:45.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.27\y109.27\pos(-47.18,3.43)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.26,0:22:45.30,Sign Letter,,0,0,0,,{\=12\x109.27\y109.27\frz13.03\pos(938.4,449.24)}Koga Koharu-chan
+Dialogue: 0,0:22:45.30,0:22:45.34,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.39\y109.39\pos(-48.08,3.12)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.30,0:22:45.34,Sign Letter,,0,0,0,,{\=12\x109.39\y109.39\frz13.03\pos(938.59,449.42)}Koga Koharu-chan
+Dialogue: 0,0:22:45.34,0:22:45.38,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.51\y109.51\pos(-49.01,2.84)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.34,0:22:45.38,Sign Letter,,0,0,0,,{\=12\x109.51\y109.51\frz13.03\pos(938.77,449.64)}Koga Koharu-chan
+Dialogue: 0,0:22:45.38,0:22:45.42,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.63\y109.63\pos(-49.92,2.52)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.38,0:22:45.42,Sign Letter,,0,0,0,,{\=12\x109.63\y109.63\frz13.03\pos(938.96,449.82)}Koga Koharu-chan
+Dialogue: 0,0:22:45.42,0:22:45.47,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.75\y109.75\pos(-50.84,2.01)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.42,0:22:45.47,Sign Letter,,0,0,0,,{\=12\x109.75\y109.75\frz13.03\pos(939.13,449.8)}Koga Koharu-chan
+Dialogue: 0,0:22:45.47,0:22:45.51,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x109.87\y109.87\pos(-51.75,1.82)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.47,0:22:45.51,Sign Letter,,0,0,0,,{\=12\x109.87\y109.87\frz13.03\pos(939.32,450.1)}Koga Koharu-chan
+Dialogue: 0,0:22:45.51,0:22:45.55,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110\y110\pos(-52.64,1.86)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.51,0:22:45.55,Sign Letter,,0,0,0,,{\=12\x110\y110\frz13.03\pos(939.54,450.65)}Koga Koharu-chan
+Dialogue: 0,0:22:45.55,0:22:45.59,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.12\y110.12\pos(-53.54,1.61)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.55,0:22:45.59,Sign Letter,,0,0,0,,{\=12\x110.12\y110.12\frz13.03\pos(939.71,450.89)}Koga Koharu-chan
+Dialogue: 0,0:22:45.59,0:22:45.63,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.24\y110.24\pos(-54.46,1.34)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.59,0:22:45.63,Sign Letter,,0,0,0,,{\=12\x110.24\y110.24\frz13.03\pos(939.89,451.12)}Koga Koharu-chan
+Dialogue: 0,0:22:45.63,0:22:45.67,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.36\y110.36\pos(-55.41,1.07)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.63,0:22:45.67,Sign Letter,,0,0,0,,{\=12\x110.36\y110.36\frz13.03\pos(940.07,451.35)}Koga Koharu-chan
+Dialogue: 0,0:22:45.67,0:22:45.72,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.49\y110.49\pos(-56.35,0.79)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.67,0:22:45.72,Sign Letter,,0,0,0,,{\=12\x110.49\y110.49\frz13.03\pos(940.24,451.57)}Koga Koharu-chan
+Dialogue: 0,0:22:45.72,0:22:45.76,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.61\y110.61\pos(-57.27,0.54)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.72,0:22:45.76,Sign Letter,,0,0,0,,{\=12\x110.61\y110.61\frz13.03\pos(940.42,451.83)}Koga Koharu-chan
+Dialogue: 0,0:22:45.76,0:22:45.80,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.73\y110.73\pos(-58.22,0.28)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.76,0:22:45.80,Sign Letter,,0,0,0,,{\=12\x110.73\y110.73\frz13.03\pos(940.6,452.07)}Koga Koharu-chan
+Dialogue: 0,0:22:45.80,0:22:45.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.86\y110.86\pos(-59.13,0.05)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.80,0:22:45.84,Sign Letter,,0,0,0,,{\=12\x110.86\y110.86\frz13.03\pos(940.79,452.34)}Koga Koharu-chan
+Dialogue: 0,0:22:45.84,0:22:45.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x110.98\y110.98\pos(-60.07,-0.16)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.84,0:22:45.88,Sign Letter,,0,0,0,,{\=12\x110.98\y110.98\frz13.03\pos(940.98,452.65)}Koga Koharu-chan
+Dialogue: 0,0:22:45.88,0:22:45.92,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.1\y111.1\pos(-60.99,-0.38)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.88,0:22:45.92,Sign Letter,,0,0,0,,{\=12\x111.1\y111.1\frz13.03\pos(941.17,452.92)}Koga Koharu-chan
+Dialogue: 0,0:22:45.92,0:22:45.97,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.23\y111.23\pos(-61.92,-0.59)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.92,0:22:45.97,Sign Letter,,0,0,0,,{\=12\x111.23\y111.23\frz13.03\pos(941.36,453.22)}Koga Koharu-chan
+Dialogue: 0,0:22:45.97,0:22:46.01,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.36\y111.36\pos(-62.89,-0.92)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:45.97,0:22:46.01,Sign Letter,,0,0,0,,{\=12\x111.36\y111.36\frz13.03\pos(941.53,453.41)}Koga Koharu-chan
+Dialogue: 0,0:22:46.01,0:22:46.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.48\y111.48\pos(-63.85,-1.25)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.01,0:22:46.05,Sign Letter,,0,0,0,,{\=12\x111.48\y111.48\frz13.03\pos(941.71,453.59)}Koga Koharu-chan
+Dialogue: 0,0:22:46.05,0:22:46.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.61\y111.61\pos(-64.8,-1.59)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.05,0:22:46.09,Sign Letter,,0,0,0,,{\=12\x111.61\y111.61\frz13.03\pos(941.9,453.77)}Koga Koharu-chan
+Dialogue: 0,0:22:46.09,0:22:46.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.73\y111.73\pos(-65.75,-2.06)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.09,0:22:46.13,Sign Letter,,0,0,0,,{\=12\x111.73\y111.73\frz13.03\pos(942.08,453.81)}Koga Koharu-chan
+Dialogue: 0,0:22:46.13,0:22:46.17,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.86\y111.86\pos(-66.71,-2.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.13,0:22:46.17,Sign Letter,,0,0,0,,{\=12\x111.86\y111.86\frz13.03\pos(942.24,454.1)}Koga Koharu-chan
+Dialogue: 0,0:22:46.17,0:22:46.22,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x111.98\y111.98\pos(-67.67,-2.37)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.17,0:22:46.22,Sign Letter,,0,0,0,,{\=12\x111.98\y111.98\frz13.03\pos(942.42,454.52)}Koga Koharu-chan
+Dialogue: 0,0:22:46.22,0:22:46.26,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.11\y112.11\pos(-68.6,-2.68)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.22,0:22:46.26,Sign Letter,,0,0,0,,{\=12\x112.11\y112.11\frz13.03\pos(942.63,454.73)}Koga Koharu-chan
+Dialogue: 0,0:22:46.26,0:22:46.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.24\y112.24\pos(-69.52,-3.01)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.26,0:22:46.30,Sign Letter,,0,0,0,,{\=12\x112.24\y112.24\frz13.03\pos(942.87,454.92)}Koga Koharu-chan
+Dialogue: 0,0:22:46.30,0:22:46.34,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.37\y112.37\pos(-70.49,-3.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.30,0:22:46.34,Sign Letter,,0,0,0,,{\=12\x112.37\y112.37\frz13.03\pos(943.06,455.19)}Koga Koharu-chan
+Dialogue: 0,0:22:46.34,0:22:46.38,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.5\y112.5\pos(-71.45,-3.52)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.34,0:22:46.38,Sign Letter,,0,0,0,,{\=12\x112.5\y112.5\frz13.03\pos(943.26,455.46)}Koga Koharu-chan
+Dialogue: 0,0:22:46.38,0:22:46.42,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.62\y112.62\pos(-72.41,-3.78)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.38,0:22:46.42,Sign Letter,,0,0,0,,{\=12\x112.62\y112.62\frz13.03\pos(943.44,455.72)}Koga Koharu-chan
+Dialogue: 0,0:22:46.42,0:22:46.47,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.75\y112.75\pos(-73.35,-4.04)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.42,0:22:46.47,Sign Letter,,0,0,0,,{\=12\x112.75\y112.75\frz13.03\pos(943.64,455.98)}Koga Koharu-chan
+Dialogue: 0,0:22:46.47,0:22:46.51,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x112.88\y112.88\pos(-74.32,-4.3)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.47,0:22:46.51,Sign Letter,,0,0,0,,{\=12\x112.88\y112.88\frz13.03\pos(943.83,456.24)}Koga Koharu-chan
+Dialogue: 0,0:22:46.51,0:22:46.55,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.01\y113.01\pos(-75.29,-4.56)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.51,0:22:46.55,Sign Letter,,0,0,0,,{\=12\x113.01\y113.01\frz13.03\pos(944.02,456.5)}Koga Koharu-chan
+Dialogue: 0,0:22:46.55,0:22:46.59,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.14\y113.14\pos(-76.28,-4.83)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.55,0:22:46.59,Sign Letter,,0,0,0,,{\=12\x113.14\y113.14\frz13.03\pos(944.21,456.77)}Koga Koharu-chan
+Dialogue: 0,0:22:46.59,0:22:46.63,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.26\y113.26\pos(-77.25,-5.06)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.59,0:22:46.63,Sign Letter,,0,0,0,,{\=12\x113.26\y113.26\frz13.03\pos(944.4,457.06)}Koga Koharu-chan
+Dialogue: 0,0:22:46.63,0:22:46.67,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.4\y113.4\pos(-78.24,-5.34)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.63,0:22:46.67,Sign Letter,,0,0,0,,{\=12\x113.4\y113.4\frz13.03\pos(944.59,457.31)}Koga Koharu-chan
+Dialogue: 0,0:22:46.67,0:22:46.72,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.52\y113.52\pos(-79.21,-5.65)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.67,0:22:46.72,Sign Letter,,0,0,0,,{\=12\x113.52\y113.52\frz13.03\pos(944.78,457.53)}Koga Koharu-chan
+Dialogue: 0,0:22:46.72,0:22:46.76,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.66\y113.66\pos(-80.2,-5.94)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.72,0:22:46.76,Sign Letter,,0,0,0,,{\=12\x113.66\y113.66\frz13.03\pos(944.97,457.78)}Koga Koharu-chan
+Dialogue: 0,0:22:46.76,0:22:46.80,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.79\y113.79\pos(-81.18,-6.24)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.76,0:22:46.80,Sign Letter,,0,0,0,,{\=12\x113.79\y113.79\frz13.03\pos(945.17,458.01)}Koga Koharu-chan
+Dialogue: 0,0:22:46.80,0:22:46.84,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x113.92\y113.92\pos(-82.19,-6.5)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.80,0:22:46.84,Sign Letter,,0,0,0,,{\=12\x113.92\y113.92\frz13.03\pos(945.36,458.29)}Koga Koharu-chan
+Dialogue: 0,0:22:46.84,0:22:46.88,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.05\y114.05\pos(-83.16,-6.78)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.84,0:22:46.88,Sign Letter,,0,0,0,,{\=12\x114.05\y114.05\frz13.03\pos(945.55,458.54)}Koga Koharu-chan
+Dialogue: 0,0:22:46.88,0:22:46.93,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.18\y114.18\pos(-84.15,-7.06)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.88,0:22:46.93,Sign Letter,,0,0,0,,{\=12\x114.18\y114.18\frz13.03\pos(945.74,458.79)}Koga Koharu-chan
+Dialogue: 0,0:22:46.93,0:22:46.97,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.31\y114.31\pos(-85.17,-7.32)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.93,0:22:46.97,Sign Letter,,0,0,0,,{\=12\x114.31\y114.31\frz13.03\pos(945.93,459.08)}Koga Koharu-chan
+Dialogue: 0,0:22:46.97,0:22:47.01,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.45\y114.45\pos(-86.17,-7.54)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:46.97,0:22:47.01,Sign Letter,,0,0,0,,{\=12\x114.45\y114.45\frz13.03\pos(946.12,459.4)}Koga Koharu-chan
+Dialogue: 0,0:22:47.01,0:22:47.05,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.58\y114.58\pos(-87.15,-7.84)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.01,0:22:47.05,Sign Letter,,0,0,0,,{\=12\x114.58\y114.58\frz13.03\pos(946.32,459.63)}Koga Koharu-chan
+Dialogue: 0,0:22:47.05,0:22:47.09,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.71\y114.71\pos(-88.16,-8.11)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.05,0:22:47.09,Sign Letter,,0,0,0,,{\=12\x114.71\y114.71\frz13.03\pos(946.51,459.9)}Koga Koharu-chan
+Dialogue: 0,0:22:47.09,0:22:47.13,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.84\y114.84\pos(-89.15,-8.39)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.09,0:22:47.13,Sign Letter,,0,0,0,,{\=12\x114.84\y114.84\frz13.03\pos(946.71,460.16)}Koga Koharu-chan
+Dialogue: 0,0:22:47.13,0:22:47.18,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x114.97\y114.97\pos(-90.15,-8.68)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.13,0:22:47.18,Sign Letter,,0,0,0,,{\=12\x114.97\y114.97\frz13.03\pos(946.91,460.42)}Koga Koharu-chan
+Dialogue: 0,0:22:47.18,0:22:47.22,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x115.11\y115.11\pos(-91.14,-8.98)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.18,0:22:47.22,Sign Letter,,0,0,0,,{\=12\x115.11\y115.11\frz13.03\pos(947.13,460.66)}Koga Koharu-chan
+Dialogue: 0,0:22:47.22,0:22:47.26,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x115.24\y115.24\pos(-92.11,-9.23)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.22,0:22:47.26,Sign Letter,,0,0,0,,{\=12\x115.24\y115.24\frz13.03\pos(947.36,460.95)}Koga Koharu-chan
+Dialogue: 0,0:22:47.26,0:22:47.30,Sign Letter,,0,0,0,,{\1c&HF5FEFD&\1a&H00&\an7\=13\x115.37\y115.37\pos(-93.06,-9.27)\blur2\p1}m 747 441 l 1047 359 1069 429 761 503
+Dialogue: 1,0:22:47.26,0:22:47.30,Sign Letter,,0,0,0,,{\=12=15\x115.37\y115.37\frz13.03\pos(947.61,461.45)}Koga Koharu-chan
+Dialogue: 0,0:22:24.99,0:22:28.09,Song ED Romaji,,0,0,0,,{\=30\q2\fad(500,200)\k49} {\k34}O{\k19}ne{\k16}ga{\k41}i! {\k61}Shin{\k18}de{\k16}re{\k56}ra
+Dialogue: 0,0:22:24.99,0:22:28.09,Song ED TL,,0,0,0,,{\q2\fad(500,200)}Please! Cinderella
+Dialogue: 0,0:22:28.09,0:22:30.62,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k14} {\k16}Yu{\k18}me {\k16}wa {\k35}yu{\k18}me {\k16}de {\k34}o{\k18}wa{\k34}re{\k34}nai
+Dialogue: 0,0:22:28.09,0:22:30.62,Song ED TL,,0,0,0,,{\q2\fad(200,200)}This dream won't end as just a dream
+Dialogue: 0,0:22:30.62,0:22:36.11,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k17} {\k17}U{\k17}go{\k18}ki {\k12}ha{\k39}ji{\k17}me{\k18}te{\k119}ru {\k17}ka{\k17}ga{\k18}ya{\k17}ku {\k17}hi {\k33}no {\k18}ta{\k17}me {\k121}ni
+Dialogue: 0,0:22:30.62,0:22:36.11,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I've started to move towards sparkling days
+Dialogue: 0,0:22:47.30,0:22:53.07,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k46} {\k17}E{\k18}vu{\k17}ri{\k34}dei {\k34}don{\k17}na {\k35}to{\k33}ki {\k35}mo {\k34}kyuu{\k18}to {\k34}haa{\k33}to {\k35}mot{\k18}te{\k16}ta{\k103}i
+Dialogue: 0,0:22:47.30,0:22:53.07,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Every day, no matter when, I wanna have a cute heart
+Dialogue: 0,0:22:53.07,0:22:58.27,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k17} {\k31}Pin{\k21}chi {\k33}mo {\k35}sa{\k10}ba{\k25}i{\k16}ba{\k35}ru {\k34}mo {\k51}kuu{\k24}ru {\k45}ni {\k17}ko{\k35}e{\k17}ta{\k74}i
+Dialogue: 0,0:22:53.07,0:22:58.27,Song ED TL,,0,0,0,,{\q2\fad(200,200)\-0.75}But when I'm in a pinch and trying to survive, I wanna overcome it coolly
+Dialogue: 0,0:22:58.27,0:23:03.88,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k46} {\k34}Ap{\k18}pu{\k10}de{\k24}ito {\k33}mu{\k17}te{\k18}ki {\k18}na {\k33}pas{\k35}shon {\k15}ku{\k19}ji{\k18}ke {\k17}ko{\k18}ko{\k33}ro {\k18}ko{\k27}u{\k23}shi{\k87}n
+Dialogue: 0,0:22:58.27,0:23:03.88,Song ED TL,,0,0,0,,{\q2\fad(200,200)}With invincible passion, I'll update my broken heart
+Dialogue: 0,0:23:03.88,0:23:09.24,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k33} {\k18}Wa{\k16}ta{\k18}shi {\k35}ni {\k32}de{\k19}ki{\k34}ru {\k34}ko{\k33}to {\k53}da{\k17}ke {\k51}o {\k18}ka{\k33}sa{\k35}ne{\k57}te
+Dialogue: 0,0:23:03.88,0:23:09.24,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I'll just do everything that I can
+Dialogue: 0,0:23:09.24,0:23:14.17,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k13} {\k50}Ma{\k52}ho{\k33}u {\k104}ga {\k16}to{\k18}ke{\k34}na{\k18}i {\k51}yo{\k35}u {\k69}ni
+Dialogue: 0,0:23:09.24,0:23:14.17,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Not to end this magic
+Dialogue: 0,0:23:14.17,0:23:20.08,Song ED Romaji,,0,0,0,,{\k15\q2\fad(200,200)} {\k19}Ri{\k15}a{\k25}ru {\k17}na {\k44}su{\k34}ki{\k18}ru {\k35}me{\k17}gu{\k18}ru {\k17}mi{\k33}ra{\k36}ku{\k112}ru {\k41}shi{\k14}n{\k20}ji{\k18}te{\k43}ru
+Dialogue: 0,0:23:14.17,0:23:20.08,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I believe that having realistic skills is a miracle
+Dialogue: 0,0:23:20.08,0:23:22.73,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k25} {\k34}O{\k19}ne{\k16}ga{\k43}i! {\k43}Shi{\k16}n{\k18}de{\k17}re{\k34}ra
+Dialogue: 0,0:23:20.08,0:23:22.73,Song ED TL,,0,0,0,,{\q2\fad(200,200)}Please! Cinderella
+Dialogue: 0,0:23:22.73,0:23:25.58,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k34} {\k18}Yu{\k16}me {\k19}wa {\k33}yu{\k16}me {\k17}de {\k36}o{\k17}wa{\k34}re{\k45}nai
+Dialogue: 0,0:23:22.73,0:23:25.58,Song ED TL,,0,0,0,,{\q2\fad(200,200)}This dream won't end as just a dream
+Dialogue: 0,0:23:25.58,0:23:31.09,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k7} {\k17}Ka{\k34}na{\k18}e{\k17}ru {\k51}yo {\k41}ho{\k44}shi {\k34}ni {\k35}ne{\k51}ga{\k18}i {\k51}o {\k15}ka{\k18}ke{\k18}ta {\k17}na{\k65}ra
+Dialogue: 0,0:23:25.58,0:23:31.09,Song ED TL,,0,0,0,,{\q2\fad(200,200)}It'll come true if you wish upon a star
+Dialogue: 0,0:23:31.09,0:23:33.87,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k22\k29}Mi{\k21}tsu{\k19}ke{\k50}you! {\k34}M{\k16}y {\k19}On{\k12}ly {\k56}Star
+Dialogue: 0,0:23:31.09,0:23:33.87,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I'll find it! My Only Star
+Dialogue: 0,0:23:33.87,0:23:36.44,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k11} {\k24}Sa{\k15}ga{\k16}shi {\k36}tsu{\k17}zu{\k18}ke{\k35}te {\k16}yu{\k34}ki{\k35}tai
+Dialogue: 0,0:23:33.87,0:23:36.44,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I wanna keep looking for it
+Dialogue: 0,0:23:36.44,0:23:39.10,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k19} {\k17}Na{\k16}mi{\k16}da {\k19}no {\k34}a{\k16}to {\k18}ni {\k111}wa
+Dialogue: 0,0:23:36.44,0:23:39.10,Song ED TL,,0,0,0,,{\q2\fad(200,200)}After I dry my tears
+Dialogue: 0,0:23:39.10,0:23:40.49,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k7} {\k19}Ma{\k17}ta {\k17}wa{\k35}rat{\k44}te
+Dialogue: 0,0:23:39.10,0:23:40.49,Song ED TL,,0,0,0,,{\q2\fad(200,200)}I'll smile again
+Dialogue: 0,0:23:40.49,0:23:41.76,Song ED Romaji,,0,0,0,,{\k6\q2\fad(200,200)} {\k18}Su{\k16}ma{\k17}a{\k18}to {\k19}ni {\k33}ne
+Dialogue: 0,0:23:40.49,0:23:41.76,Song ED TL,,0,0,0,,{\q2\fad(200,200)}and be smart
+Dialogue: 0,0:23:41.76,0:23:43.76,Song ED Romaji,,0,0,0,,{\q2\fad(200,200)\k16} {\k18}De{\k17}mo {\k23}ka{\k10}wa{\k18}i{\k98}ku
+Dialogue: 0,0:23:41.76,0:23:43.76,Song ED TL,,0,0,0,,{\q2\fad(200,200)}but still cutely
+Dialogue: 0,0:23:43.76,0:23:46.23,Song ED Romaji,,0,0,0,,{\q2\fad(200,500)\k12} {\k33}Su{\k63}su{\k139}mou!
+Dialogue: 0,0:23:43.76,0:23:46.23,Song ED TL,,0,0,0,,{\=31\q2\fad(200,500)}keep going!
