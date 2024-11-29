@@ -30126,3 +30126,7 @@
 [√] Frame: 5018, Episode 08 https://facebook.com/122201095070200694
 [√] Frame: 5019, Episode 08 https://facebook.com/122201095448200694
 [√] Frame: 5020, Episode 08 https://facebook.com/122201095874200694
+[√] Frame: 5021, Episode 08 https://facebook.com/122201115440200694
+[√] Frame: 5022, Episode 08 https://facebook.com/122201116016200694
+[√] Frame: 5023, Episode 08 https://facebook.com/122201116442200694
+[√] Frame: 5024, Episode 08 https://facebook.com/122201116820200694
