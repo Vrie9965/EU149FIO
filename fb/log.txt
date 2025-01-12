@@ -35144,3 +35144,12 @@
 [√] Frame: 5013, Episode 09 https://facebook.com/122210444432200694
 [√] Frame: 5014, Episode 09 https://facebook.com/122210445140200694
 [√] Frame: 5015, Episode 09 https://facebook.com/122210445884200694
+[√] Frame: 5016, Episode 09 https://facebook.com/122210477690200694
+[√] Frame: 5017, Episode 09 https://facebook.com/122210478386200694
+[√] Frame: 5018, Episode 09 https://facebook.com/122210479040200694
+[√] Frame: 5019, Episode 09 https://facebook.com/122210479454200694
+[√] Frame: 5020, Episode 09 https://facebook.com/122210479904200694
+[√] Frame: 5021, Episode 09 https://facebook.com/122210480300200694
+[√] Frame: 5022, Episode 09 https://facebook.com/122210480588200694
+[√] Frame: 5023, Episode 09 https://facebook.com/122210481074200694
+[√] Frame: 5024, Episode 09 https://facebook.com/122210481398200694
