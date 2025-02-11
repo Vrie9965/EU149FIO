@@ -38633,3 +38633,6 @@
 [√] Frame: 3478, Episode 10 https://facebook.com/122217383696200694
 [√] Frame: 3479, Episode 10 https://facebook.com/122217384200200694
 [√] Frame: 3480, Episode 10 https://facebook.com/122217384680200694
+[√] Frame: 3481, Episode 10 https://facebook.com/122217412076200694
+[√] Frame: 3482, Episode 10 https://facebook.com/122217412502200694
+[√] Frame: 3483, Episode 10 https://facebook.com/122217413120200694
