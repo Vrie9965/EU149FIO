@@ -39716,3 +39716,14 @@
 [√] Frame: 5011, Episode 10 https://facebook.com/122222933750200694
 [√] Frame: 5012, Episode 10 https://facebook.com/122222934194200694
 [√] Frame: 5013, Episode 10 https://facebook.com/122222934668200694
+[√] Frame: 5014, Episode 10 https://facebook.com/122222986988200694
+[√] Frame: 5015, Episode 10 https://facebook.com/122222987912200694
+[√] Frame: 5016, Episode 10 https://facebook.com/122222988542200694
+[√] Frame: 5017, Episode 10 https://facebook.com/122222989010200694
+[√] Frame: 5018, Episode 10 https://facebook.com/122222989490200694
+[√] Frame: 5019, Episode 10 https://facebook.com/122222989928200694
+[√] Frame: 5020, Episode 10 https://facebook.com/122222990360200694
+[√] Frame: 5021, Episode 10 https://facebook.com/122222990852200694
+[√] Frame: 5022, Episode 10 https://facebook.com/122222991440200694
+[√] Frame: 5023, Episode 10 https://facebook.com/122222991950200694
+[√] Frame: 5024, Episode 10 https://facebook.com/122222992406200694
