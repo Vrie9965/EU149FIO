@@ -44750,4 +44750,18 @@
 [√] Frame: 5021, Episode 11 https://facebook.com/122236278710200694
 [√] Frame: 5022, Episode 11 https://facebook.com/122236279154200694
 [√] Frame: 5023, Episode 11 https://facebook.com/122236279736200694
-[√] Frame: 5024, Episode 11 https://facebook.com/122236280372200694
+[√] Frame: 5024, Episode 11 https://facebook.com/122236280372200694[√] Frame: 1, Episode 12 https://facebook.com/122237109404200694
+[√] Frame: 2, Episode 12 https://facebook.com/122237109860200694
+[√] Frame: 3, Episode 12 https://facebook.com/122237110586200694
+[√] Frame: 4, Episode 12 https://facebook.com/122237111258200694
+[√] Frame: 5, Episode 12 https://facebook.com/122237111960200694
+[√] Frame: 6, Episode 12 https://facebook.com/122237112716200694
+[√] Frame: 7, Episode 12 https://facebook.com/122237113448200694
+[√] Frame: 8, Episode 12 https://facebook.com/122237113976200694
+[√] Frame: 9, Episode 12 https://facebook.com/122237114810200694
+[√] Frame: 10, Episode 12 https://facebook.com/122237115482200694
+[√] Frame: 11, Episode 12 https://facebook.com/122237116106200694
+[√] Frame: 12, Episode 12 https://facebook.com/122237116694200694
+[√] Frame: 13, Episode 12 https://facebook.com/122237117246200694
+[√] Frame: 14, Episode 12 https://facebook.com/122237117870200694
+[√] Frame: 15, Episode 12 https://facebook.com/122237118416200694
