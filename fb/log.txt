@@ -51920,3 +51920,8 @@
 [√] Frame: 7168, Episode 12 https://facebook.com/122254510508200694
 [√] Frame: 7169, Episode 12 https://facebook.com/122254510850200694
 [√] Frame: 7170, Episode 12 https://facebook.com/122254511168200694
+[√] Frame: 7171, Episode 12 https://facebook.com/122254537412200694
+[√] Frame: 7172, Episode 12 https://facebook.com/122254537844200694
+[√] Frame: 7173, Episode 12 https://facebook.com/122254538456200694
+[√] Frame: 7174, Episode 12 https://facebook.com/122254538858200694
+[√] Frame: 7175, Episode 12 https://facebook.com/122254539296200694
