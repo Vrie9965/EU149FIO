@@ -32,6 +32,7 @@ echo "  Token present: $([ -n "$FRMENV_FBTOKEN" ] && echo 'YES' || echo 'NO')"
 echo ""
 
 total_recovered=0
+missing_frames=()
 
 # Process each episode
 for episode in "01" "02"; do
@@ -158,6 +159,76 @@ for episode in "01" "02"; do
   declare -a photo_data
 done
 
+# METHOD 6: Try to find missing frames 1-100 for Episode 01
+echo "=========================================="
+echo "METHOD 6: Searching for missing frames 1-100"
+echo "=========================================="
+echo ""
+
+# Try the original album set ID that was in the first example URLs
+fallback_album="122102861978200694"
+echo "Trying fallback album: $fallback_album"
+echo "# Attempting to find missing frames 1-100 from fallback album" >> "$RECOVERED_FILE"
+
+url="${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${fallback_album}/photos?fields=id,name,created_time&limit=100&access_token=${FRMENV_FBTOKEN}"
+
+page_count=0
+found_missing=0
+
+while [[ -n "$url" ]] && [[ $page_count -lt 2 ]]; do
+  page_count=$((page_count + 1))
+  echo "Fetching page $page_count from fallback album..."
+  
+  response=$(curl -s "$url")
+  
+  error_msg=$(echo "$response" | jq -r '.error.message // empty' 2>/dev/null)
+  if [[ -n "$error_msg" ]]; then
+    echo "Fallback method failed: $error_msg"
+    echo "# Fallback album failed: $error_msg" >> "$RECOVERED_FILE"
+    break
+  fi
+  
+  photos=$(echo "$response" | jq -r '.data[]? | @json' 2>/dev/null)
+  if [[ -z "$photos" ]]; then
+    break
+  fi
+  
+  # Process photos looking for Episode 01 frames 1-100
+  while IFS= read -r photo; do
+    if [[ -n "$photo" ]]; then
+      post_id=$(echo "$photo" | jq -r '.id // empty' 2>/dev/null)
+      name=$(echo "$photo" | jq -r '.name // empty' 2>/dev/null)
+      
+      # Check if this is Episode 01 and extract frame number
+      if [[ -n "$name" ]] && echo "$name" | grep -qiE "(Episode[[:space:]]*01|Season[[:space:]]*1.*Episode[[:space:]]*01)"; then
+        frame_num=$(echo "$name" | grep -oiE "Frame[[:space:]]*[0-9]+" | grep -oE "[0-9]+" | head -1)
+        
+        if [[ -n "$frame_num" ]] && [[ $frame_num -le 100 ]]; then
+          fb_url="https://facebook.com/${post_id}"
+          log_entry="[√] Frame: ${frame_num}, Episode 01 ${fb_url}"
+          echo "$log_entry" >> "$RECOVERED_FILE"
+          echo "  Found missing frame: $frame_num"
+          found_missing=$((found_missing + 1))
+          total_recovered=$((total_recovered + 1))
+        fi
+      fi
+    fi
+  done <<< "$photos"
+  
+  url=$(echo "$response" | jq -r '.paging.next // empty' 2>/dev/null)
+  sleep 0.5
+done
+
+if [[ $found_missing -gt 0 ]]; then
+  echo "Found $found_missing missing frames!"
+else
+  echo "No missing frames found in fallback album"
+  echo "# No missing frames 1-100 found" >> "$RECOVERED_FILE"
+fi
+
+echo ""
+echo "" >> "$RECOVERED_FILE"
+
 echo "=========================================="
 echo "RECOVERY COMPLETE!"
 echo "=========================================="
@@ -167,6 +238,9 @@ echo ""
 
 if [[ $total_recovered -gt 0 ]]; then
   echo "SUCCESS! Found $total_recovered frames across Episode 01 and 02"
+  echo "Note: If frames 1-100 are still missing, they may be in a different"
+  echo "album or posted separately. You can manually add them if found."
+  echo ""
   echo "You can now merge recovered_log.txt with log.txt"
 else
   echo "WARNING: No frames were recovered."
