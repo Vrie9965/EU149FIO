@@ -25,12 +25,12 @@ echo "  API Version: ${FRMENV_FBAPI_VER}"
 echo "  Token present: $([ -n "$FRMENV_FBTOKEN" ] && echo 'YES' || echo 'NO')"
 echo ""
 
-# Fetch all posts from the page
+# Fetch all posts from the page using published_posts instead of posts
 page_id="194597373745170"
-url="${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${page_id}/posts?fields=id,message,created_time&limit=100&access_token=${FRMENV_FBTOKEN}"
+url="${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${page_id}/published_posts?fields=id,message,created_time&limit=100&access_token=${FRMENV_FBTOKEN}"
 
 echo "Fetching posts from Facebook page..."
-echo "Initial URL: ${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${page_id}/posts"
+echo "Initial URL: ${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${page_id}/published_posts"
 echo ""
 
 all_posts_file=$(mktemp)
