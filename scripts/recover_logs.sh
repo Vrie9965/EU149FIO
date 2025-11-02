@@ -17,6 +17,9 @@ declare -A episode_albums
 episode_albums["01"]="122102865896200694"
 episode_albums["02"]="122119297598200694"
 
+# Album for frames 1-100 of Episode 01
+first_frames_album="122102861978200694"
+
 # Always create recovered file and write header
 cat > "$RECOVERED_FILE" << EOF
 # Recovery Log - $(date)
@@ -32,7 +35,102 @@ echo "  Token present: $([ -n "$FRMENV_FBTOKEN" ] && echo 'YES' || echo 'NO')"
 echo ""
 
 total_recovered=0
-missing_frames=()
+recovered_frames=()
+
+# METHOD 0: Try to find frames 1-100 FIRST (before rate limits hit)
+echo "=========================================="
+echo "METHOD 0: Searching for frames 1-100"
+echo "Album: $first_frames_album"
+echo "=========================================="
+echo ""
+
+echo "# Episode 01 Frames 1-100 - Album: $first_frames_album" >> "$RECOVERED_FILE"
+
+url="${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${first_frames_album}/photos?fields=id,name,created_time&limit=100&access_token=${FRMENV_FBTOKEN}"
+
+page_count=0
+found_early=0
+
+while [[ -n "$url" ]] && [[ $page_count -lt 2 ]]; do
+  page_count=$((page_count + 1))
+  echo "Fetching page $page_count for early frames..."
+  
+  response=$(curl -s "$url")
+  
+  error_msg=$(echo "$response" | jq -r '.error.message // empty' 2>/dev/null)
+  if [[ -n "$error_msg" ]]; then
+    echo "Early frames search failed: $error_msg"
+    echo "# Early frames album error: $error_msg" >> "$RECOVERED_FILE"
+    break
+  fi
+  
+  photos=$(echo "$response" | jq -r '.data[]? | @json' 2>/dev/null)
+  if [[ -z "$photos" ]]; then
+    echo "No photos found in early frames album"
+    break
+  fi
+  
+  # Show sample
+  if [[ $page_count -eq 1 ]]; then
+    echo "Sample photo names:"
+    echo "$photos" | head -3 | while IFS= read -r photo; do
+      name=$(echo "$photo" | jq -r '.name // "NO NAME"' 2>/dev/null)
+      id=$(echo "$photo" | jq -r '.id // "NO ID"' 2>/dev/null)
+      echo "  - ID: $id, Name: $name"
+    done
+    echo ""
+  fi
+  
+  # Process photos
+  while IFS= read -r photo; do
+    if [[ -n "$photo" ]]; then
+      post_id=$(echo "$photo" | jq -r '.id // empty' 2>/dev/null)
+      name=$(echo "$photo" | jq -r '.name // empty' 2>/dev/null)
+      
+      if [[ -n "$post_id" ]]; then
+        # Try to extract frame number
+        frame_num=""
+        if [[ -n "$name" ]] && echo "$name" | grep -qiE "Frame[[:space:]]*[0-9]+"; then
+          frame_num=$(echo "$name" | grep -oiE "Frame[[:space:]]*[0-9]+" | grep -oE "[0-9]+" | head -1)
+        fi
+        
+        # Only process if frame <= 100 or no frame found (assume sequential)
+        if [[ -z "$frame_num" ]] || [[ $frame_num -le 100 ]]; then
+          # Use extracted frame or increment
+          if [[ -z "$frame_num" ]]; then
+            frame_num=$((found_early + 1))
+          fi
+          
+          # Check for duplicate
+          frame_key="01-${frame_num}"
+          if [[ ! " ${recovered_frames[@]} " =~ " ${frame_key} " ]]; then
+            fb_url="https://facebook.com/${post_id}"
+            log_entry="[√] Frame: ${frame_num}, Episode 01 ${fb_url}"
+            echo "$log_entry" >> "$RECOVERED_FILE"
+            
+            recovered_frames+=("$frame_key")
+            found_early=$((found_early + 1))
+            total_recovered=$((total_recovered + 1))
+            
+            if (( found_early % 25 == 0 )); then
+              echo "  Processed $found_early early frames..."
+            fi
+          fi
+        fi
+      fi
+    fi
+  done <<< "$photos"
+  
+  url=$(echo "$response" | jq -r '.paging.next // empty' 2>/dev/null)
+  sleep 1
+done
+
+echo "Found $found_early frames (1-100 range)"
+echo "" >> "$RECOVERED_FILE"
+echo ""
+
+# Longer delay before next batch to avoid rate limits
+sleep 2
 
 # Process each episode
 for episode in "01" "02"; do
