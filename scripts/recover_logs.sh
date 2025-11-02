@@ -12,11 +12,7 @@ fi
 LOG_FILE="$(dirname "$0")/../fb/log.txt"
 RECOVERED_FILE="$(dirname "$0")/../fb/recovered_log.txt"
 
-# Get existing episodes from log
-existing_episodes=$(awk '{for(i=1;i<=NF;i++) if ($i=="Episode") print $(i+1)}' "$LOG_FILE" 2>/dev/null | sort -u)
-echo "Existing episodes in log: $existing_episodes"
-
-# Episodes to recover (modify this array if you need different episodes)
+# Episodes to recover
 episodes_to_recover=("01" "02")
 
 # Clear recovered file
@@ -51,7 +47,7 @@ while [[ -n "$url" ]]; do
   # Get next page URL
   url=$(echo "$response" | jq -r '.paging.next // empty')
   
-  # Rate limiting - be nice to Facebook API
+  # Rate limiting
   sleep 1
 done
 
@@ -83,12 +79,13 @@ for episode in "${episodes_to_recover[@]}"; do
   fi
   
   # Parse and write to recovered log
-  frame_num=1
   echo "$episode_posts" | while IFS='|' read -r post_id message; do
     if [[ -n "$post_id" ]]; then
-      # Extract frame number from message if possible
-      if echo "$message" | grep -qE "Frame:? ?[0-9]+"; then
-        frame_num=$(echo "$message" | grep -oE "Frame:? ?[0-9]+" | grep -oE "[0-9]+" | head -1)
+      # Extract frame number from message
+      frame_num=$(echo "$message" | grep -oE "Frame:? ?[0-9]+" | grep -oE "[0-9]+" | head -1)
+      
+      if [[ -z "$frame_num" ]]; then
+        frame_num="?"
       fi
       
       # Construct Facebook URL
@@ -100,7 +97,6 @@ for episode in "${episodes_to_recover[@]}"; do
       echo "$log_entry"
       
       recovered_count=$((recovered_count + 1))
-      frame_num=$((frame_num + 1))
     fi
   done
 done
@@ -111,6 +107,4 @@ echo "Recovery complete!"
 echo "Total frames recovered: $recovered_count"
 echo "Recovered log saved to: $RECOVERED_FILE"
 echo ""
-echo "To merge with existing log, run:"
-echo "  cat $RECOVERED_FILE $LOG_FILE | sort -t',' -k2,2 -k1,1n > ${LOG_FILE}.merged"
-echo "  mv ${LOG_FILE}.merged $LOG_FILE"
+echo "You can now manually merge recovered_log.txt with log.txt"
