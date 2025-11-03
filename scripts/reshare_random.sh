@@ -50,7 +50,7 @@ echo "DEBUG: Message: ${message}"
 echo ""
 
 # First, verify token has access to the page
-page_id="194597373745170"
+page_id="222489564281150"
 echo "Verifying page access..."
 verify_response=$(curl -s "${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/me/accounts?access_token=${FRMENV_FBTOKEN}")
 
