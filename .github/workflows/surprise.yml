@@ -1,14 +1,23 @@
-name: "surprise feature runner"
+name: "surprise runner"
 
 on:
   schedule:
-    # GitHub cron is UTC. "0 9,21 * * *" = 18:00 and 06:00 Asia/Tokyo (JST),
-    # i.e. one post at 6am and one at 6pm JST. If your audience lives in
-    # another timezone, shift both hours: local = UTC + offset.
-    # (Scheduled runs may fire a few minutes late - that's normal.)
+    # GitHub cron is UTC. "0 9,21 * * *" = 18:00 and 06:00 Asia/Tokyo (JST):
+    # one surprise post at 6am and one at 6pm JST, every day, forever -
+    # until you disable it (Actions > surprise runner > ... > Disable
+    # workflow). Scheduled runs always pick "auto" (50/50 between the two
+    # features). Scheduled runs may fire a few minutes late - that's normal.
     - cron: "0 9,21 * * *"
   workflow_dispatch:
     inputs:
+      feature:
+        description: "Which feature to run now"
+        type: choice
+        options:
+          - booru_guess
+          - random_reshare
+          - auto
+        default: booru_guess
       dry_run:
         description: "Dry-run (tag + build captions, post nothing)"
         type: boolean
@@ -33,7 +42,7 @@ jobs:
         run: |
           case "${trig_actor}" in
             "${repo_ownr}"|github-actions*) : ;;
-            *) printf '%s\n'"Runner prevented to run because the script is executed by an untrusted user \"${trig_actor}\". (Only owner can execute, for security)" >&2 ; exit 1 ;;
+            *) printf '%s\n' "Runner prevented to run because the script is executed by an untrusted user \"${trig_actor}\". (Only owner can execute, for security)" >&2 ; exit 1 ;;
           esac
 
       - name: "checkout"
@@ -63,12 +72,13 @@ jobs:
           path: fb/surprise/.model
           key: wd14-eva02-large-tagger-v3
 
-      - name: "run surprise feature"
+      - name: "run surprise"
         env:
+          FRMENV_SURPRISE_CHOICE: ${{ inputs.feature || 'auto' }}
           FRMENV_DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
-        run: bash scripts/feature_runner.sh
+        run: bash scripts/surprise_runner.sh
 
-      - name: "commit feature state"
+      - name: "commit surprise state"
         if: always()
         run: |
           if [[ -n "$(git status --porcelain -- fb/surprise)" ]]; then

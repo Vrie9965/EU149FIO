@@ -4,12 +4,13 @@
 # ############################################ #
 # 1. Picks a random past post from fb/log.txt (never repeats until the whole
 #    archive has been featured once).
-# 2. Downloads that post's image from the Graph API (full_picture).
+# 2. Downloads that post's image from the Graph API (photos: images[],
+#    posts: full_picture).
 # 3. Runs it through a WD14 booru tagger (scripts/features/booru_tagger.py).
 # 4. Keeps ONLY the U149 roster names (scripts/features/booru_roster.conf) —
 #    every other detected character is dropped.
-# 5. Re-uploads the image with the detected names as the caption — names
-#    only, nothing else ("momoka sakurai\nchie sasaki").
+# 5. Re-uploads the image with the caption "Frame: N, Episode E" followed
+#    by the detected names; when none are detected it posts "no wife".
 #
 # Contract (see scripts/features/README.md):
 #   exit 0 = posted, exit 1 = error, exit 3 = skipped (nothing posted)
@@ -95,17 +96,30 @@ for ((attempt = 1; attempt <= BG_MAX_ATTEMPTS; attempt++)); do
 			exit 1
 		}
 	else
-		# fetch the original image of the picked post
+		# fetch the original image of the picked post.
+		# NOTE: fb/log.txt stores PHOTO ids (main.sh logs the id returned by
+		# the photos endpoint), but the code also works for Post ids: photo
+		# nodes answer `images` (all resolutions), post nodes answer
+		# `full_picture`. Ask for BOTH in one call and use whatever comes
+		# back - largest images[] entry first, full_picture as fallback.
+		# Any API error is printed before rerolling instead of being
+		# swallowed silently.
 		meta="$(curl -s --max-time 30 \
-			"${FRMENV_API_ORIGIN}/${SURPRISE_FBAPI_VER}/${post_id}?fields=full_picture&access_token=${FRMENV_FBTOKEN}")"
+			"${FRMENV_API_ORIGIN}/${SURPRISE_FBAPI_VER}/${post_id}?fields=images,full_picture&access_token=${FRMENV_FBTOKEN}")"
 		err_code="$(jq -r '.error.code // empty' 2>/dev/null <<< "${meta}")"
 		if [[ "${err_code}" = "190" ]]; then
 			feature_log 'x' "token expired or invalid (code 190) - renew TOK_FB (see README)"
 			exit 1
 		fi
-		pic_url="$(jq -r '.full_picture // empty' 2>/dev/null <<< "${meta}")"
+		if [[ -n "${err_code}" ]]; then
+			printf '[i] api error %s for %s: %s, rerolling\n' "${err_code}" "${post_id}" \
+				"$(jq -r '.error.message // empty' 2>/dev/null <<< "${meta}")"
+			continue
+		fi
+		pic_url="$(jq -r '. as $m | [$m.images[]? | {s: .source, w: (.width // 0)}] | if length > 0 then (sort_by(-.w)[0].s // empty) else ($m.full_picture // empty) end' \
+			2>/dev/null <<< "${meta}")"
 		if [[ -z "${pic_url}" ]]; then
-			printf '[i] no full_picture for post %s, rerolling\n' "${post_id}"
+			printf '[i] no usable image for post %s (no images[] and no full_picture), rerolling\n' "${post_id}"
 			continue
 		fi
 		curl -fsSL --max-time 60 "${pic_url}" -o "${TMP_IMG}" || {
@@ -132,24 +146,32 @@ for ((attempt = 1; attempt <= BG_MAX_ATTEMPTS; attempt++)); do
 	}
 	filter_cast "${tags_json}" || { feature_log 'x' "could not parse tagger output"; rm -f "${TMP_IMG}"; exit 1; }
 
-	if [[ -n "${CAST_NAMES}" ]]; then
-		ok=1
-		break
-	fi
-	printf '[i] no U149 roster character detected (post %s), rerolling\n' "${post_id:-sample}"
+	# this attempt produced a tagged image - post it (cast or no cast);
+	# rerolls only happen when an image could not be fetched at all
+	ok=1
+	break
 done
 
 if (( ok == 0 )); then
 	rm -f "${TMP_IMG}"
-	feature_log 'S' "no U149 roster character found in ${BG_MAX_ATTEMPTS} candidates - nothing posted"
+	feature_log 'S' "could not load a taggable image in ${BG_MAX_ATTEMPTS} attempts - nothing posted"
 	exit 3
 fi
 
-# --- caption: names only, separated by BG_CAPTION_SEPARATOR ---
-caption="${CAST_NAMES//$'\n'/${BG_CAPTION_SEPARATOR}}"
+# --- caption: "Frame: N, Episode E" + detected names (or "no wife") ---
+if [[ -n "${CAST_NAMES}" ]]; then
+	cast_block="${CAST_NAMES}"
+	cast_note="${CAST_DETAILS}"
+else
+	cast_block="no wife"
+	cast_note="none - posted as no wife"
+fi
+frame_no="${frame_no:-?}"
+episode="${episode:-?}"
+caption="Frame: ${frame_no}, Episode ${episode}${BG_CAPTION_SEPARATOR}${cast_block//$'\n'/${BG_CAPTION_SEPARATOR}}"
 
 if [[ "${DRY}" = "1" ]]; then
-	printf '[DRY] detected cast: %s\n' "${CAST_DETAILS}"
+	printf '[DRY] detected cast: %s\n' "${cast_note}"
 	printf '[DRY] would upload %s with this caption:\n%s\n' "${BG_DRYRUN_SAMPLE}" "${caption}"
 	exit 3 # dry run never posts, never marks the archive
 fi
@@ -186,6 +208,6 @@ new_id="$(jq -r '.id // empty' 2>/dev/null <<< "${body}")"
 
 # --- mark as featured + log ---
 printf '%s\n' "${line}" >> "${FEATURE_STATE}/featured.txt"
-feature_log '√' "frame=${frame_no} episode=${episode} src_post=${post_id} -> new_post=${new_id} cast=[${CAST_DETAILS}]"
+feature_log '√' "frame=${frame_no} episode=${episode} src_post=${post_id} -> new_post=${new_id} cast=[${cast_note}]"
 
 printf '[i] SUCCESS posted: https://facebook.com/%s\n' "${new_id}"
