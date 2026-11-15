@@ -1,0 +1,4 @@
+onnxruntime>=1.17
+numpy
+pillow
+huggingface_hub>=0.23

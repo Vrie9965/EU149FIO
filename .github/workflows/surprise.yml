@@ -1,0 +1,84 @@
+name: "surprise feature runner"
+
+on:
+  schedule:
+    # GitHub cron is UTC. "0 9,21 * * *" = 18:00 and 06:00 Asia/Tokyo (JST),
+    # i.e. one post at 6am and one at 6pm JST. If your audience lives in
+    # another timezone, shift both hours: local = UTC + offset.
+    # (Scheduled runs may fire a few minutes late - that's normal.)
+    - cron: "0 9,21 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry-run (tag + build captions, post nothing)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: surprise
+  cancel-in-progress: false
+
+jobs:
+  surprise:
+    runs-on: ubuntu-latest
+    env:
+      FRMENV_FBTOKEN: ${{ secrets.TOK_FB }}
+      FRMENV_API_ORIGIN: "https://graph.facebook.com"
+
+    steps:
+      - name: "ownership check"
+        env:
+          trig_actor: ${{ github.triggering_actor }}
+          repo_ownr: ${{ github.repository_owner }}
+        run: |
+          case "${trig_actor}" in
+            "${repo_ownr}"|github-actions*) : ;;
+            *) printf '%s\n'"Runner prevented to run because the script is executed by an untrusted user \"${trig_actor}\". (Only owner can execute, for security)" >&2 ; exit 1 ;;
+          esac
+
+      - name: "checkout"
+        uses: actions/checkout@v4
+
+      - name: "check token"
+        run: |
+          if [[ -z "${FRMENV_FBTOKEN:-}" ]]; then
+            echo "[FATAL] TOK_FB secret is empty - add it under Settings > Secrets and variables > Actions" >&2
+            exit 1
+          fi
+          echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
+
+      - name: "setup python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scripts/features/requirements.txt
+
+      - name: "install tagger deps"
+        run: pip install -r scripts/features/requirements.txt
+
+      - name: "restore tagger model"
+        uses: actions/cache@v4
+        with:
+          path: fb/surprise/.model
+          key: wd14-eva02-large-tagger-v3
+
+      - name: "run surprise feature"
+        env:
+          FRMENV_DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: bash scripts/feature_runner.sh
+
+      - name: "commit feature state"
+        if: always()
+        run: |
+          if [[ -n "$(git status --porcelain -- fb/surprise)" ]]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name  "github-actions[bot]"
+            git add fb/surprise
+            git commit -m "surprise: feature state update"
+            git push
+          else
+            echo "Nothing to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
