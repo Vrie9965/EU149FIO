@@ -1,6 +1,48 @@
-# Surprise pack v3.1 — Graph API field-validation fix
+# Surprise pack v3.2 — keep the 1.2 GB model out of the repo
 
-## Why the last run failed (and what went right)
+## The first real run: it WORKED, then one landmine
+
+The pipeline ran end to end with no rerolls: first-try image fetch →
+WD14 scan → real post —
+`[i] SUCCESS posted: https://facebook.com/122327335190200694`.
+Then the state-commit step swept the freshly downloaded tagger model
+(`fb/surprise/.model/model.onnx`, ~1.2 GB) into its commit and GitHub
+rejected the push: **files over 100 MB cannot exist in a normal GitHub
+repo**, and Git LFS free storage (1 GB) cannot hold a 1.2 GB model
+either. A rejected push changes nothing on the remote — your repo is
+fine; the oversized commit died with the runner.
+
+## Why "install everything in the repo" is not possible (and not needed)
+
+- 1.2 GB > the 100 MB hard per-file limit → exactly the rejection you saw.
+- LFS free tier: 1 GB storage / 1 GB bandwidth per month → can't hold it.
+- You don't need it: the whole run took **1m20s including the model
+  download** (the HF CDN is fast), and the workflow's `actions/cache`
+  step keeps the model between runs once this fix lands. Expect the
+  first run after applying to miss the cache and download (~1 min
+  extra); every later run restores from cache in seconds.
+
+## What v3.2 changes
+
+- `surprise.conf`: `BG_MODEL_DIR` now points OUTSIDE the repo —
+  `${HOME}/.cache/wd14-model` — so the state-commit (`git add
+  fb/surprise`) physically cannot see it.
+- `scripts/features/booru_guess.sh`: built-in fallback default matches.
+- `.github/workflows/surprise.yml`: cache path follows to
+  `/home/runner/.cache/wd14-model` (same cache key).
+- `.gitignore`: adds `fb/surprise/.model/` as a guard for the old path.
+- Also deletes the four leftover old files (reshare.yml — the old 6x/day
+  reshare is STILL RUNNING — reshare_random.sh, feature_runner.sh,
+  registry.conf).
+
+Apply = one patch (Option A below). Web UI instead: replace
+`surprise.conf`, `scripts/features/booru_guess.sh`,
+`.github/workflows/surprise.yml`, append `fb/surprise/.model/` to
+`.gitignore`, and DELETE the four old files.
+
+## History
+
+### v3.1 — Graph API field-validation fix
 
 The good news first: pack v3 IS live now — the log shows
 `[i] surprise runner choice: booru_guess (manually selected)` — and the

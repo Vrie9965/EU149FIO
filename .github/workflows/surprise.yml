@@ -69,7 +69,7 @@ jobs:
       - name: "restore tagger model"
         uses: actions/cache@v4
         with:
-          path: fb/surprise/.model
+          path: /home/runner/.cache/wd14-model
           key: wd14-eva02-large-tagger-v3
 
       - name: "run surprise"

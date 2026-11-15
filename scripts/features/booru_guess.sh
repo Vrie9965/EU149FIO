@@ -26,7 +26,7 @@ feature_depcheck curl jq python3 file || exit 1
 : "${SURPRISE_FBAPI_VER:=v23.0}"
 : "${SURPRISE_STATE_DIR:=fb/surprise}"
 : "${FRMENV_FBTOKEN:=}"
-: "${BG_MODEL_DIR:=fb/surprise/.model}"
+: "${BG_MODEL_DIR:=${HOME}/.cache/wd14-model}"
 : "${BG_MODEL_REPO:=SmilingWolf/wd-eva02-large-tagger-v3}"
 : "${BG_CHAR_THRESH:=0.55}"
 : "${BG_GEN_THRESH:=0.35}"
