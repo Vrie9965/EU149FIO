@@ -1,6 +1,52 @@
-# Surprise pack v3.2 — keep the 1.2 GB model out of the repo
+# Surprise pack v3.3 — candidate selection: keep the frames with people
 
-## The first real run: it WORKED, then one landmine
+## What v3.3 does
+
+Every run now examines `BG_MAX_ATTEMPTS` (=5) candidates one by one and
+classifies each with the WD14 tagger before choosing what to post:
+
+- `u149` — at least one U149 roster member detected
+- `side` — no roster member, but another character is detected
+  (side/extra/guest characters — their names ARE posted now)
+- `none` — no character at all (scenery, empty scene, ...)
+
+`none` candidates are dropped; ONE candidate is drawn at random from the
+u149 + side pool and posted with the caption "Frame: N, Episode E"
+followed by the detected names — e.g. `Frame: 3407, Episode 09` /
+`haru yuuki` / `arisu tachibana`. Side characters have no roster entry,
+so their danbooru tag is cleaned up for display (`yuuki_haru` →
+`haru yuuki`, `takao_(azur_lane)` → `takao`); U149 names keep their
+roster spellings. Roster and side names share one list, ranked by the
+tagger's confidence.
+
+If NO candidate contains any character (rare with 5 tries), the run
+posts one of them anyway with "no wife" — set `BG_REQUIRE_CHARACTER=1`
+in surprise.conf to skip instead (red run, nothing posted).
+
+Also in v3.3:
+
+- `lib.sh` `pick_candidate` now remembers the lines a run already drew
+  (a per-run session file in /tmp, never committed), so the 5 candidates
+  are always distinct posts.
+- The dry run (workflow dispatch → dry_run=true) now reports the
+  classification of the sample frame — eyeball the detector without
+  posting.
+- The Actions log shows one `candidate N/5: class=...` line per
+  candidate, so you can see exactly why a frame was dropped.
+
+Apply: one patch (`surprise_v3.patch`, verified against master
+60784c8) — it replaces `booru_guess.sh` + `lib.sh` + `surprise.conf`,
+and (third attempt!) deletes the four old files — `reshare.yml` (the
+old 6x/day reshare is STILL RUNNING), `reshare_random.sh`,
+`feature_runner.sh`, `registry.conf` — plus a `.gitignore` guard. Web
+UI instead: replace those 3 files, delete those 4 files, and add
+`fb/surprise/.model/` as a line in `.gitignore`.
+
+## History
+
+### v3.2 — keep the 1.2 GB model out of the repo
+
+#### The first real run: it WORKED, then one landmine
 
 The pipeline ran end to end with no rerolls: first-try image fetch →
 WD14 scan → real post —
