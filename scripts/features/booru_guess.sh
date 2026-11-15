@@ -98,28 +98,47 @@ for ((attempt = 1; attempt <= BG_MAX_ATTEMPTS; attempt++)); do
 	else
 		# fetch the original image of the picked post.
 		# NOTE: fb/log.txt stores PHOTO ids (main.sh logs the id returned by
-		# the photos endpoint), but the code also works for Post ids: photo
-		# nodes answer `images` (all resolutions), post nodes answer
-		# `full_picture`. Ask for BOTH in one call and use whatever comes
-		# back - largest images[] entry first, full_picture as fallback.
-		# Any API error is printed before rerolling instead of being
-		# swallowed silently.
+		# the photos endpoint), so try the photo-shaped query first. The
+		# Graph API validates every requested field against the node type
+		# and rejects the whole call with error 100 ("nonexisting field")
+		# when even one field is missing - photo nodes have `images`, post
+		# nodes have `full_picture`, and no node has both. So: ask for
+		# `images`; on error 100 retry with `full_picture`; reroll only if
+		# both fail. Any API error is printed before rerolling instead of
+		# being swallowed silently.
 		meta="$(curl -s --max-time 30 \
-			"${FRMENV_API_ORIGIN}/${SURPRISE_FBAPI_VER}/${post_id}?fields=images,full_picture&access_token=${FRMENV_FBTOKEN}")"
+			"${FRMENV_API_ORIGIN}/${SURPRISE_FBAPI_VER}/${post_id}?fields=images&access_token=${FRMENV_FBTOKEN}")"
 		err_code="$(jq -r '.error.code // empty' 2>/dev/null <<< "${meta}")"
 		if [[ "${err_code}" = "190" ]]; then
 			feature_log 'x' "token expired or invalid (code 190) - renew TOK_FB (see README)"
 			exit 1
 		fi
-		if [[ -n "${err_code}" ]]; then
-			printf '[i] api error %s for %s: %s, rerolling\n' "${err_code}" "${post_id}" \
-				"$(jq -r '.error.message // empty' 2>/dev/null <<< "${meta}")"
-			continue
+		pic_url=""
+		if [[ -z "${err_code}" ]]; then
+			pic_url="$(jq -r '[.images[]? | {s: .source, w: (.width // 0)}] | if length > 0 then (sort_by(-.w)[0].s // empty) else empty end' \
+				2>/dev/null <<< "${meta}")"
 		fi
-		pic_url="$(jq -r '. as $m | [$m.images[]? | {s: .source, w: (.width // 0)}] | if length > 0 then (sort_by(-.w)[0].s // empty) else ($m.full_picture // empty) end' \
-			2>/dev/null <<< "${meta}")"
+		if [[ -z "${pic_url}" && "${err_code}" = "100" ]]; then
+			# the node has no `images` field -> it is a post-like node
+			printf '[i] no images field on %s (post-like node), trying full_picture\n' "${post_id}"
+			meta="$(curl -s --max-time 30 \
+				"${FRMENV_API_ORIGIN}/${SURPRISE_FBAPI_VER}/${post_id}?fields=full_picture&access_token=${FRMENV_FBTOKEN}")"
+			err_code="$(jq -r '.error.code // empty' 2>/dev/null <<< "${meta}")"
+			if [[ "${err_code}" = "190" ]]; then
+				feature_log 'x' "token expired or invalid (code 190) - renew TOK_FB (see README)"
+				exit 1
+			fi
+			if [[ -z "${err_code}" ]]; then
+				pic_url="$(jq -r '.full_picture // empty' 2>/dev/null <<< "${meta}")"
+			fi
+		fi
 		if [[ -z "${pic_url}" ]]; then
-			printf '[i] no usable image for post %s (no images[] and no full_picture), rerolling\n' "${post_id}"
+			if [[ -n "${err_code}" ]]; then
+				printf '[i] api error %s for %s: %s, rerolling\n' "${err_code}" "${post_id}" \
+					"$(jq -r '.error.message // empty' 2>/dev/null <<< "${meta}")"
+			else
+				printf '[i] no usable image for post %s (no images[] and no full_picture), rerolling\n' "${post_id}"
+			fi
 			continue
 		fi
 		curl -fsSL --max-time 60 "${pic_url}" -o "${TMP_IMG}" || {

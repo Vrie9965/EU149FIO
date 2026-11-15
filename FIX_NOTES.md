@@ -1,6 +1,38 @@
-# Surprise pack v3 — the previous pack never reached your repo
+# Surprise pack v3.1 — Graph API field-validation fix
 
-## Proof: what your last run actually executed
+## Why the last run failed (and what went right)
+
+The good news first: pack v3 IS live now — the log shows
+`[i] surprise runner choice: booru_guess (manually selected)` — and the
+skip = red semantics you asked for worked: the run failed with exit 3
+instead of pretending success. Because the failure is now loud, the real
+error finally surfaced:
+
+```
+[i] api error 100 for 122271849128200694:
+    (#100) Tried accessing nonexisting field (full_picture), rerolling
+```
+
+The Graph API validates every requested field against the node type and
+rejects the WHOLE call with error 100 if even one field does not exist on
+that node. Photo nodes have `images`, post nodes have `full_picture`, and
+no node has both — so v3's single call `?fields=images,full_picture` is
+invalid on every node type. v3.1 uses a fallback chain instead:
+
+1. `?fields=images` — photo nodes (the normal case: fb/log.txt stores
+   photo ids, so this succeeds on the first call)
+2. on error 100 → `?fields=full_picture` — post-like nodes
+3. both fail → reroll with the printed reason
+
+The patch applies cleanly on your current master (`9da3360`). Note: your
+repo still contains the old files — `.github/workflows/reshare.yml` (the
+old 6x/day reshare is STILL RUNNING), `scripts/reshare_random.sh`,
+`scripts/feature_runner.sh`, `scripts/features/registry.conf` — the patch
+deletes them; if you apply by web UI, do the deletions this time.
+
+## History: how the pack got here
+
+## Proof: what your last-but-one run actually executed
 
 Your run log shows `Run bash scripts/feature_runner.sh` and
 `[i] no full_picture for post ..., rerolling` — those are the **original
@@ -35,6 +67,9 @@ adds `surprise_runner.sh`, and deletes `reshare.yml`, `reshare_random.sh`,
 plus the now-unused `feature_runner.sh` and `registry.conf`.
 
 **Option B — web UI, file by file (same end result):**
+If you already applied v3 (your runner/workflow/reshare files match the
+pack), v3.1 only needs: REPLACE `scripts/features/booru_guess.sh` and do
+the DELETEs below. For a fresh repo, all of:
 1. ADD `scripts/surprise_runner.sh`
 2. REPLACE `.github/workflows/surprise.yml`
 3. REPLACE `scripts/features/booru_guess.sh`
@@ -58,13 +93,15 @@ plus the now-unused `feature_runner.sh` and `registry.conf`.
 3. First real run downloads the WD14 model (~560 MB, one time, then
    cached by the workflow).
 
-## What changed in v3
+## What changed in v3.1
 
-- **Fetch is one API call:** `/{id}?fields=images,full_picture` — photo
-  nodes answer `images[]` (largest picked), post nodes answer
-  `full_picture`. No node-type guessing at all; if neither exists the
-  reroll reason is printed. (This replaces the v1 metadata=1 approach and
-  works whatever fb/log.txt stores.)
+- **Fetch is a fallback chain:** `?fields=images` first; on Graph error
+  100 ("nonexisting field") → `?fields=full_picture`; reroll only if both
+  fail, printing the reason. Needed because the Graph API validates every
+  requested field against the node type and rejects the whole call when
+  one field is missing — no node has both `images` and `full_picture`.
+  (This replaces v3's single combined call, which error 100 rejected on
+  every node type.)
 - **Skip = red:** if a real slot posts nothing, the runner exits 3 → the
   Actions run shows FAILED, so quiet slots are never mistaken for success.
   Dry runs stay green.
